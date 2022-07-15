@@ -1,22 +1,10 @@
 # Project name
 
-Description
+This is the repository for my personal website 🚀
 
-Website: url
+Website: COMING SOON
 
-## Structure
+### Services
 
-This project is composed by:
-
--
-
-Testing (RTL and Jest):
-
-- Unit Testing
-- Integration Testing
-- Snapshots
-- utils/test-utils.jsx
-
-### Hosting
-
-Hosted with github pages, from gh-pages branch.
+Blog creation - Sanity
+Hosting - Netifly

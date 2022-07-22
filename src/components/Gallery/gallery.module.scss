@@ -1,0 +1,38 @@
+//For more info about the implementation - https://css-tricks.com/creating-a-css-sliding-background-effect/
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.background {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 5076px;
+  width: 100%;
+  animation: slide 60s linear infinite;
+  background: url("https://unsplash.com/assets/api/api-photo-grid@2x-3b92db4cdfc938c6dde2291ca1c78ab7ace98ef916a8dd08c00a6b006c0b631b.jpg")
+    repeat-y;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+//Animation
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -1692px, 0);
+  }
+}

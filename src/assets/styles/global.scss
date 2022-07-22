@@ -1,0 +1,16 @@
+@import "../fonts/fonts";
+
+* {
+  font-family: Jost, sans-serif;
+}
+
+h1 {
+  font-family: Blacker;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: inherit;
+  }
+}

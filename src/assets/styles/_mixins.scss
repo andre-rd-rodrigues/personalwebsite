@@ -6,6 +6,7 @@ $green: #08a742;
 $light-green: #85e294;
 $red: #c84444;
 $blue: #6199e7;
+$white: #ffffff;
 
 //Shapes
 @mixin button($bg-color, $color) {
@@ -38,4 +39,5 @@ $breaking-point-xs: 330px;
   light-grey: $light-grey;
   light-green: $light-green;
   blue: $blue;
+  white: $white;
 }

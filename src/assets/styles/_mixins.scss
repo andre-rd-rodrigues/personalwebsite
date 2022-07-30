@@ -1,5 +1,5 @@
 //Colors
-$dark: #3e4042;
+$dark: #1c1c1c;
 $grey: #979797;
 $light-grey: #ececec;
 $green: #08a742;
@@ -7,6 +7,7 @@ $light-green: #85e294;
 $red: #c84444;
 $blue: #6199e7;
 $white: #ffffff;
+$yellow: #ffca6c;
 
 //Shapes
 @mixin button($bg-color, $color) {
@@ -43,6 +44,11 @@ $white: #ffffff;
     }
   }
 }
+@mixin page_container {
+  padding: 140px var(--padding-y);
+  min-height: 100vh;
+}
+
 //Sizes
 $breaking-point-lg: 1400px;
 $breaking-point-md: 990px;

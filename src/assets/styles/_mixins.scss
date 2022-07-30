@@ -47,6 +47,8 @@ $yellow: #ffca6c;
 @mixin page_container {
   padding: 140px var(--padding-y);
   min-height: 100vh;
+  background-color: $dark;
+  color: $white;
 }
 
 //Sizes

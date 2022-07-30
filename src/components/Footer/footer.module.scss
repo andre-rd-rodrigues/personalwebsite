@@ -1,0 +1,17 @@
+@import "assets/styles/mixins";
+
+.container {
+  padding: var(--padding-root-y);
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: $white;
+  font-size: var(--fs-m);
+  & a {
+    margin-right: 20px;
+    position: relative;
+    @include hover_effect;
+  }
+}

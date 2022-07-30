@@ -1,9 +1,13 @@
 .title {
   color: white;
   h1 {
-    font-size: 5rem;
+    font-size: var(--fs-xxl);
   }
   p {
+    font-size: var(--fs-m);
     margin: 24px 0;
+  }
+  a {
+    font-size: var(--fs-m);
   }
 }

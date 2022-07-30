@@ -1,4 +1,4 @@
-import AppNavbar from "components/AppNavbar/AppNavbar";
+import Navbar from "components/AppNavbar/AppNavbar";
 import Homepage from "pages/Homepage/Homepage";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
@@ -6,11 +6,10 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <AppNavbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
-      {/*   <Footer /> */}
     </>
   );
 };

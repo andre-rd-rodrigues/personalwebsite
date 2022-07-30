@@ -1,14 +1,18 @@
 @import "../fonts/fonts";
+@import "./variables";
+@import "./mixins";
 
 * {
   font-family: Jost, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-family: Blacker;
 }
 
 a {
+  color: $white;
   text-decoration: none;
   &:hover {
     color: inherit;

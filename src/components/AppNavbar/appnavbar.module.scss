@@ -2,7 +2,7 @@
 
 .nav {
   top: 20px !important;
-  padding: 0 70px;
+  padding: var(--padding-root-y);
   h1,
   p,
   a {

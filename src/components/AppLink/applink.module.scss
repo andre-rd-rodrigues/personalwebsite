@@ -1,27 +1,13 @@
+@import "assets/styles/mixins";
+
 .appLink {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: 0.2s ease;
   color: white;
-  &:after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    visibility: hidden;
-    background-color: white;
-    transition: all 0.3s ease;
-    transform: scaleX(0);
-  }
+  @include hover_effect;
   &:hover {
     letter-spacing: 6px;
-    color: white;
-    &:after {
-      visibility: visible;
-      transform: scaleX(1);
-    }
   }
 }

@@ -23,7 +23,26 @@ $white: #ffffff;
     opacity: 0.7;
   }
 }
-
+@mixin hover_effect {
+  &:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: $white;
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+  }
+  &:hover {
+    &:after {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+}
 //Sizes
 $breaking-point-lg: 1400px;
 $breaking-point-md: 990px;

@@ -72,7 +72,8 @@ const testimonials = [
     picture_path:
       "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
     client_name: "Matthew Hamilton",
-    client_details: "CEO of Storm Troops"
+    client_details: "CEO of Storm Troops",
+    project_link: "https://www.lottojade.com"
   },
   {
     id: uuid(),
@@ -81,7 +82,8 @@ const testimonials = [
     picture_path:
       "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80",
     client_name: "RIMA",
-    client_details: "Reunião de Internos da Arrábida"
+    client_details: "Reunião de Internos da Arrábida",
+    project_link: ""
   },
   {
     id: uuid(),
@@ -90,7 +92,8 @@ const testimonials = [
     picture_path:
       "https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=800",
     client_name: "John Doe",
-    client_details: "Freelance artist"
+    client_details: "Freelance artist",
+    project_link: ""
   }
 ];
 export { social_media, works_categories, categories, projects, testimonials };

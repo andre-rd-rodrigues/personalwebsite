@@ -18,10 +18,11 @@
 //Testimonial
 .testimonialContainer {
   margin: auto;
-  padding: 50px;
+  padding: 50px 60px;
   cursor: pointer;
   transition: 0.3s ease-out;
   max-width: 600px;
+  text-align: justify;
   &:hover {
     transform: scale(1.05);
   }
@@ -42,4 +43,5 @@
 .quotation {
   color: $yellow;
   font-size: var(--fs-quotation);
+  transform: translateX(-45px);
 }

@@ -16,18 +16,21 @@ const Testimonials = () => {
     client_name,
     client_details,
     picture_path,
-    review
+    review,
+    project_link
   }) => (
     <div className={styles.testimonialContainer}>
-      <Icon icon="ri:double-quotes-l" className={styles.quotation} />
-      <p className={styles.testimonialReview}>{review}</p>
-      <div className={styles.testimonialClientContainer}>
-        <div>
-          <h5>{client_name}</h5>
-          <p>{client_details}</p>
+      <a href={project_link} rel="noreferrer" target="_blank">
+        <Icon icon="ri:double-quotes-l" className={styles.quotation} />
+        <p className={styles.testimonialReview}>{review}</p>
+        <div className={styles.testimonialClientContainer}>
+          <div>
+            <h5>{client_name}</h5>
+            <p>{client_details}</p>
+          </div>
+          <Avatar src={picture_path} />
         </div>
-        <Avatar src={picture_path} />
-      </div>
+      </a>
     </div>
   );
 

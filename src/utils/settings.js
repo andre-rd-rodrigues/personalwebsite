@@ -1,7 +1,6 @@
 const testimonials_sider = {
   className: "center",
   infinite: true,
-  centerPadding: "60px",
   slidesToShow: 2,
   speed: 1000,
   arrows: false,

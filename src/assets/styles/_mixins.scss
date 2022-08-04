@@ -40,6 +40,15 @@ $yellow: #ffca6c;
     }
   }
 }
+
+@mixin hover_scale($size, $time) {
+  transition: $time ease;
+
+  &:hover {
+    transform: scale($size);
+  }
+}
+
 @mixin page_container {
   padding: 200px var(--padding-y);
   min-height: 100vh;

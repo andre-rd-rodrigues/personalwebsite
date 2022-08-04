@@ -20,12 +20,9 @@
   margin: auto;
   padding: 50px 60px;
   cursor: pointer;
-  transition: 0.3s ease-out;
   max-width: 600px;
   text-align: justify;
-  &:hover {
-    transform: scale(1.05);
-  }
+  @include hover_scale(1.05, 0.3s);
 }
 .testimonialClientContainer {
   display: flex;

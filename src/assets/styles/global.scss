@@ -14,9 +14,11 @@ h1,
 h2 {
   font-family: Blacker;
 }
-p {
+p,
+a {
   font-weight: 300;
   font-size: var(--fs-m);
+  letter-spacing: 1.1px;
 }
 a {
   color: $white;

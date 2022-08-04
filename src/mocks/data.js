@@ -27,11 +27,11 @@ const works_categories = [
   }
 ];
 
-const projects_data = {
+const projects = {
   mobile: [
     {
       id: uuid(),
-      src: "https://play-lh.googleusercontent.com/ERfs0G13SliZ…YRZe4y6yjcD5vptekBn1v7vI3vWSuD3yvHIS=w832-h470-rw",
+      src: "https://play-lh.googleusercontent.com/OWQjHDhk2-2p5x13JavznuZkfl7kYdhyIys3cdSY7x_FclawrwNUTqt0oSIutCdXIm8=w2560-h1440-rw",
       label: "Giggle!",
       ref: "https://play.google.com/store/apps/details?id=com.itstudios.giggle&hl=pt_PT&gl=US"
     }
@@ -53,14 +53,44 @@ const categories = {
     title: "Mobile",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto eum omnis quibusdam aut laboriosam. Reprehenderit nihil, omnis perferendis nam repudiandae architecto dolore mollitia at voluptatum, nesciunt assumenda ab praesentium labore vero cum laudantium a. Voluptas hic pariatur aliquam! Laborum, odit!",
-    projects: projects_data["mobile"]
+    projects: projects["mobile"]
   },
   websites: {
     id: uuid(),
     title: "Websites",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto eum omnis quibusdam aut laboriosam. Reprehenderit nihil, omnis perferendis nam repudiandae architecto dolore mollitia at voluptatum, nesciunt assumenda ab praesentium labore vero cum laudantium a. Voluptas hic pariatur aliquam! Laborum, odit!",
-    projects: projects_data["websites"]
+    projects: projects["websites"]
   }
 };
-export { social_media, works_categories, categories, projects_data };
+
+const testimonials = [
+  {
+    id: uuid(),
+    review:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+    picture_path:
+      "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+    client_name: "Matthew Hamilton",
+    client_details: "CEO of Storm Troops"
+  },
+  {
+    id: uuid(),
+    review:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+    picture_path:
+      "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80",
+    client_name: "RIMA",
+    client_details: "Reunião de Internos da Arrábida"
+  },
+  {
+    id: uuid(),
+    review:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+    picture_path:
+      "https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=800",
+    client_name: "John Doe",
+    client_details: "Freelance artist"
+  }
+];
+export { social_media, works_categories, categories, projects, testimonials };

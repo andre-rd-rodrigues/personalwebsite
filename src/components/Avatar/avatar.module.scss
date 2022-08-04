@@ -1,0 +1,11 @@
+@import "assets/styles/mixins";
+
+.container {
+  background: center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  max-width: 100px;
+  min-width: 70px;
+  max-height: 100px;
+  min-height: 70px;
+}

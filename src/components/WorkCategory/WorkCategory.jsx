@@ -9,7 +9,7 @@ const WorkCategory = ({ name, order, src }) => {
       to={`/works/category?type=${name.toLowerCase()}`}
       className={styles.container}
     >
-      <ImageZoomEffect src={src} />
+      <ImageZoomEffect height="20vw" src={src} />
       <div className={styles.text}>
         <p>{order}</p>
         <h3>{name}</h3>

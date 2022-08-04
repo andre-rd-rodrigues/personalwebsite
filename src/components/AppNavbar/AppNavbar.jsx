@@ -26,10 +26,10 @@ const AppNavbar = () => {
 
         <Offcanvas.Body>
           <Nav className={styles.offcanvasLinks}>
-            <Nav.Link href="#link">Works</Nav.Link>
-            <Nav.Link href="#link">Blog</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="/works">Works</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Navbar.Offcanvas>

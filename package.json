@@ -19,7 +19,9 @@
     "react-dom": "^17",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "react-uuid": "^1.0.2",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -56,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^3.2.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "enzyme-to-json": "^3.6.2",

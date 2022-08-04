@@ -14,7 +14,10 @@ h1,
 h2 {
   font-family: Blacker;
 }
-
+p {
+  font-weight: 300;
+  font-size: var(--fs-m);
+}
 a {
   color: $white;
   text-decoration: none;

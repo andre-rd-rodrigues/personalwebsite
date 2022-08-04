@@ -4,7 +4,7 @@ import styles from "./imagezoomeffect.module.scss";
 const ImageZoomEffect = ({
   src,
   style,
-  height = "160%",
+  height = "100%",
   width = "100%",
   children,
   overlay

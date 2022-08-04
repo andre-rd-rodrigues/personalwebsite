@@ -2,10 +2,6 @@
 $dark: #1c1c1c;
 $grey: #979797;
 $light-grey: #ececec;
-$green: #08a742;
-$light-green: #85e294;
-$red: #c84444;
-$blue: #6199e7;
 $white: #ffffff;
 $yellow: #ffca6c;
 
@@ -45,26 +41,17 @@ $yellow: #ffca6c;
   }
 }
 @mixin page_container {
-  padding: 140px var(--padding-y);
+  padding: 200px var(--padding-y);
   min-height: 100vh;
   background-color: $dark;
   color: $white;
 }
 
-//Sizes
-$breaking-point-lg: 1400px;
-$breaking-point-md: 990px;
-$breaking-point-sm: 414px;
-$breaking-point-xs: 330px;
-
 //Exports
 :export {
-  red: $red;
-  green: $green;
   dark: $dark;
   grey: $grey;
   light-grey: $light-grey;
-  light-green: $light-green;
-  blue: $blue;
   white: $white;
+  yellow: $yellow;
 }

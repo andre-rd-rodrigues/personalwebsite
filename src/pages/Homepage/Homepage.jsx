@@ -1,5 +1,4 @@
 import AppLink from "components/AppLink/AppLink";
-import Footer from "components/Footer/Footer";
 import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider";
 import React from "react";
 import styles from "./homepage.module.scss";
@@ -14,7 +13,6 @@ const Homepage = () => {
           <AppLink to="/works" label="See Works" />
         </div>
       </GalleryBackgroundSlider>
-      <Footer />
     </div>
   );
 };

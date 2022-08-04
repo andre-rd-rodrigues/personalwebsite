@@ -1,10 +1,13 @@
 import AppIcon from "components/AppIcon/AppIcon";
 import React from "react";
+import { useState } from "react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styles from "./appnavbar.module.scss";
 
 const AppNavbar = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <Navbar expand="lg" fixed="top" className={styles.nav}>
       <Navbar.Brand as={Link} to="/">
@@ -14,22 +17,27 @@ const AppNavbar = () => {
           <p>Web Developer</p>
         </div>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="offcanvas-container">
+      <Navbar.Toggle
+        aria-controls="offcanvas-container"
+        onClick={() => setShow(true)}
+      >
         <AppIcon icon="menu" color="white" />
       </Navbar.Toggle>
       <Navbar.Offcanvas
-        id={styles.offcanvas}
+        show={show}
+        responsive="lg"
+        onHide={() => setShow(false)}
         aria-labelledby="offcanvas-container"
         placement="end"
       >
         <Offcanvas.Header closeButton />
-
         <Offcanvas.Body>
           <Nav className={styles.offcanvasLinks}>
             <Nav.Link href="/works">Works</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <br />
+            <Nav.Link href="/blog">Blog</Nav.Link> <br />
+            <Nav.Link href="/about">About</Nav.Link> <br />
+            <Nav.Link href="/contact">Contact</Nav.Link> <br />
           </Nav>
         </Offcanvas.Body>
       </Navbar.Offcanvas>

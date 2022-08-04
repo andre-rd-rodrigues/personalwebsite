@@ -11,6 +11,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   @include page_container;
+  padding: 200px var(--padding-y) 0;
 }
 
 .header {

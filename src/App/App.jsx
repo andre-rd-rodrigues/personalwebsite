@@ -1,4 +1,5 @@
 import Navbar from "components/AppNavbar/AppNavbar";
+import Footer from "components/Footer/Footer";
 import { Works, Homepage } from "pages";
 import About from "pages/About/About";
 import Category from "pages/Category/Category";
@@ -9,7 +10,7 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      {/*  <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/works" element={<Works />} />
         <Route path="/works/category" element={<Category />} />
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Homepage />} />
       </Routes>
+      <Footer />
     </>
   );
 };

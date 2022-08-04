@@ -6,7 +6,7 @@
   letter-spacing: 3px;
   transition: 0.2s ease;
   color: white;
-  @include hover_effect;
+  @include hover_underline($white);
   &:hover {
     letter-spacing: 6px;
   }

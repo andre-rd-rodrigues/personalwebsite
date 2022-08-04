@@ -75,3 +75,14 @@
     }
   }
 }
+
+//Apply when supported
+@supports (-webkit-text-stroke: 1px white) {
+  .container {
+    h1 {
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+    }
+  }
+}

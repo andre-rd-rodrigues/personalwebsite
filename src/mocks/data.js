@@ -43,6 +43,42 @@ const projects = {
       src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
       label: "Lotto Jade",
       ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
+    },
+    {
+      id: uuid(),
+      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      label: "Lotto Jade",
+      ref: "https://lottojade.com/"
     }
   ]
 };

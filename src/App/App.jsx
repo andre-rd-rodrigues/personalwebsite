@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/*  <Navbar /> */}
       <Routes>
         <Route path="/works" element={<Works />} />
         <Route path="/works/category" element={<Category />} />

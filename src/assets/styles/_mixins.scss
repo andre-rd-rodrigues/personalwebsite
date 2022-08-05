@@ -27,7 +27,8 @@ $yellow: #ffca6c;
   background-position: 0 100%; /*OR bottom left*/
   background-size: 0% 2px;
   background-repeat: no-repeat;
-  transition: background-size 0.3s, background-position 0s 0.3s; /*change after the size immediately*/
+  transition: background-size 0.3s, background-position 0s 0.3s,
+    letter-spacing 0.3s;
   &:hover {
     background-position: 100% 100%; /*OR bottom right*/
     background-size: 100% 2px;
@@ -44,7 +45,7 @@ $yellow: #ffca6c;
 
 @mixin page_container {
   padding: 200px var(--padding-y);
-  min-height: 94vh;
+  min-height: 96.5vh;
   background-color: $dark;
   color: $white;
 }

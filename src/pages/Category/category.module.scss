@@ -1,9 +1,9 @@
 @import "assets/styles/mixins";
 
 .container {
+  overflow: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  overflow: scroll;
   background-color: $dark;
 }
 .wrapper {

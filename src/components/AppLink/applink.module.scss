@@ -4,7 +4,6 @@
   position: relative;
   text-transform: uppercase;
   letter-spacing: 3px;
-  transition: 0.2s ease;
   color: white;
   @include hover_underline($white);
   &:hover {

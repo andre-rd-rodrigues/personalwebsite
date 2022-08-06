@@ -36,7 +36,7 @@ const Testimonials = () => {
 
   return (
     <div className={styles.container}>
-      <h1>Testimonials</h1>
+      <h1>Sweet testimonials from warming people</h1>
       <Slider {...settings}>
         {testimonials.map((item) => (
           <Testimonial {...item} />

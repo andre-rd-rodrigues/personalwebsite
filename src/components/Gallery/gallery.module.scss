@@ -1,5 +1,10 @@
 //For more info about the implementation - https://css-tricks.com/creating-a-css-sliding-background-effect/
+@import "assets/styles/mixins";
 
+.layer {
+  position: relative;
+  background-color: $dark;
+}
 .container {
   position: relative;
   overflow: hidden;
@@ -8,18 +13,40 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  max-width: 1600px;
+  margin: auto;
+  z-index: 1;
 }
 
 .background {
-  top: 0;
-  left: 0;
   position: absolute;
+  top: 130px;
+  left: 0;
   height: 5076px;
   width: 100%;
   animation: slide 60s linear infinite;
-  background: url("https://unsplash.com/assets/api/api-photo-grid@2x-3b92db4cdfc938c6dde2291ca1c78ab7ace98ef916a8dd08c00a6b006c0b631b.jpg")
-    repeat-y;
   z-index: 0;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 300px repeat(8, minmax(0px, 300px));
+  grid-gap: 50px;
+  grid-auto-flow: dense;
+
+  div {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: center center no-repeat;
+    background-size: cover;
+    &:nth-child(4n + 1) {
+      grid-row: span 2;
+    }
+    &:nth-child(4n) {
+      grid-column: span 2;
+    }
+  }
 }
 
 .content {
@@ -34,5 +61,18 @@
   }
   100% {
     transform: translate3d(0, -1692px, 0);
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .background {
+    div {
+      &:nth-child(4n + 1) {
+        grid-row: auto;
+      }
+      &:nth-child(4n) {
+        grid-column: auto;
+      }
+    }
   }
 }

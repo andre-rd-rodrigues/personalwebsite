@@ -11,13 +11,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   @include page_container;
-  padding: 200px var(--padding-y) 0;
+  padding: 0 var(--padding-y);
 }
 
 .header {
-  min-width: 500px;
-  min-height: 100%;
-  margin-right: 400px;
+  min-width: 550px;
+  margin-right: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,16 +27,16 @@
   }
   & p {
     font-size: var(--fs-m);
-    max-width: 600px;
   }
 }
 
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(5, 200px);
-  grid-auto-rows: 400px;
+  grid-template-rows: 1fr repeat(1, minmax(0px, 300px));
   grid-gap: 40px;
   grid-auto-flow: dense;
+  padding: 100px 0;
   :nth-child(5n + 1) {
     grid-column: span 2;
   }
@@ -87,4 +86,10 @@
 }
 .arrow {
   font-size: var(--fs-l);
+}
+
+@media only screen and (max-height: 877px) {
+  .gridContainer {
+    padding: 40px 0;
+  }
 }

@@ -1,0 +1,23 @@
+@import "assets/styles/mixins";
+
+.container {
+  @include page_container;
+  background-color: $grey-yellow;
+  color: $dark;
+  h1 {
+    font-family: Italiana, sans-serif;
+    font-size: var(--fs-xxl);
+  }
+  h2 {
+    font-size: var(--fs-xl);
+  }
+  h3 {
+    font-weight: 400;
+  }
+}
+
+.blogHomepage {
+  p[class="article_description"] {
+    text-align: justify;
+  }
+}

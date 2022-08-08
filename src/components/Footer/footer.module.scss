@@ -4,12 +4,15 @@
   display: flex;
   justify-content: space-between;
   background-color: $dark;
-  padding: 10px var(--padding-y);
+  padding: 15px var(--padding-y);
   color: $white;
   font-size: var(--fs-m);
   & a {
     margin-right: 20px;
     position: relative;
     @include hover_underline($white);
+  }
+  div {
+    font-weight: 300;
   }
 }

@@ -169,11 +169,47 @@ const homepage_gallery = [
   "https://images.unsplash.com/photo-1491595065476-b7e475407e20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
 ];
 
+const blog = {
+  categories: [
+    "Recent posts",
+    "Economics & Investments",
+    "Lifestyle",
+    "Mental health",
+    "Marketing",
+    "All"
+  ],
+  articles: [
+    {
+      id: uuid(),
+      title: "10 tips to better sleeping",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...",
+      category: "Lifestyle",
+      date: "12, June 2022",
+      image_src:
+        "https://images.unsplash.com/photo-1582699669911-89db9ff0d67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+      writer: "Andre Rodrigues"
+    },
+    {
+      id: uuid(),
+      title: "Non-standard Flutter custom bottom navigation bar",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...",
+      category: "Lifestyle",
+      date: "12, June 2022",
+      image_src:
+        "https://images.unsplash.com/photo-1618221227897-57302c9460b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
+      writer: "Andre Rodrigues"
+    }
+  ]
+};
+
 export {
   social_media,
   works_categories,
   categories,
   projects,
   testimonials,
-  homepage_gallery
+  homepage_gallery,
+  blog
 };

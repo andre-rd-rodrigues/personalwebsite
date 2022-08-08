@@ -1,0 +1,25 @@
+@import "assets/styles/mixins";
+
+.container {
+  margin-bottom: 120px;
+  h3 {
+    font-size: var(--fs-l);
+    margin-bottom: 19px;
+  }
+}
+
+.readNow {
+  @include read_button;
+}
+.image {
+  width: 100%;
+  height: 30vw;
+  background: center center no-repeat;
+  background-size: cover;
+  margin: 64px 0 31px;
+}
+
+.date {
+  @include date_category_container;
+  margin-bottom: 19px;
+}

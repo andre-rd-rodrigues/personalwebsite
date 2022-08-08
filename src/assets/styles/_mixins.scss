@@ -2,8 +2,9 @@
 $dark: #1c1c1c;
 $grey: #979797;
 $light-grey: #f3f3f3;
-$white: #edeee9;
+$white: #ffffff;
 $yellow: #ffca6c;
+$grey-yellow: #edeee9;
 
 //Shapes
 @mixin button($bg-color, $color) {
@@ -48,6 +49,29 @@ $yellow: #ffca6c;
   min-height: 96.5vh;
   background-color: $dark;
   color: $white;
+}
+
+//Blog
+@mixin date_category_container {
+  display: flex;
+  justify-content: space-between;
+  color: $grey;
+  & p {
+    font-size: var(--fs-s);
+
+    &:first-child {
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+    }
+  }
+}
+
+@mixin read_button {
+  color: $dark;
+  @include hover_underline($dark);
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 //Sizes

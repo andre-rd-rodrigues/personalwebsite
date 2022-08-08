@@ -2,6 +2,7 @@ import Navbar from "components/AppNavbar/AppNavbar";
 import Footer from "components/Footer/Footer";
 import { Works, Homepage } from "pages";
 import About from "pages/About/About";
+import Blog from "pages/Blog/Blog";
 import Category from "pages/Category/Category";
 import Contact from "pages/Contact/Contact";
 import React from "react";
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/works/category" element={<Category />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/" element={<Homepage />} />
       </Routes>
       <Footer />

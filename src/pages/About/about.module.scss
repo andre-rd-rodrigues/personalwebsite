@@ -1,8 +1,6 @@
 @import "assets/styles/mixins";
 
 .container {
-  @include page_container;
-  padding-top: 200px;
   h1 {
     font-size: var(--fs-xxl);
     max-width: 80vw;

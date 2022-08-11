@@ -3,7 +3,6 @@
 .container {
   background-color: $dark;
   color: $white;
-  @include page_container;
   & h1 {
     font-size: var(--fs-xxl);
     margin-bottom: 50px;

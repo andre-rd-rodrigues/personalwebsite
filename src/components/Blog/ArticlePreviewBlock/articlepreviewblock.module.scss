@@ -1,16 +1,25 @@
 @import "assets/styles/mixins";
 
-.card {
+.container {
   min-height: 340px;
-  @include hover_scale_zoom-out(0.7);
+  cursor: pointer;
+
   a,
   p {
     color: $dark;
     font-size: var(--fs-m-s);
     text-align: justify;
   }
+  &:hover {
+    & .wrapper {
+      display: inline-block;
+      transform: scale(0.95);
+    }
+  }
 }
-
+.wrapper {
+  transition: 0.2s ease;
+}
 .image {
   background: center center no-repeat;
   background-size: cover;

@@ -5,14 +5,14 @@ import styles from "./articlesgrid.module.scss";
 
 const ArticlesGrid = ({ articles }) => {
   return (
-    <>
-      <div className={styles.container}>
+    <div className={styles.container}>
+      <div className={styles.grid}>
         {articles.map((article) => (
           <ArticlePreviewBlock article={article} />
         ))}
       </div>
       <AppButton label="load more" />
-    </>
+    </div>
   );
 };
 

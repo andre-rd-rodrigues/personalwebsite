@@ -1,6 +1,12 @@
 @import "assets/styles/mixins";
 
 .container {
+  text-align: center;
+  button {
+    margin-top: 90px;
+  }
+}
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 60px;

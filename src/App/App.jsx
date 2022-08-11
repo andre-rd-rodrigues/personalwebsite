@@ -12,20 +12,22 @@ import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 
 const App = () => {
   return (
-    <>
+    <div id="outer-container">
       <Navbar />
       <BlogSidebar />
-      <Routes>
-        <Route path="/works" element={<Works />} />
-        <Route path="/works/category" element={<PageCategory />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<BlogHomepage />} />
-        <Route path="/blog/article" element={<BlogArticlePage />} />
-        <Route path="/" element={<Homepage />} />
-      </Routes>
+      <main id="page-wrap">
+        <Routes>
+          <Route path="/works" element={<Works />} />
+          <Route path="/works/category" element={<PageCategory />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<BlogHomepage />} />
+          <Route path="/blog/article" element={<BlogArticlePage />} />
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

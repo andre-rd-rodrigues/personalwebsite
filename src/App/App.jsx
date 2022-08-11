@@ -8,11 +8,13 @@ import Contact from "pages/Contact/Contact";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
+import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <BlogSidebar />
       <Routes>
         <Route path="/works" element={<Works />} />
         <Route path="/works/category" element={<PageCategory />} />

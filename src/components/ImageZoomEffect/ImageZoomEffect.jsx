@@ -7,10 +7,14 @@ const ImageZoomEffect = ({
   height = "100%",
   width = "100%",
   children,
-  overlay
+  overlay,
+  maxHeight
 }) => {
   return (
-    <div style={{ ...style, height, width }} className={styles.wrapper}>
+    <div
+      style={{ ...style, height, width, maxHeight }}
+      className={styles.wrapper}
+    >
       <div
         className={`${styles.image} ${overlay && styles.overlay}`}
         style={{

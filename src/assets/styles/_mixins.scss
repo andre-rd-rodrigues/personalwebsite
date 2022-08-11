@@ -1,6 +1,6 @@
 //Colors
 $dark: #1c1c1c;
-$grey: #979797;
+$grey: #a6a6a6;
 $light-grey: #f3f3f3;
 $white: #ffffff;
 $yellow: #ffca6c;
@@ -47,11 +47,24 @@ $grey-yellow: #edeee9;
 @mixin page_container {
   padding: 200px var(--padding-y);
   min-height: 96.5vh;
-  background-color: $dark;
-  color: $white;
 }
 
 //Blog
+
+@mixin blog_settings {
+  h1 {
+    font-family: Italiana, sans-serif;
+    font-size: var(--fs-xxl);
+  }
+  h2 {
+    font-size: var(--fs-xl);
+    margin-bottom: 70px;
+  }
+  h3 {
+    font-weight: 400;
+  }
+}
+
 @mixin date_category_container {
   display: flex;
   justify-content: space-between;

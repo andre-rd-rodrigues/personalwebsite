@@ -7,7 +7,7 @@ const ArticlePreviewBlock = ({ article }) => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <Link to={`/${article.id}`}>
+        <Link to={`/blog/article?id=${article.id}`}>
           <div
             style={{ backgroundImage: `url(${article.image_src})` }}
             className={styles.image}

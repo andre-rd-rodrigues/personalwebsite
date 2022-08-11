@@ -1,0 +1,44 @@
+@import "assets/styles/mixins";
+
+.container {
+  h1 {
+    font-family: Italiana, sans-serif;
+    font-size: var(--fs-xl);
+  }
+  svg {
+    margin-bottom: 25px;
+  }
+  div[class="article_title_image"] {
+    width: 100%;
+    min-height: 200px;
+    max-height: 350px;
+    height: 30vw;
+    background: center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.subtitle {
+  display: flex;
+  color: $grey;
+  margin: 13px 0 60px;
+  span {
+    margin: 0 15px;
+    opacity: 0.7;
+  }
+  & p:last-child {
+    text-transform: uppercase;
+  }
+  a,
+  span,
+  p {
+    font-size: var(--fs-m-s);
+  }
+}
+
+.contentContainer {
+  max-width: 840px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 60px;
+}

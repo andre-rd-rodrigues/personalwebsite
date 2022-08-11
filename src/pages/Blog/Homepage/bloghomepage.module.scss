@@ -1,0 +1,11 @@
+@import "assets/styles/mixins";
+
+.container {
+  @include blog_settings;
+}
+
+.blogHomepage {
+  p[class="article_description"] {
+    text-align: justify;
+  }
+}

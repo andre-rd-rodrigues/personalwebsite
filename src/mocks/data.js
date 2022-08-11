@@ -180,7 +180,7 @@ const blog = {
   ],
   articles: [
     {
-      id: uuid(),
+      id: "917e4fba-199c-11ed-861d-0242ac120002",
       title: "10 tips to better sleeping",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
@@ -192,20 +192,7 @@ const blog = {
       writer: "Andre Rodrigues"
     },
     {
-      id: uuid(),
-      title: "Non-standard Flutter custom bottom navigation bar",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-
-      category: "Lifestyle",
-      date: "12, June 2022",
-      content: <div>Hello</div>,
-      image_src:
-        "https://images.unsplash.com/photo-1618221227897-57302c9460b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
-      writer: "Andre Rodrigues"
-    },
-    {
-      id: uuid(),
+      id: "c5d2a482-199c-11ed-861d-0242ac120002",
       title: "Non-standard Flutter custom bottom navigation bar",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",

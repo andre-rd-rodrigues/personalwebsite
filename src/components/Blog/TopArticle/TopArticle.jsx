@@ -16,7 +16,7 @@ const TopArticle = ({ article }) => {
       <h3>{article.title}</h3>
       <p className="article_description">{article.description}</p>
       <div className="text-end">
-        <AppLink label="READ NOW" to="/" className={styles.readNow} />
+        <AppLink label="READ NOW" to="/" />
       </div>
     </div>
   );

@@ -1,0 +1,40 @@
+@import "assets/styles/mixins";
+
+.card {
+  min-height: 340px;
+  @include hover_scale_zoom-out(0.7);
+  a,
+  p {
+    color: $dark;
+    font-size: var(--fs-m-s);
+    text-align: justify;
+  }
+}
+
+.image {
+  background: center center no-repeat;
+  background-size: cover;
+  min-height: 220px;
+}
+
+.subtitle {
+  display: flex;
+  font-weight: lighter;
+  justify-content: space-between;
+  p {
+    font-size: var(--fs-s);
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: $grey;
+  }
+}
+
+.body {
+  h5 {
+    margin: 18px 0;
+  }
+}
+
+.footer {
+  text-align: end;
+}

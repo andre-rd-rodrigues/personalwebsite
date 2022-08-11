@@ -10,3 +10,7 @@
     letter-spacing: 6px;
   }
 }
+
+.readNow {
+  @include read_button;
+}

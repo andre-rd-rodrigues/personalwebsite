@@ -1,3 +1,4 @@
+import AppImage from "components/AppImage/AppImage";
 import AppLink from "components/AppLink/AppLink";
 import React from "react";
 import styles from "./toparticle.module.scss";
@@ -5,10 +6,7 @@ import styles from "./toparticle.module.scss";
 const TopArticle = ({ article }) => {
   return (
     <div className={styles.container}>
-      <div
-        className={styles.image}
-        style={{ backgroundImage: `url(${article.image_src})` }}
-      />
+      <AppImage src={article.image_src} className={styles.image} />
       <div className={styles.date}>
         <p>Lifestyle</p>
         <p>12, June 2022</p>

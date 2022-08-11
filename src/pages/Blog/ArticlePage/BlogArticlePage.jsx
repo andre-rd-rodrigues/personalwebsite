@@ -1,4 +1,5 @@
 import Icon from "components/AppIcon/AppIcon";
+import Image from "components/AppImage/AppImage";
 import PageContainer from "components/PageContainer/PageContainer";
 import React from "react";
 import { useEffect, useState } from "react";
@@ -13,7 +14,10 @@ const BlogArticlePage = () => {
   const articleId = searchParams.get("id");
 
   useEffect(() => {
-    if (articleId) return setArticle(getArticleById(articleId));
+    if (articleId) {
+      window.scrollTo(0, 0);
+      setArticle(getArticleById(articleId));
+    }
   }, []);
 
   return (
@@ -36,10 +40,7 @@ const BlogArticlePage = () => {
               <p>{article?.date}</p> <span>|</span> <p>{article?.category}</p>
             </div>
           </div>
-          <div
-            className="article_title_image"
-            style={{ backgroundImage: `url(${article?.image_src})` }}
-          />
+          <Image className={styles.mainImage} src={article?.image_src} />
           <div className={styles.contentContainer}>{article?.content}</div>
         </div>
       </div>

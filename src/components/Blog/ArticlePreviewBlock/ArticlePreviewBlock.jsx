@@ -1,3 +1,4 @@
+import AppImage from "components/AppImage/AppImage";
 import AppLink from "components/AppLink/AppLink";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -8,10 +9,7 @@ const ArticlePreviewBlock = ({ article }) => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <Link to={`/blog/article?id=${article.id}`}>
-          <div
-            style={{ backgroundImage: `url(${article.image_src})` }}
-            className={styles.image}
-          />
+          <AppImage src={article.image_src} className={styles.image} />
           <div className={styles.subtitle}>
             <p>{article.category}</p>
             <p>{article.date}</p>

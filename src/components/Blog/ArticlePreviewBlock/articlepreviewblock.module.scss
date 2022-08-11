@@ -21,9 +21,8 @@
   transition: 0.2s ease;
 }
 .image {
-  background: center center no-repeat;
-  background-size: cover;
   min-height: 220px;
+  max-height: 300px;
 }
 
 .subtitle {

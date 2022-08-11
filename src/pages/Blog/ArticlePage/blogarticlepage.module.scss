@@ -8,14 +8,11 @@
   svg {
     margin-bottom: 25px;
   }
-  div[class="article_title_image"] {
-    width: 100%;
-    min-height: 200px;
-    max-height: 350px;
-    height: 30vw;
-    background: center center no-repeat;
-    background-size: cover;
-  }
+}
+
+.mainImage {
+  min-height: 200px;
+  max-height: 400px;
 }
 
 .subtitle {

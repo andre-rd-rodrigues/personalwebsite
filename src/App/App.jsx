@@ -6,16 +6,21 @@ import BlogArticlePage from "pages/Blog/ArticlePage/BlogArticlePage";
 import PageCategory from "pages/Category/PageCategory";
 import Contact from "pages/Contact/Contact";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 
 const App = () => {
+  const location = useLocation();
+
+  const isBlogPage =
+    location.pathname === "/blog" || location.pathname === "/blog/article";
+
   return (
     <div id="outer-container">
-      <Navbar />
-      <BlogSidebar />
+      {isBlogPage && <BlogSidebar />}
       <main id="page-wrap">
+        <Navbar />
         <Routes>
           <Route path="/works" element={<Works />} />
           <Route path="/works/category" element={<PageCategory />} />

@@ -6,6 +6,12 @@ $white: #ffffff;
 $yellow: #ffca6c;
 $grey-yellow: #edeee9;
 
+//Sizes
+$breaking-point-lg: 1400px;
+$breaking-point-md: 990px;
+$breaking-point-sm: 414px;
+$breaking-point-xs: 330px;
+
 //Shapes
 @mixin button($color) {
   background: linear-gradient($dark 0 0) right / var(--p, 0) no-repeat;
@@ -21,6 +27,15 @@ $grey-yellow: #edeee9;
     background-position: left;
   }
 }
+@mixin read_button {
+  color: $dark;
+  @include hover_underline($dark);
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+//hover
 @mixin hover_underline($color) {
   margin: 0 14px;
   padding-bottom: 2px;
@@ -44,25 +59,10 @@ $grey-yellow: #edeee9;
   }
 }
 
+//page
 @mixin page_container {
   padding: 200px var(--padding-y);
   min-height: 96.5vh;
-}
-
-//Blog
-
-@mixin blog_settings {
-  h1 {
-    font-family: Italiana, sans-serif;
-    font-size: var(--fs-xxl);
-  }
-  h2 {
-    font-size: var(--fs-xl);
-    margin-bottom: 70px;
-  }
-  h3 {
-    font-weight: 400;
-  }
 }
 
 @mixin date_category_container {
@@ -79,19 +79,20 @@ $grey-yellow: #edeee9;
   }
 }
 
-@mixin read_button {
-  color: $dark;
-  @include hover_underline($dark);
-  margin: 0;
-  font-size: 0.9rem;
-  font-weight: 400;
+//Blog
+@mixin blog_settings {
+  h1 {
+    font-family: Italiana, sans-serif;
+    font-size: var(--fs-xxl);
+  }
+  h2 {
+    font-size: var(--fs-xl);
+    margin-bottom: 70px;
+  }
+  h3 {
+    font-weight: 400;
+  }
 }
-
-//Sizes
-$breaking-point-lg: 1400px;
-$breaking-point-md: 990px;
-$breaking-point-sm: 414px;
-$breaking-point-xs: 330px;
 
 //Exports
 :export {

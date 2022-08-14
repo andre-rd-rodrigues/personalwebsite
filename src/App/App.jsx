@@ -9,12 +9,12 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogSidebar from "components/BlogSidebar/BlogSidebar";
+import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
 
 const App = () => {
   const location = useLocation();
 
-  const isBlogPage =
-    location.pathname === "/blog" || location.pathname === "/blog/article";
+  const isBlogPage = /blog|article/.test(location.pathname);
 
   return (
     <div id="outer-container">
@@ -28,6 +28,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<BlogHomepage />} />
           <Route path="/blog/article" element={<BlogArticlePage />} />
+          <Route path="/blog/article/search" element={<BlogResultsPage />} />
           <Route path="/" element={<Homepage />} />
         </Routes>
       </main>

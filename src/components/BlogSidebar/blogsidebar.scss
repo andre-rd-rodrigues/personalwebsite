@@ -56,6 +56,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
   color: $white;
   padding: 0.8em;
   color: $dark;
+
+  a {
+    transition: 0.3s ease;
+    color: $dark;
+    &:hover {
+      letter-spacing: 1.5px;
+    }
+  }
 }
 
 /* Individual item */

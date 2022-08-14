@@ -170,13 +170,12 @@ const homepage_gallery = [
 ];
 
 const blog = {
+  //Catgories are displayed by this order
   categories: [
-    "Recent posts",
-    "Economics & Investments",
-    "Lifestyle",
-    "Mental health",
-    "Marketing",
-    "All"
+    { display_name: "Recent posts", name: "recent" },
+    { display_name: "Lifestyle", name: "lifestyle" },
+    { display_name: "Career & Mentoring", name: "career" },
+    { display_name: "All", name: "all" }
   ],
   articles: [
     {
@@ -184,7 +183,7 @@ const blog = {
       title: "10 tips to better sleeping",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
-      category: "Lifestyle",
+      category: "lifestyle",
       date: "12, June 2022",
       content: (
         <div>
@@ -258,7 +257,7 @@ const blog = {
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
 
-      category: "Lifestyle",
+      category: "lifestyle",
       date: "12, June 2022",
       content: <div>Hello</div>,
       image_src:

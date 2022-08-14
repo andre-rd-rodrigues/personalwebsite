@@ -7,7 +7,7 @@ const ArticlesGrid = ({ articles }) => {
   return (
     <div className={styles.container}>
       <div className={styles.grid}>
-        {articles.map((article) => (
+        {articles?.map((article) => (
           <ArticlePreviewBlock article={article} />
         ))}
       </div>

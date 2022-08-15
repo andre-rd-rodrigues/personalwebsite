@@ -7,6 +7,9 @@
   }
   svg {
     margin-bottom: 25px;
+    &:hover {
+      color: $dark;
+    }
   }
 }
 

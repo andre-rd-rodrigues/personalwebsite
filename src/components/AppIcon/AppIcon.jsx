@@ -6,8 +6,8 @@ const AppIcon = ({ icon, size = 20, color = "primary", onClick, href }) => {
   return (
     <div
       style={{
-        cursor: onClick | href ? "pointer" : "",
-        display: onClick | href ? "inline" : "block"
+        cursor: onClick || href ? "pointer" : "",
+        display: onClick || href ? "inline" : "block"
       }}
       onClick={onClick}
       id="app-icon"

@@ -9,10 +9,11 @@ import styles from "./blogarticlepage.module.scss";
 
 const BlogArticlePage = () => {
   const [article, setArticle] = useState(undefined);
-
   const [searchParams] = useSearchParams();
+
   const articleId = searchParams.get("id");
 
+  //Lifecycle
   useEffect(() => {
     if (articleId) {
       window.scrollTo(0, 0);

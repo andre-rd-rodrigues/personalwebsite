@@ -11,11 +11,21 @@ const getPostsByCategory = (category) => {
   return articles;
 };
 
-const getSearchedPost = (inputObject) => {
-  if (inputObject.type === "category") {
-    if (inputObject.value === "all") return blog.articles;
-    if (inputObject.value === "recent") return blog.articles.slice(0, 3);
-    return getPostsByCategory(inputObject.value);
+const getSearchedPost = (search) => {
+  if (search.type === "category") {
+    if (search.value === "all") return blog.articles;
+    if (search.value === "recent") return blog.articles.slice(0, 3);
+    return getPostsByCategory(search.value);
+  }
+
+  if (search.type === "input") {
+    const results = blog.articles.filter(
+      (item) =>
+        item.title.includes(search.value) ||
+        item.category.includes(search.value)
+    );
+    if (results.length <= 0) return null;
+    return results;
   }
 };
 

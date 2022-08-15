@@ -10,14 +10,14 @@ import styles from "./blogresultspage.module.scss";
 const BlogResultsPage = () => {
   const [articles, setArticles] = useState(undefined);
 
-  const [searchValue] = useSearchParams();
+  const [searchQuery] = useSearchParams();
 
   //Check if its a category or not
-  const getInputObject = () => {
+  const queryValueToObject = () => {
     let result = {};
 
-    const input = searchValue.get("input");
-    const category = searchValue.get("category");
+    const input = searchQuery.get("input");
+    const category = searchQuery.get("category");
 
     if (!input && !category) return null;
 
@@ -33,10 +33,10 @@ const BlogResultsPage = () => {
   };
 
   useEffect(() => {
-    if (getInputObject()) {
-      setArticles(getSearchedPost(getInputObject()));
+    if (queryValueToObject()) {
+      setArticles(getSearchedPost(queryValueToObject()));
     }
-  }, [searchValue]);
+  }, [searchQuery]);
 
   return (
     <PageContainer
@@ -50,7 +50,8 @@ const BlogResultsPage = () => {
         {articles === null && (
           <div className={styles.notFound}>
             <p>
-              No matches found for: <span>{getInputObject().value}</span> <br />
+              No matches found for: <span>{queryValueToObject().value}</span>
+              <br />
             </p>
             <p>Make sure all words are spelled correctly.</p>
           </div>

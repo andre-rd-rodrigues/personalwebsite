@@ -1,13 +1,26 @@
 import AppIcon from "components/AppIcon/AppIcon";
 import React from "react";
+import { useState } from "react";
 import styles from "./appsearchbar.module.scss";
 
-const AppSearchBar = () => {
+const AppSearchBar = ({ onSearch }) => {
+  const [searchValue, setSearchValue] = useState("");
+
   return (
-    <div className={styles.container}>
-      <AppIcon icon="search" size={19} />
-      <input type="text" placeholder="Search here..." />
-    </div>
+    <form
+      className={styles.container}
+      onSubmit={(e) => {
+        e.preventDefault();
+        onSearch(searchValue);
+      }}
+    >
+      <AppIcon icon="search" size={19} role="button" type="submit" />
+      <input
+        type="text"
+        placeholder="Search here..."
+        onChange={(e) => setSearchValue(e.target.value)}
+      />
+    </form>
   );
 };
 

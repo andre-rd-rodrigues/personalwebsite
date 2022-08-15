@@ -7,12 +7,15 @@
   padding: 15px var(--padding-y);
   color: $white;
   font-size: var(--fs-m);
-  & a {
+  & div[id="app-icon"] {
     margin-right: 20px;
     position: relative;
     @include hover_underline($white);
   }
   div {
     font-weight: 300;
+  }
+  div[id="footer-copyright"] {
+    font-size: var(--fs-s);
   }
 }

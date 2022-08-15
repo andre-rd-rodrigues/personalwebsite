@@ -1,10 +1,13 @@
 import uuid from "react-uuid";
 
 const social_media = [
-  { label: "Fb", ref: "" },
-  { label: "Ins", ref: "https://www.instagram.com/andre.creativedesign/" },
+  { label: "facebook", ref: "" },
   {
-    label: "In",
+    label: "instagram",
+    ref: "https://www.instagram.com/andre.creativedesign/"
+  },
+  {
+    label: "linkedin",
     ref: "https://www.linkedin.com/in/andr%C3%A9-rodrigues-4b4a9b188/"
   }
 ];

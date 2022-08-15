@@ -12,6 +12,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 0 var(--padding-y);
+  min-height: 100vh;
 }
 
 .header {

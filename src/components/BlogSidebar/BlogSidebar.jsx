@@ -21,8 +21,8 @@ function BlogSidebar() {
         <h5>Categories</h5>
         <ul>
           {blog.categories.map((item, index) => (
-            <Link to={`/blog/article/search?category=${item.name}`}>
-              <li key={index}>{item.display_name}</li>
+            <Link key={index} to={`/blog/article/search?category=${item.name}`}>
+              <li>{item.display_name}</li>
             </Link>
           ))}
         </ul>

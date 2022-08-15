@@ -45,7 +45,7 @@ const BlogResultsPage = () => {
       className={styles.container}
     >
       <div className={styles.results}>
-        <h1>Results</h1>
+        <h1>Results:</h1>
         {articles && <ArticlesGrid articles={articles} />}
         {articles === null && (
           <div className={styles.notFound}>

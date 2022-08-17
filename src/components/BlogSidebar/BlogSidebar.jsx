@@ -3,12 +3,25 @@ import AppSearchBar from "components/AppSearchBar/AppSearchBar";
 import { blog } from "mocks/data";
 import React from "react";
 import { push as Menu } from "react-burger-menu";
-import { Link, useSearchParams } from "react-router-dom";
+import {
+  Link,
+  useLocation,
+  useNavigate,
+  useSearchParams
+} from "react-router-dom";
 import "./blogsidebar.scss";
 
 function BlogSidebar() {
   const [searchQuery, setSearchQuery] = useSearchParams({});
+  const location = useLocation();
+  const navigate = useNavigate();
 
+  const handleSearch = (inputSearch) => {
+    if (!location.pathname.includes("search")) {
+      return navigate(`/blog/article/search?input=${inputSearch}`);
+    }
+    return setSearchQuery({ input: inputSearch });
+  };
   return (
     <Menu
       customBurgerIcon={<AppIcon icon="sidebar" color="dark" size={25} />}
@@ -17,9 +30,7 @@ function BlogSidebar() {
       outerContainerId="outer-container"
     >
       <div className="blog-sidebar-section">
-        <AppSearchBar
-          onSearch={(inputSearch) => setSearchQuery({ input: inputSearch })}
-        />
+        <AppSearchBar onSearch={(inputSearch) => handleSearch(inputSearch)} />
       </div>
       <div className="blog-sidebar-section">
         <h5>Categories</h5>

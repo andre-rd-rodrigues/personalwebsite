@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./pagecontainer.module.scss";
 import colors from "assets/styles/_mixins.scss";
+import { motion } from "framer-motion";
+import { containerVariant } from "assets/motion/motionVariants";
 
 const PageContainer = ({
   children,
@@ -13,7 +15,14 @@ const PageContainer = ({
       className={`${styles.container} ${className}`}
       style={{ backgroundColor: colors[bgColor], color: colors[color] }}
     >
-      <div className={styles.wrapper}>{children}</div>
+      <motion.div
+        variants={containerVariant}
+        whileInView="visible"
+        initial="hidden"
+        className={styles.wrapper}
+      >
+        {children}
+      </motion.div>
     </div>
   );
 };

@@ -31,8 +31,8 @@ const App = () => {
           <Route path="/blog/article/search" element={<BlogResultsPage />} />
           <Route path="/" element={<Homepage />} />
         </Routes>
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
 };

@@ -1,13 +1,17 @@
 import PageContainer from "components/PageContainer/PageContainer";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { motion } from "framer-motion";
 import styles from "./about.module.scss";
+import { titleEntrance } from "assets/motion/motionVariants";
 
 const About = () => {
   return (
     <PageContainer>
       <div className={styles.container}>
-        <h1>André Rodrigues is a creative web developer based in Portugal.</h1>
+        <motion.h1 variants={titleEntrance}>
+          André Rodrigues is a creative web developer based in Portugal.
+        </motion.h1>
         <div className={`${styles.about} ${styles.section}`}>
           <Row>
             <Col className="d-flex flex-column justify-content-center align-items-end">

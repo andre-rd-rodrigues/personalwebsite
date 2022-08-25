@@ -3,6 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import styles from "./contact.module.scss";
 import PageContainer from "components/PageContainer/PageContainer";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const spacing = {
@@ -22,11 +24,12 @@ const Contact = () => {
             lg={spacing.title}
           >
             <div>
-              <h1>
-                Got a project?
-                <br />
-                Let's talk!
-              </h1>
+              <AnimatedHeading>
+                <h1>Got a project?</h1>
+              </AnimatedHeading>
+              <AnimatedHeading>
+                <h1>Let's talk!</h1>
+              </AnimatedHeading>
             </div>
           </Col>
           <Col
@@ -35,7 +38,22 @@ const Contact = () => {
             md={spacing.others}
             lg={spacing.others}
           >
-            <div>
+            <motion.div
+              animate="visible"
+              initial="hidden"
+              variants={{
+                hidden: {
+                  opacity: 0
+                },
+                visible: {
+                  opacity: 1,
+                  transition: {
+                    duration: 1.2,
+                    delay: 1.3
+                  }
+                }
+              }}
+            >
               <h3>Start a conversation</h3>
               <a
                 id="contact_email"
@@ -45,7 +63,7 @@ const Contact = () => {
               >
                 andre.rodrigo@itstudios.eu
               </a>
-            </div>
+            </motion.div>
           </Col>
           <Col
             className={styles.col}
@@ -53,7 +71,23 @@ const Contact = () => {
             md={spacing.others}
             lg={spacing.others}
           >
-            <div className={styles.social}>
+            <motion.div
+              animate="visible"
+              initial="hidden"
+              variants={{
+                hidden: {
+                  opacity: 0
+                },
+                visible: {
+                  opacity: 1,
+                  transition: {
+                    duration: 1.2,
+                    delay: 1.7
+                  }
+                }
+              }}
+              className={styles.social}
+            >
               <h3>Lets' get social</h3>
               <div>
                 <ul>
@@ -91,7 +125,7 @@ const Contact = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </motion.div>
           </Col>
         </Row>
       </div>

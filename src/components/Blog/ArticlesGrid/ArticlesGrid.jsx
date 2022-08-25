@@ -4,6 +4,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 import ArticlePreviewBlock from "../ArticlePreviewBlock/ArticlePreviewBlock";
 import styles from "./articlesgrid.module.scss";
+import {
+  containerVariant,
+  fadeInVariant,
+  motion
+} from "assets/motion/motionVariants";
 
 const ArticlesGrid = ({ articles }) => {
   const [pagination, setPagination] = useState({
@@ -34,11 +39,17 @@ const ArticlesGrid = ({ articles }) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.grid}>
+      <motion.div
+        variants={containerVariant}
+        initial="hidden"
+        whileInView="visible"
+        className={styles.grid}
+        viewport={{ once: true }}
+      >
         {pagination.articles?.map((article) => (
           <ArticlePreviewBlock key={article.id} article={article} />
         ))}
-      </div>
+      </motion.div>
       {loadMoreButtonVisible()}
     </div>
   );

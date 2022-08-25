@@ -1,22 +1,33 @@
 import PageContainer from "components/PageContainer/PageContainer";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { motion } from "framer-motion";
 import styles from "./about.module.scss";
-import { titleEntrance } from "assets/motion/motionVariants";
+import {
+  fadeInVariant,
+  aboutTextDelayVariant
+} from "assets/motion/motionVariants";
 
 const About = () => {
   return (
     <PageContainer>
       <div className={styles.container}>
-        <motion.h1 variants={titleEntrance}>
-          André Rodrigues is a creative web developer based in Portugal.
-        </motion.h1>
-        <div className={`${styles.about} ${styles.section}`}>
+        <AnimatedHeading>
+          <h1>
+            André Rodrigues is a creative web developer based in Portugal.
+          </h1>
+        </AnimatedHeading>
+        <motion.div
+          variants={aboutTextDelayVariant}
+          initial="hidden"
+          animate="visible"
+          className={`${styles.about} ${styles.section}`}
+        >
           <Row>
             <Col className="d-flex flex-column justify-content-center align-items-end">
-              <h2>ABOUT ME</h2>
-              <p>
+              <motion.h2 variants={fadeInVariant}>ABOUT ME</motion.h2>
+              <motion.p variants={fadeInVariant}>
                 Since turning my passion into a career, I've been continuously
                 creating and delivering projects for almost 4 years. My eye for
                 detail, creative view of the world, and meticulous nature help
@@ -33,10 +44,15 @@ const About = () => {
                 friends, laughing with silly jokes, taking a walk, making
                 something fun, or eating an amazing croissant accompained by
                 jazz oldies.
-              </p>
+              </motion.p>
               <div className={styles.educationContainer}>
-                <h2 style={{ marginTop: "30px" }}>Education</h2>
-                <ul>
+                <motion.h2
+                  variants={fadeInVariant}
+                  style={{ marginTop: "30px" }}
+                >
+                  Education
+                </motion.h2>
+                <motion.ul variants={fadeInVariant}>
                   <li>
                     <a href="img/docs/c_frontend.png" download="">
                       Front-End Libraries Certification
@@ -59,14 +75,28 @@ const About = () => {
                   </li>
                   <li>Design Thinking Certification</li>
                   <li>UX/UI Fundamentals Certification</li>
-                </ul>
+                </motion.ul>
               </div>
             </Col>
             <Col>
-              <div className={styles.profileImage} />
+              <motion.div
+                variants={{
+                  hidden: {
+                    opacity: 0
+                  },
+                  visible: {
+                    opacity: 1,
+                    transition: {
+                      duration: 1.2,
+                      delay: 3.7
+                    }
+                  }
+                }}
+                className={styles.profileImage}
+              />
             </Col>
           </Row>
-        </div>
+        </motion.div>
       </div>
     </PageContainer>
   );

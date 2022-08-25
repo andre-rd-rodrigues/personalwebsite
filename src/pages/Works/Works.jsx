@@ -1,3 +1,4 @@
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import WorkCategory from "components/WorkCategory/WorkCategory";
 import { works_categories } from "mocks/data";
@@ -11,7 +12,9 @@ const Works = () => {
     <PageContainer>
       <div className={styles.container}>
         <div className={styles.works}>
-          <h1>Works</h1>
+          <AnimatedHeading>
+            <h1>Works</h1>
+          </AnimatedHeading>
           <div className={styles.worksCategories}>
             <Row>
               {works_categories.map(({ name, order, src }, index) => (

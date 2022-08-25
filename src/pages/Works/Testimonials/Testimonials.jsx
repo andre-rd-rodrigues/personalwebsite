@@ -4,7 +4,13 @@ import React from "react";
 import Slider from "react-slick";
 import { testimonials_sider } from "utils/settings";
 import { Icon } from "@iconify/react";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import styles from "./testimonials.module.scss";
+import {
+  containerVariant,
+  fadeInVariant,
+  motion
+} from "assets/motion/motionVariants";
 
 const Testimonials = () => {
   const settings = {
@@ -35,14 +41,26 @@ const Testimonials = () => {
   );
 
   return (
-    <div className={styles.container}>
-      <h1>Sweet testimonials from warming people</h1>
-      <Slider {...settings}>
-        {testimonials.map((item) => (
-          <Testimonial {...item} />
-        ))}
-      </Slider>
-    </div>
+    <motion.div
+      variants={containerVariant}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      className={styles.container}
+    >
+      <motion.div variants={fadeInVariant}>
+        <AnimatedHeading>
+          <h1>Sweet testimonials from warming people</h1>
+        </AnimatedHeading>
+      </motion.div>
+      <motion.div variants={fadeInVariant}>
+        <Slider {...settings}>
+          {testimonials.map((item) => (
+            <Testimonial {...item} />
+          ))}
+        </Slider>
+      </motion.div>
+    </motion.div>
   );
 };
 

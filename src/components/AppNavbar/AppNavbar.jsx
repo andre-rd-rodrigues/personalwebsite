@@ -3,7 +3,9 @@ import React from "react";
 import { useState } from "react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import profile from "assets/images/profile.png";
 import styles from "./appnavbar.module.scss";
+import FeatherIcon from "feather-icons-react";
 
 const AppNavbar = () => {
   const [show, setShow] = useState(false);
@@ -12,7 +14,12 @@ const AppNavbar = () => {
     <Navbar expand="lg" fixed="top" className={styles.nav}>
       <Navbar.Brand as={Link} to="/">
         <div className={styles.logo}>
-          <div id="personal_picture" />
+          <div
+            id="personal_picture"
+            style={{
+              background: `url("${profile}") center center`,
+            }}
+          />
           <h1>AR</h1>
           <p>Web Developer</p>
         </div>
@@ -21,7 +28,8 @@ const AppNavbar = () => {
         aria-controls="offcanvas-container"
         onClick={() => setShow(true)}
       >
-        <AppIcon icon="menu" color="white" />
+        <AppIcon />
+        <FeatherIcon icon="menu" color="white" />
       </Navbar.Toggle>
       <Navbar.Offcanvas
         show={show}

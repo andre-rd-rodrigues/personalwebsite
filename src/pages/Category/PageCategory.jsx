@@ -6,6 +6,8 @@ import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import styles from "./category.module.scss";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import { motion } from "assets/motion/motionVariants";
 
 const PageCategory = () => {
   const [data, setData] = useState(undefined);
@@ -42,8 +44,27 @@ const PageCategory = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <header className={styles.header}>
-          <h1>{data?.title}</h1>
-          <p>{data?.description}</p>
+          <AnimatedHeading>
+            <h1>{data?.title}</h1>
+          </AnimatedHeading>
+          <motion.p
+            variants={{
+              hidden: {
+                opacity: 0
+              },
+              visible: {
+                opacity: 1,
+                transition: {
+                  duration: 1.2,
+                  delay: 1.3
+                }
+              }
+            }}
+            initial="hidden"
+            animate="visible"
+          >
+            {data?.description}
+          </motion.p>
         </header>
         <div className={styles.gridContainer}>
           {data?.projects.map(({ src, label, id, ref }) => (

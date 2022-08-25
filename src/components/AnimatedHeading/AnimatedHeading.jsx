@@ -1,6 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
 import {
+  motion,
   animatedHeadingChildren,
   animatedHeadingContainer
 } from "assets/motion/motionVariants";
@@ -11,9 +11,10 @@ const Wrapper = (props) => {
 };
 
 const AnimatedHeading = ({ children }) => {
-  console.log(children);
   const childrenWords = [];
   const childrenTag = children.type;
+
+  if (!children.props.children) return null;
 
   const wordsConverter = () => {
     const getWordsFromChildren = children.props.children.split(" ");

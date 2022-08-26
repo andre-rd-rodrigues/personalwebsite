@@ -34,15 +34,11 @@
 .about {
   text-align: end;
 }
-
-.profileImage {
-  width: 100%;
-  max-width: 500px;
-  height: 100%;
-  background: url("https://scontent.flis8-1.fna.fbcdn.net/v/t1.6435-9/83004576_2502375390091091_6509502809489014784_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=D7td7GZqf84AX9WkWU1&_nc_ht=scontent.flis8-1.fna&oh=00_AT8il_g1iNCsQMumDB_b9NXOmeN2Q2hL4farxK-SFPCeWA&oe=630E937B")
-    center center no-repeat;
-  background-size: cover;
-  margin: auto;
+.aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 //Education
@@ -72,5 +68,52 @@
         border-radius: 50%;
       }
     }
+  }
+}
+
+// Image
+.profileImage {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  background: url("https://scontent.flis8-1.fna.fbcdn.net/v/t1.6435-9/83004576_2502375390091091_6509502809489014784_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=D7td7GZqf84AX9WkWU1&_nc_ht=scontent.flis8-1.fna&oh=00_AT8il_g1iNCsQMumDB_b9NXOmeN2Q2hL4farxK-SFPCeWA&oe=630E937B")
+    center center no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+//Responsive
+@media only screen and (max-width: $breaking-point-md) {
+  .about {
+    text-align: start;
+  }
+  .aboutTextContainer {
+    align-items: flex-start;
+    order: 2;
+  }
+  .educationContainer {
+    //Dot
+    ul li::after {
+      position: absolute;
+      top: 10px;
+      left: -30px;
+      content: "";
+      background-color: white;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+  }
+  .profileImage {
+    min-width: 100%;
+    min-height: 300px;
+    background-position: 0 -20vw;
+  }
+
+  .profileImageContainer {
+    order: 1;
+
+    //Same value as .section
+    margin-bottom: 50px;
   }
 }

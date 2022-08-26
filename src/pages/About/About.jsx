@@ -25,7 +25,7 @@ const About = () => {
           className={`${styles.about} ${styles.section}`}
         >
           <Row>
-            <Col className="d-flex flex-column justify-content-center align-items-end">
+            <Col lg={6} md={6} sm={12} className={styles.aboutTextContainer}>
               <motion.h2 variants={fadeInVariant}>ABOUT ME</motion.h2>
               <motion.p variants={fadeInVariant}>
                 Since turning my passion into a career, I've been continuously
@@ -78,7 +78,7 @@ const About = () => {
                 </motion.ul>
               </div>
             </Col>
-            <Col>
+            <Col lg={6} md={6} sm={12} className={styles.profileImageContainer}>
               <motion.div
                 variants={{
                   hidden: {

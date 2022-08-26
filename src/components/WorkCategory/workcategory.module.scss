@@ -7,7 +7,6 @@
 }
 
 .text {
-  transform: translateY(-3.5vw);
   display: flex;
   align-items: baseline;
   margin-left: 8px;
@@ -27,7 +26,12 @@
 }
 
 //Responsive
-@media only screen and (max-width: 666px) {
+@media only screen and (min-width: $breaking-point-lg) {
+  .text {
+    transform: translateY(-40px);
+  }
+}
+@media only screen and (max-width: $breaking-point-md) {
   .text {
     transform: translateY(-20px);
   }

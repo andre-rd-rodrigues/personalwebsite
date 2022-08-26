@@ -4,6 +4,9 @@
   h1 {
     font-size: var(--fs-xxl);
     max-width: 80vw;
+    & span {
+      font-family: Italiana;
+    }
   }
 }
 

@@ -4,6 +4,7 @@ import {
   animatedHeadingChildren,
   animatedHeadingContainer
 } from "assets/motion/motionVariants";
+import { convertTextIntoWords } from "utils/global-utils";
 
 // Prevent wrapping of words
 const Wrapper = (props) => {
@@ -16,18 +17,7 @@ const AnimatedHeading = ({ children }) => {
 
   if (!children.props.children) return null;
 
-  const wordsConverter = () => {
-    const getWordsFromChildren = children.props.children.split(" ");
-
-    for (const [, item] of getWordsFromChildren.entries()) {
-      childrenWords.push(item.split(""));
-    }
-
-    childrenWords.map((word) => {
-      return word.push("\u00A0");
-    });
-  };
-  wordsConverter();
+  convertTextIntoWords(children.props.children, childrenWords);
 
   const CustomTag = ({ children, style, variants }) => {
     switch (childrenTag) {

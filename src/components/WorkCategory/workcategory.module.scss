@@ -7,7 +7,7 @@
 }
 
 .text {
-  transform: translateY(-45px);
+  transform: translateY(-3.5vw);
   display: flex;
   align-items: baseline;
   margin-left: 8px;
@@ -23,5 +23,12 @@
     font-size: var(--fs-l);
     margin-left: 10px;
     letter-spacing: 1.5px;
+  }
+}
+
+//Responsive
+@media only screen and (max-width: 666px) {
+  .text {
+    transform: translateY(-20px);
   }
 }

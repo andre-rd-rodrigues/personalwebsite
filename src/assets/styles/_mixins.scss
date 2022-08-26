@@ -63,6 +63,11 @@ $breaking-point-xs: 330px;
 @mixin page_container {
   padding: 200px var(--padding-y);
   min-height: 96.5vh;
+
+  //Responsive
+  @media only screen and (max-width: $breaking-point-md) {
+    padding: 130px var(--padding-y);
+  }
 }
 
 @mixin date_category_container {

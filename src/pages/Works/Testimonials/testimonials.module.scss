@@ -2,7 +2,11 @@
 
 .container {
   margin-top: 5vw;
+  h1 {
+    margin-bottom: 0 !important;
+  }
 }
+@include title_transparent;
 
 .dots {
   bottom: -50px;
@@ -43,13 +47,16 @@
   transform: translateX(-45px);
 }
 
-//Apply when supported
-@supports (-webkit-text-stroke: 1px white) {
-  .container {
-    h1 {
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: white;
-    }
+//Responsive
+
+@media only screen and (max-width: 466px) {
+  .testimonialContainer {
+    padding: 50px 0px;
+  }
+
+  .quotation {
+    color: $yellow;
+    font-size: var(--fs-xl-l);
+    transform: translateX(0px);
   }
 }

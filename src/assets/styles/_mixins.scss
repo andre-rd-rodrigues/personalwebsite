@@ -94,6 +94,18 @@ $breaking-point-xs: 330px;
   }
 }
 
+//Title
+@mixin title_transparent {
+  @supports (-webkit-text-stroke: 1px white) {
+    .container {
+      h1 {
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+      }
+    }
+  }
+}
 //Exports
 :export {
   dark: $dark;

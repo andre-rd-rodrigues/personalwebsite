@@ -91,8 +91,18 @@
   font-size: var(--fs-l);
 }
 
+//Responsive
 @media only screen and (max-height: 877px) {
   .gridContainer {
     padding: 40px 0;
+  }
+}
+@media only screen and (max-width: $breaking-point-sm) {
+  .header {
+    min-width: 350px;
+    margin-right: 40px;
+    & p {
+      text-align: justify;
+    }
   }
 }

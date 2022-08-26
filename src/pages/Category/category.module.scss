@@ -35,12 +35,12 @@
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(5, 200px);
-  grid-template-rows: 1fr repeat(1, minmax(0px, 300px));
+  grid-template-columns: repeat(7, 300px);
+  grid-template-rows: 1fr repeat(1, 1fr);
   grid-gap: 40px;
   grid-auto-flow: dense;
   padding: 100px 0;
-  :nth-child(5n + 1) {
+  :nth-child(3n + 1) {
     grid-column: span 2;
   }
 

@@ -10,4 +10,13 @@ const convertTextIntoWords = (text, words) => {
   });
 };
 
-export { convertTextIntoWords };
+const add_homepage_images = (empty_gallery) => {
+  for (let i = 1; i <= 11; i++) {
+    empty_gallery.push(`images/homepageGallery/${i}.png`);
+  }
+  for (let i = 1; i <= 11; i++) {
+    empty_gallery.push(`images/homepageGallery/${i}.png`);
+  }
+};
+
+export { convertTextIntoWords, add_homepage_images };

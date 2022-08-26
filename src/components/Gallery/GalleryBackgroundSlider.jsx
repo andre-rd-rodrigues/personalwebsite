@@ -9,7 +9,9 @@ const GalleryBackgroundSlider = ({ children, images }) => {
           {images.map((src, index) => (
             <div
               style={{
-                backgroundImage: `linear-gradient(#21212170, #21212170), url(${src})`
+                backgroundImage: `linear-gradient(#21212170, #21212170), url(${
+                  process.env.PUBLIC_URL + src
+                })`
               }}
             />
           ))}

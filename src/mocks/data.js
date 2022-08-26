@@ -1,4 +1,5 @@
 import uuid from "react-uuid";
+import { add_homepage_images } from "utils/global-utils";
 
 const social_media = [
   { label: "facebook", ref: "" },
@@ -16,17 +17,17 @@ const works_categories = [
   {
     name: "Websites",
     order: "01",
-    src: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+    src: process.env.PUBLIC_URL + "images/worksHomepage/websites.png"
   },
   {
     name: "Mobile",
     order: "02",
-    src: "https://images.unsplash.com/photo-1631115539462-61c21920cbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+    src: process.env.PUBLIC_URL + "images/worksHomepage/mobile.png"
   },
   {
     name: "Editorial",
     order: "03",
-    src: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2428&q=80"
+    src: process.env.PUBLIC_URL + "images/worksHomepage/editorial.png"
   }
 ];
 
@@ -43,45 +44,63 @@ const projects = {
   websites: [
     {
       id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
+      src: process.env.PUBLIC_URL + "/images/websites/itstudios.png",
+      label: "IT Studios",
+      ref: "https://itstudios.eu/"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/tic.png",
+      label: "Tic Tac Toe",
+      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/novawalks.jpg",
+      label: "Novawalks",
+      ref: "https://novawalks.vercel.app/"
     },
     {
       id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
+      src: process.env.PUBLIC_URL + "/images/websites/lotto.png",
       label: "Lotto Jade",
-      ref: "https://lottojade.com/"
+      ref: "https://lottojade.com"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/woode.png",
+      label: "Woode",
+      ref: "https://andre-rd-rodrigues.github.io/woode"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/chocolate.png",
+      label: "Chocolate d'Riviére",
+      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/memory.png",
+      label: "Memory Game",
+      ref: "https://andre-rd-rodrigues.github.io/memory-game/#/"
+    },
+
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/mannaggia.png",
+      label: "Mannagia",
+      ref: "https://houseofmannaggia.com/"
     },
     {
       id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
-    },
-    {
-      id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
-    },
-    {
-      id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
-    },
-    {
-      id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
-    },
-    {
-      id: uuid(),
-      src: "https://images.unsplash.com/photo-1498770981697-fe793a20cd3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com/"
+      src: process.env.PUBLIC_URL + "/images/websites/rima.png",
+      label: "RIMA",
+      ref: "https://www.rimarrabida.pt"
     }
   ]
 };
@@ -136,41 +155,8 @@ const testimonials = [
   }
 ];
 
-const homepage_gallery = [
-  "https://images.unsplash.com/photo-1637076717574-0b8661fe8f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1142&q=80",
-  "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1472157510410-64a053cbc39f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1627008767693-20498ff18ab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1621109246687-10ae613f2d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1571095490542-844ba2b703f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=794&q=80",
-  "https://images.unsplash.com/photo-1600075979337-7f0f5ea8f8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-  "https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1491595065476-b7e475407e20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
-  "https://images.unsplash.com/photo-1637076717574-0b8661fe8f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1142&q=80",
-  "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1472157510410-64a053cbc39f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1627008767693-20498ff18ab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1621109246687-10ae613f2d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1571095490542-844ba2b703f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=794&q=80",
-  "https://images.unsplash.com/photo-1600075979337-7f0f5ea8f8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-  "https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1491595065476-b7e475407e20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
-  "https://images.unsplash.com/photo-1637076717574-0b8661fe8f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1142&q=80",
-  "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-  "https://images.unsplash.com/photo-1472157510410-64a053cbc39f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1627008767693-20498ff18ab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-  "https://images.unsplash.com/photo-1621109246687-10ae613f2d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1571095490542-844ba2b703f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=794&q=80",
-  "https://images.unsplash.com/photo-1600075979337-7f0f5ea8f8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-  "https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-  "https://images.unsplash.com/photo-1491595065476-b7e475407e20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
-];
+const homepage_gallery = [];
+add_homepage_images(homepage_gallery);
 
 const blog = {
   //Catgories are displayed by this order

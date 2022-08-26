@@ -3,7 +3,6 @@ import React from "react";
 import { useState } from "react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import profile from "assets/images/profile.png";
 import styles from "./appnavbar.module.scss";
 import FeatherIcon from "feather-icons-react";
 
@@ -17,7 +16,9 @@ const AppNavbar = () => {
           <div
             id="personal_picture"
             style={{
-              background: `url("${profile}") center center`,
+              background: `url(${
+                process.env.PUBLIC_URL + "images/profile.png"
+              }) center center`
             }}
           />
           <h1>AR</h1>

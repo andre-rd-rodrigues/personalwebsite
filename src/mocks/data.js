@@ -109,15 +109,17 @@ const categories = {
   mobile: {
     id: uuid(),
     title: "Mobile",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto eum omnis quibusdam aut laboriosam. Reprehenderit nihil, omnis perferendis nam repudiandae architecto dolore mollitia at voluptatum, nesciunt assumenda ab praesentium labore vero cum laudantium a. Voluptas hic pariatur aliquam! Laborum, odit!",
+    description: `Introdução sobre mobile apps
+      - Vantagens de ter uma mobile app
+      - Sabia que a X aumentou as receitas para X depois da criação de uma aplicação`,
     projects: projects["mobile"]
   },
   websites: {
     id: uuid(),
     title: "Websites",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto eum omnis quibusdam aut laboriosam. Reprehenderit nihil, omnis perferendis nam repudiandae architecto dolore mollitia at voluptatum, nesciunt assumenda ab praesentium labore vero cum laudantium a. Voluptas hic pariatur aliquam! Laborum, odit!",
+    description: `O acesso à informação que a internet proporciona, levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento, possibilitando o acesso contínuo aos bens e serviços, aumentando substancialmente a visibilidade e as vendas.
+    Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. Ficou curioso(a)? Veja <link>aqui</link> alguns exemplos.`,
+
     projects: projects["websites"]
   }
 };
@@ -126,17 +128,17 @@ const testimonials = [
   {
     id: uuid(),
     review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+      "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo, como o resultado foram excelentes. Recomendo os seus serviços.",
     picture_path:
       "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
-    client_name: "Matthew Hamilton",
-    client_details: "CEO of Storm Troops",
-    project_link: "https://www.lottojade.com"
+    client_name: "Pedro Ferreira",
+    client_details: "CEO - Negócio local",
+    project_link: ""
   },
   {
     id: uuid(),
     review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+      "O trabalho desenvolvido pelo André, não podia ter ido mais de encontro ao que procurávamos. A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!",
     picture_path:
       "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80",
     client_name: "RIMA",
@@ -146,11 +148,11 @@ const testimonials = [
   {
     id: uuid(),
     review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque deserunt maiores repellendus incidunt suscipit alias facilis adipisci libero velit? Sed eius exercitationem repudiandae fugiat assumenda quo consequatur, obcaecati laudantium!",
+      "Os projetos do André apresentam um design moderno e minimalista, com atenção aos detalhes, personalizado à àrea de negócio e tendo em atenção a experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria.",
     picture_path:
       "https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=800",
-    client_name: "John Doe",
-    client_details: "Freelance artist",
+    client_name: "Rafael",
+    client_details: "Co-founder of IT Studios",
     project_link: ""
   }
 ];
@@ -256,6 +258,82 @@ const blog = {
   ]
 };
 
+const translator = {
+  language: "pt",
+  components: {
+    homepage: {
+      heading: {
+        pt: [""],
+        en: [""]
+      },
+      subtitle: {
+        pt: [""],
+        en: [""]
+      },
+      action_button: {
+        pt: [""],
+        en: [""]
+      }
+    },
+    about: {
+      heading: {
+        pt: [
+          "André Rodrigues é um programador criativo residente em Portugal."
+        ],
+        en: ["André Rodrigues is a creative web developer from Portugal"]
+      },
+      introduction: {
+        pt: [
+          "Desde que tornei a minha paixão numa carreira, estou continuamente a desenvolver e a entregar projetos há cerca de 4 anos. A minha atenção aos detalhes, visão criativa do mundo e natureza meticulosa são os principais contributos da minha identidade para o desenvolvimento e criação de soluções personalizadas ao projeto. Ao longo da minha carreira, desenvolvi soluções para diversos sectores, desde pequenos negócios a trabalhadores independentes dedico-me "
+        ],
+        en: [
+          " Since turning my passion into a career, I've been continuously creating and delivering projects for almost 4 years. My eye for detail, creative view of the world, and meticulous nature help me make a difference and deliver unique and personalized solutions. I've created and delivered solutions for various types of projects, from small businesses to independent workers, I'm here to help you bring your website vision to life so you can free up your time to do what you do best - running your awesome business, of course!",
+          "When I'm not busy making website dreams come true, you can find me relaxing at home in Lisbon, with my partner or unique friends, laughing with silly jokes, taking a walk, making something fun, or eating an amazing croissant accompained by jazz oldies."
+        ]
+      },
+
+      education_title: {
+        pt: ["Formação"],
+        en: ["Education"]
+      },
+      courses: {
+        pt: [
+          "Front-End Libraries Certification",
+          "Back-End Development and APIs Certification",
+          "Algorithms and Data Structures Certification",
+          "Responsive Web Design Certification",
+          "Design Thinking Certification",
+          "UX/UI Fundamentals Certification"
+        ]
+      }
+    },
+    testimonials: {
+      heading: {
+        pt: ["Testemunhos que nos enchem o coração"],
+        en: ["Sweet testimonials from warming people"]
+      },
+      question: {
+        pt: ["Gostaria de ver o seu feedback aqui?", "Vamos conversar"],
+        en: ["Would you like to be next?", "Let's talk!"]
+      }
+    },
+    work_category_page: {
+      heading: {
+        pt: [""],
+        en: [""]
+      },
+      description: {
+        pt: [""],
+        en: [""]
+      }
+    }
+  },
+
+  gettext(component, content) {
+    return translator.components[component][content][translator.language];
+  }
+};
+
 export {
   social_media,
   works_categories,
@@ -263,5 +341,6 @@ export {
   projects,
   testimonials,
   homepage_gallery,
-  blog
+  blog,
+  translator
 };

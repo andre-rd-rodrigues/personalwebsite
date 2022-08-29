@@ -24,7 +24,7 @@ const Homepage = () => {
             animate="visible"
           >
             <motion.p variants={fadeInVariant}>
-              Web developer passionate about minimal design and innovation
+              Programador web apaixonado por minimalismo e inovação
             </motion.p>
             <motion.div variants={fadeInVariant}>
               <AppLink to="/works" label="See Works" />

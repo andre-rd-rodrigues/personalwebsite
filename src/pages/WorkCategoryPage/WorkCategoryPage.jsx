@@ -9,7 +9,7 @@ import styles from "./category.module.scss";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { motion } from "assets/motion/motionVariants";
 
-const PageCategory = () => {
+const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
   const [forceUpdate, setForceUpdate] = useState(0);
@@ -88,4 +88,4 @@ const PageCategory = () => {
   );
 };
 
-export default PageCategory;
+export default WorkCategoryPage;

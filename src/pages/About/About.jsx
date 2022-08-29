@@ -8,14 +8,18 @@ import {
   fadeInVariant,
   aboutTextDelayVariant
 } from "assets/motion/motionVariants";
+import { translator } from "mocks/data";
 
 const About = () => {
+  //Test this awesome thing!
+  console.log(translator);
+
   return (
     <PageContainer>
       <div className={styles.container}>
         <AnimatedHeading>
           <h1>
-            André Rodrigues is a creative web developer based in Portugal.
+            André Rodrigues é um programador criativo residente em Portugal.
           </h1>
         </AnimatedHeading>
         <motion.div
@@ -28,6 +32,15 @@ const About = () => {
             <Col lg={6} md={6} sm={12} className={styles.aboutTextContainer}>
               <motion.h2 variants={fadeInVariant}>ABOUT ME</motion.h2>
               <motion.p variants={fadeInVariant}>
+                Desde que tornei a minha paixão numa carreira, estou
+                continuamente a desenvolver e a entregar projetos há cerca de 4
+                anos. A minha atenção aos detalhes, visão criativa do mundo e
+                natureza meticulosa são os principais contributos da minha
+                identidade para o desenvolvimento e criação de soluções
+                personalizadas ao projeto. Ao longo da minha carreira,
+                desenvolvi soluções para diversos sectores, desde pequenos
+                negócios a trabalhadores independentes dedico-me
+                {/* EN */}
                 Since turning my passion into a career, I've been continuously
                 creating and delivering projects for almost 4 years. My eye for
                 detail, creative view of the world, and meticulous nature help

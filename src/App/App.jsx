@@ -3,7 +3,7 @@ import Footer from "components/Footer/Footer";
 import { Works, Homepage } from "pages";
 import About from "pages/About/About";
 import BlogArticlePage from "pages/Blog/ArticlePage/BlogArticlePage";
-import PageCategory from "pages/Category/PageCategory";
+import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
 import Contact from "pages/Contact/Contact";
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -23,7 +23,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/works" element={<Works />} />
-          <Route path="/works/category" element={<PageCategory />} />
+          <Route path="/works/category" element={<WorkCategoryPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<BlogHomepage />} />

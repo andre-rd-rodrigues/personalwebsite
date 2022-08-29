@@ -50,7 +50,7 @@ const Testimonials = () => {
     >
       <motion.div variants={fadeInVariant}>
         <AnimatedHeading>
-          <h1>Sweet testimonials from warming people</h1>
+          <h1>Testemunhos que nos enchem o coração</h1>
         </AnimatedHeading>
       </motion.div>
       <motion.div variants={fadeInVariant}>
@@ -60,6 +60,8 @@ const Testimonials = () => {
           ))}
         </Slider>
       </motion.div>
+      <h1>Gostaria de ver o seu feedback aqui?</h1>
+      <p>Vamos conversar</p>
     </motion.div>
   );
 };

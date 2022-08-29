@@ -22,7 +22,7 @@ const AppNavbar = () => {
             }}
           />
           <h1>AR</h1>
-          <p>Web Developer</p>
+          <p>Programação</p>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle
@@ -42,11 +42,11 @@ const AppNavbar = () => {
         <Offcanvas.Header closeButton />
         <Offcanvas.Body>
           <Nav className={styles.offcanvasLinks}>
-            <Nav.Link href="/works">Works</Nav.Link>
+            <Nav.Link href="/works">Trabalhos</Nav.Link>
             <br />
             <Nav.Link href="/blog">Blog</Nav.Link> <br />
-            <Nav.Link href="/about">About</Nav.Link> <br />
-            <Nav.Link href="/contact">Contact</Nav.Link> <br />
+            <Nav.Link href="/about">Sobre</Nav.Link> <br />
+            <Nav.Link href="/contact">Contactos</Nav.Link> <br />
           </Nav>
         </Offcanvas.Body>
       </Navbar.Offcanvas>

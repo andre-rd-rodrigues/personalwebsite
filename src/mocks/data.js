@@ -117,8 +117,8 @@ const categories = {
   websites: {
     id: uuid(),
     title: "Websites",
-    description: `O acesso à informação que a internet proporciona, levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento, possibilitando o acesso contínuo aos bens e serviços, aumentando substancialmente a visibilidade e as vendas.
-    Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. Ficou curioso(a)? Veja <link>aqui</link> alguns exemplos.`,
+    description: `A Internet revolucionou a forma como as pessoas acedem à informação, bens e serviços. Esta revolução levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento. Isto possibilitou o acesso contínuo à informação e serviços, trazendo vantagem competitiva aos negócios com presença online comparativamente aos que não disponham da mesma visibilidade.
+    Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. Aqui podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira.`,
 
     projects: projects["websites"]
   }
@@ -128,32 +128,50 @@ const testimonials = [
   {
     id: uuid(),
     review:
-      "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo, como o resultado foram excelentes. Recomendo os seus serviços.",
+      "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo como o resultado, foram excelentes! Recomendo vivamente o seu trabalho.",
     picture_path:
-      "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+      "https://scontent-ams4-1.xx.fbcdn.net/v/t1.18169-9/18581536_1533796836662733_517004109599881743_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5HTOIfQAKWQAX80QnZM&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9NFKbSFeTKCmBzMqcJG9Ct-RASAgIl98vK1iik6tz-XA&oe=633094EF",
     client_name: "Pedro Ferreira",
-    client_details: "CEO - Negócio local",
-    project_link: ""
+    client_details: "Entrepreneur",
+    project_link: "https://www.instagram.com/p/CS7ZtNVDXr8/"
   },
   {
     id: uuid(),
     review:
       "O trabalho desenvolvido pelo André, não podia ter ido mais de encontro ao que procurávamos. A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!",
+    picture_path: "https://www.rimarrabida.pt/images/sofia.jpeg",
+    client_name: "Sofia Pimenta",
+    client_details: "Médica",
+    project_link: "https://www.rimarrabida.pt/"
+  },
+  {
+    id: uuid(),
+    review:
+      "Os projetos do André apresentam um design moderno e minimalista, com especial atenção à experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria.",
     picture_path:
-      "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80",
-    client_name: "RIMA",
-    client_details: "Reunião de Internos da Arrábida",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQFA9UbFjErWGw/profile-displayphoto-shrink_800_800/0/1517429134277?e=1667433600&v=beta&t=JbA8emFA4ZsORl1bWAjaFFbymZtS4t_gosOVO8tphwQ",
+    client_name: "Rafael Pereira",
+    client_details: "Software developer",
     project_link: ""
   },
   {
     id: uuid(),
     review:
-      "Os projetos do André apresentam um design moderno e minimalista, com atenção aos detalhes, personalizado à àrea de negócio e tendo em atenção a experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria.",
+      "Quero dar um agradecimento especial ao André pelo trabalho desenvolvido! Se tiverem oportunidade, visitem a sua página e vejam os seus trabalhos incríveis, valem muito a pena 💪",
+    client_name: "Doart",
+    client_details: "Artist/Musician",
     picture_path:
-      "https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=800",
-    client_name: "Rafael",
-    client_details: "Co-founder of IT Studios",
-    project_link: ""
+      "https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-1/251152789_235456278577046_5717205769368067528_n.jpg?stp=c0.0.480.480a_dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=c6021c&_nc_ohc=Opm0q1n2YtYAX8bFvhg&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9TDPGyfC2K37xVH6c7T2KZpZje0kmwY6sLIEfbmF1xQg&oe=63117B1A",
+    project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
+  },
+  {
+    id: uuid(),
+    review: "O André desenvolve um trabalho espectacular! É um grande talento.",
+    client_name: "Patrícia",
+    client_details: "Entrepreneur",
+    picture_path:
+      "https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/74209169_10218763178778128_3384977499661271040_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=VYMH9t9Q2ioAX9M6OHM&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9-umvVaNKzIicyayEOqVNfAY7G980WTH9ibQjdbB112w&oe=633360B4",
+    project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   }
 ];
 

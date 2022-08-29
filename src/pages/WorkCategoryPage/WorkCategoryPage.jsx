@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Icon } from "@iconify/react";
-import styles from "./category.module.scss";
+import styles from "./workcategorypage.module.scss";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { motion } from "assets/motion/motionVariants";
 

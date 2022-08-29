@@ -24,10 +24,10 @@ const Homepage = () => {
             animate="visible"
           >
             <motion.p variants={fadeInVariant}>
-              Programador web apaixonado por minimalismo e inovação
+              Produção de websites, apps e conteúdo digital
             </motion.p>
             <motion.div variants={fadeInVariant}>
-              <AppLink to="/works" label="See Works" />
+              <AppLink to="/works" label="portfolio" />
             </motion.div>
           </motion.div>
         </div>

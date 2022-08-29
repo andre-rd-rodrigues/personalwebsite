@@ -9,6 +9,8 @@ import {
   aboutTextDelayVariant
 } from "assets/motion/motionVariants";
 import { translator } from "mocks/data";
+import AppLink from "components/AppLink/AppLink";
+import { Link } from "react-router-dom";
 
 const About = () => {
   //Test this awesome thing!
@@ -18,9 +20,7 @@ const About = () => {
     <PageContainer>
       <div className={styles.container}>
         <AnimatedHeading>
-          <h1>
-            André Rodrigues é um programador criativo residente em Portugal.
-          </h1>
+          <h1>Aumenta a visibilidade do teu negócio.</h1>
         </AnimatedHeading>
         <motion.div
           variants={aboutTextDelayVariant}
@@ -30,40 +30,38 @@ const About = () => {
         >
           <Row>
             <Col lg={6} md={6} sm={12} className={styles.aboutTextContainer}>
-              <motion.h2 variants={fadeInVariant}>ABOUT ME</motion.h2>
+              <motion.h2 variants={fadeInVariant}>SOBRE MIM</motion.h2>
               <motion.p variants={fadeInVariant}>
-                Desde que tornei a minha paixão numa carreira, estou
-                continuamente a desenvolver e a entregar projetos há cerca de 4
-                anos. A minha atenção aos detalhes, visão criativa do mundo e
-                natureza meticulosa são os principais contributos da minha
-                identidade para o desenvolvimento e criação de soluções
-                personalizadas ao projeto. Ao longo da minha carreira,
-                desenvolvi soluções para diversos sectores, desde pequenos
-                negócios a trabalhadores independentes dedico-me
-                {/* EN */}
-                Since turning my passion into a career, I've been continuously
-                creating and delivering projects for almost 4 years. My eye for
-                detail, creative view of the world, and meticulous nature help
-                me make a difference and deliver unique and personalized
-                solutions. I've created and delivered solutions for various
-                types of projects, from small businesses to independent workers,
-                I'm here to help you bring your website vision to life so you
-                can free up your time to do what you do best - running your
-                awesome business, of course!
+                Desde o dia em que decidi tornar a minha paixão pela tecnologia
+                numa carreira profissional, dedico-me inteiramente ao
+                desenvolvimento de projetos digitais e à aquisição de novos
+                conhecimentos, de forma a acrescentar valor competitivo na
+                criação de soluções digitais. A minha atenção aos detalhes,
+                visão criativa do mundo e natureza meticulosa são os principais
+                contributos da minha identidade para o desenvolvimento e
+                implementação de soluções personalizadas. Ao longo da minha
+                carreira desenvolvi projetos para diversos sectores e dedico-me
+                essencialmente à criação de websites, apps e branding
                 <br />
                 <span></span>
-                When I'm not busy making website dreams come true, you can find
-                me relaxing at home in Lisbon, with my partner or unique
-                friends, laughing with silly jokes, taking a walk, making
-                something fun, or eating an amazing croissant accompained by
-                jazz oldies.
+                O meu objectivo primordial é de salientar a identidade e
+                aumentar a visibilidade da tua marca no mercado digital.
+                <br />
+                <Link to="">Clica aqui</Link> para explorar alguns dos projetos
+                que desenvolvi ao longo da minha carreira. Podes sempre visitar
+                a secção dos{" "}
+                <Link to="">
+                  <i>Comentários</i>
+                </Link>{" "}
+                e ler alguns testemunhos dos que vieram antes de ti 🎯
               </motion.p>
+
               <div className={styles.educationContainer}>
                 <motion.h2
                   variants={fadeInVariant}
                   style={{ marginTop: "30px" }}
                 >
-                  Education
+                  Formação
                 </motion.h2>
                 <motion.ul variants={fadeInVariant}>
                   <li>

@@ -13,7 +13,7 @@ const Works = () => {
       <div className={styles.container}>
         <div className={styles.works}>
           <AnimatedHeading>
-            <h1>Works</h1>
+            <h1>Trabalhos</h1>
           </AnimatedHeading>
           <div className={styles.worksCategories}>
             <Row>

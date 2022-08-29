@@ -50,7 +50,7 @@ const Testimonials = () => {
     >
       <motion.div variants={fadeInVariant}>
         <AnimatedHeading>
-          <h1>Testemunhos que nos enchem o coração</h1>
+          <h1>Testemunhos calorosos</h1>
         </AnimatedHeading>
       </motion.div>
       <motion.div variants={fadeInVariant}>

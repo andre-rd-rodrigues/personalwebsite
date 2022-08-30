@@ -11,6 +11,7 @@ import {
   fadeInVariant,
   motion
 } from "assets/motion/motionVariants";
+import AppLink from "components/AppLink/AppLink";
 
 const Testimonials = () => {
   const settings = {
@@ -60,8 +61,10 @@ const Testimonials = () => {
           ))}
         </Slider>
       </motion.div>
-      <h1>Gostaria de ver o seu feedback aqui?</h1>
-      <p>Vamos conversar</p>
+      <div className={styles.letsTalk}>
+        <h5>Gostaria de ver o seu feedback aqui?</h5>
+        <AppLink label="Vamos conversar" to="/contact" />
+      </div>
     </motion.div>
   );
 };

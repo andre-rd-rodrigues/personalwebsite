@@ -25,10 +25,7 @@ const Contact = () => {
           >
             <div>
               <AnimatedHeading>
-                <h1>Got a project?</h1>
-              </AnimatedHeading>
-              <AnimatedHeading>
-                <h1>Let's talk!</h1>
+                <h1>Tens um projecto?</h1>
               </AnimatedHeading>
             </div>
           </Col>
@@ -54,7 +51,7 @@ const Contact = () => {
                 }
               }}
             >
-              <h3>Start a conversation</h3>
+              <h3>Vamos conversar</h3>
               <a
                 id="contact_email"
                 href="mailto:andre.rodrigo@itstudios.eu"
@@ -88,7 +85,7 @@ const Contact = () => {
               }}
               className={styles.social}
             >
-              <h3>Lets' get social</h3>
+              <h3>Rede social</h3>
               <div>
                 <ul>
                   <li>

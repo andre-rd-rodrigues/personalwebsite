@@ -46,7 +46,10 @@
   font-size: var(--fs-xl-l);
   transform: translateX(-45px);
 }
-
+.letsTalk {
+  margin-top: 100px;
+  text-align: center;
+}
 //Responsive
 
 @media only screen and (max-width: 466px) {

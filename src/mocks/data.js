@@ -20,9 +20,9 @@ const works_categories = [
     src: process.env.PUBLIC_URL + "images/worksHomepage/websites.png"
   },
   {
-    name: "Mobile",
+    name: "Apps",
     order: "02",
-    src: process.env.PUBLIC_URL + "images/worksHomepage/mobile.png"
+    src: process.env.PUBLIC_URL + "images/worksHomepage/apps.png"
   },
   {
     name: "Editorial",
@@ -32,7 +32,7 @@ const works_categories = [
 ];
 
 const projects = {
-  mobile: [
+  apps: [
     {
       id: uuid(),
       src: "https://play-lh.googleusercontent.com/OWQjHDhk2-2p5x13JavznuZkfl7kYdhyIys3cdSY7x_FclawrwNUTqt0oSIutCdXIm8=w2560-h1440-rw",
@@ -106,13 +106,11 @@ const projects = {
 };
 
 const categories = {
-  mobile: {
+  apps: {
     id: uuid(),
-    title: "Mobile",
-    description: `Introdução sobre mobile apps
-      - Vantagens de ter uma mobile app
-      - Sabia que a X aumentou as receitas para X depois da criação de uma aplicação`,
-    projects: projects["mobile"]
+    title: "Apps",
+    description: `As aplicações de telemóvel permitem o acesso ao conteúdo de forma mais simples e rápida, resultando numa maior proximidade e envolvimento dos clientes com o teu negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play e a Apple Store, melhoras tanto a experiência do utilizador, como a qualidade do serviço, uma vez que permites ao utilizador descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo. Contruir uma app é cada vez mais fácil e pode revelar-se determinante para o sucesso do produto. Aqui podes encontrar algumas das apps que desenvolvi ao longo da minha carreira :)`,
+    projects: projects["apps"]
   },
   websites: {
     id: uuid(),

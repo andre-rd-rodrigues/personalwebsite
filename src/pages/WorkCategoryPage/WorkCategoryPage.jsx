@@ -17,7 +17,7 @@ const WorkCategoryPage = () => {
   const [searchParams] = useSearchParams();
   const categoryType = searchParams.get("type");
 
-  const categoryList = ["websites", "mobile", "editorial"];
+  const categoryList = ["websites", "apps", "editorial"];
 
   const getNextCategory = () => {
     const currentCategoryIndex = categoryList.indexOf(categoryType);

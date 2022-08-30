@@ -23,12 +23,12 @@ const works_categories = [
     name: "Apps",
     order: "02",
     src: process.env.PUBLIC_URL + "images/worksHomepage/apps.png"
-  },
-  {
+  }
+  /*  {
     name: "Editorial",
     order: "03",
     src: process.env.PUBLIC_URL + "images/worksHomepage/editorial.png"
-  }
+  } */
 ];
 
 const projects = {
@@ -149,7 +149,7 @@ const testimonials = [
   {
     id: uuid(),
     review:
-      "O trabalho desenvolvido pelo André, não podia ter ido mais de encontro ao que procurávamos. A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!",
+      "O trabalho desenvolvido pelo André superou as nossas expectativas! A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!",
     picture_path: "https://www.rimarrabida.pt/images/sofia.jpeg",
     client_name: "Sofia Pimenta",
     client_details: "Médica",

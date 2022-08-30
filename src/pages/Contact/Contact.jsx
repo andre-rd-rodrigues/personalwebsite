@@ -54,11 +54,11 @@ const Contact = () => {
               <h3>Vamos conversar</h3>
               <a
                 id="contact_email"
-                href="mailto:andre.rodrigo@itstudios.eu"
+                href="mailto:andrerodrigo.web@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                andre.rodrigo@itstudios.eu
+                andrerodrigo.web@gmail.com
               </a>
             </motion.div>
           </Col>

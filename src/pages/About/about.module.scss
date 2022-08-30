@@ -13,6 +13,7 @@
   margin: 50px 0;
   p {
     max-width: 600px;
+    text-align: justify;
   }
   h2 {
     margin-bottom: 30px;
@@ -30,22 +31,11 @@
   }
 }
 
-//About
-.about {
-  text-align: end;
-}
-.aboutTextContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 //Education
 .educationContainer {
   ul {
     list-style: none;
-    margin-right: 20px;
+
     li {
       margin: 20px 0;
       position: relative;
@@ -60,7 +50,7 @@
       &::after {
         position: absolute;
         top: 10px;
-        right: -20px;
+        left: -20px;
         content: "";
         background-color: white;
         width: 6px;

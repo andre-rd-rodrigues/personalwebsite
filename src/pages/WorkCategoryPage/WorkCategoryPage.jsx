@@ -8,32 +8,37 @@ import { Icon } from "@iconify/react";
 import styles from "./workcategorypage.module.scss";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { motion } from "assets/motion/motionVariants";
+import { useRef } from "react";
 
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
   const [forceUpdate, setForceUpdate] = useState(0);
-
   const [searchParams] = useSearchParams();
-  const categoryType = searchParams.get("type");
+  const containerRef = useRef();
 
-  const categoryList = ["websites", "apps", "editorial"];
-  console.log(data);
+  //Category
+  const categoryType = searchParams.get("type");
+  const categoryList = ["websites", "apps"];
+
   const getNextCategory = () => {
     const currentCategoryIndex = categoryList.indexOf(categoryType);
 
-    if (currentCategoryIndex === 2) {
+    if (currentCategoryIndex === 1) {
       return setNextCategory(categoryList[0]);
     }
     setNextCategory(categoryList[currentCategoryIndex + 1]);
   };
 
+  //Lifecycle
   useEffect(() => {
     if (categoryType) {
       setData(categories_data[categoryType]);
-    }
-  }, []);
 
+      //Scroll left
+      containerRef.current.scrollLeft = -200;
+    }
+  }, [categoryType]);
   useEffect(() => {
     if (categoryList) {
       getNextCategory();
@@ -41,7 +46,7 @@ const WorkCategoryPage = () => {
   }, [categoryList]);
 
   return (
-    <div className={styles.container}>
+    <div ref={containerRef} className={styles.container}>
       <div className={styles.wrapper}>
         <header className={styles.header}>
           <AnimatedHeading>

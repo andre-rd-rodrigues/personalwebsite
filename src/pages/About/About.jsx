@@ -8,14 +8,11 @@ import {
   fadeInVariant,
   aboutTextDelayVariant
 } from "assets/motion/motionVariants";
-import { translator } from "mocks/data";
-import AppLink from "components/AppLink/AppLink";
+import { HashLink } from "react-router-hash-link";
+
 import { Link } from "react-router-dom";
 
 const About = () => {
-  //Test this awesome thing!
-  console.log(translator);
-
   return (
     <PageContainer>
       <div className={styles.container}>
@@ -47,12 +44,12 @@ const About = () => {
                 O meu objectivo primordial é de salientar a identidade e
                 aumentar a visibilidade da tua marca no mercado digital.
                 <br />
-                <Link to="">Clica aqui</Link> para explorar alguns dos projetos
-                que desenvolvi ao longo da minha carreira. Podes sempre visitar
-                a secção dos{" "}
-                <Link to="">
+                <Link to="/works/category?type=websites">Clica aqui</Link> para
+                explorar alguns dos projetos que desenvolvi ao longo da minha
+                carreira. Podes sempre visitar a secção dos{" "}
+                <HashLink to="/works#testimonials">
                   <i>Comentários</i>
-                </Link>{" "}
+                </HashLink>{" "}
                 e ler alguns testemunhos dos que vieram antes de ti 🎯
               </motion.p>
 

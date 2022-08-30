@@ -54,7 +54,7 @@
 //Offcanvas
 .offcanvasLinks {
   transform: translateY(30px);
-
+  margin-left: 40px;
   a {
     @include hover_underline($white);
   }

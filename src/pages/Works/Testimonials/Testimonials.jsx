@@ -26,7 +26,7 @@ const Testimonials = () => {
     review,
     project_link
   }) => (
-    <div className={styles.testimonialContainer}>
+    <div id="testimonials" className={styles.testimonialContainer}>
       <a href={project_link} rel="noreferrer" target="_blank">
         <Icon icon="ri:double-quotes-l" className={styles.quotation} />
         <p className={styles.testimonialReview}>{review}</p>

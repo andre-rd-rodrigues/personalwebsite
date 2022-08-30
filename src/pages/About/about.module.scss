@@ -10,10 +10,9 @@
 @include title_transparent;
 
 .section {
-  margin: 50px 0;
+  margin: 60px 0;
   p {
     max-width: 600px;
-    text-align: justify;
   }
   h2 {
     margin-bottom: 30px;
@@ -31,20 +30,28 @@
   }
 }
 
+//About
+.aboutTextContainer {
+  a {
+    text-decoration: dotted;
+    text-decoration-color: rgba(255, 255, 255, 0.747);
+    text-decoration-line: underline;
+    transition: 0.3s ease;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+
 //Education
 .educationContainer {
+  margin-top: 50px;
   ul {
     list-style: none;
 
     li {
       margin: 20px 0;
       position: relative;
-
-      a:hover {
-        text-decoration: dotted;
-        text-decoration-color: rgba(255, 255, 255, 0.747);
-        text-decoration-line: underline;
-      }
 
       //Dot
       &::after {
@@ -58,6 +65,9 @@
         border-radius: 50%;
       }
     }
+  }
+  a {
+    color: inherit;
   }
 }
 

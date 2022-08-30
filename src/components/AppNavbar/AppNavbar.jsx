@@ -17,7 +17,7 @@ const AppNavbar = () => {
             id="personal_picture"
             style={{
               background: `url(${
-                process.env.PUBLIC_URL + "images/profile.png"
+                process.env.PUBLIC_URL + "/images/profile.png"
               }) center center`
             }}
           />
@@ -44,7 +44,7 @@ const AppNavbar = () => {
           <Nav className={styles.offcanvasLinks}>
             <Nav.Link href="/works">Trabalhos</Nav.Link>
             <br />
-            <Nav.Link href="/blog">Blog</Nav.Link> <br />
+            {/*  <Nav.Link href="/blog">Blog</Nav.Link> <br /> */}
             <Nav.Link href="/about">Sobre</Nav.Link> <br />
             <Nav.Link href="/contact">Contactos</Nav.Link> <br />
           </Nav>

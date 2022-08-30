@@ -35,22 +35,21 @@ const projects = {
   apps: [
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/apps/coolmind.png",
-      label: "Coolmind",
-      ref: ""
-    },
-    {
-      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/apps/giggle.png",
       label: "Giggle!",
       ref: "https://play.google.com/store/apps/details?id=com.itstudios.giggle&hl=pt_PT&gl=US"
     },
-
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/apps/randombox.png",
-      label: "Random Box",
-      ref: ""
+      label: "Random Box - Coming soon",
+      ref: null
+    },
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/apps/coolmind.png",
+      label: "Coolmind - Coming soon",
+      ref: null
     }
   ],
 

@@ -63,7 +63,7 @@ $breaking-point-xs: 330px;
 
 //page
 @mixin page_container {
-  padding: 200px var(--padding-y);
+  padding: 160px var(--padding-y);
   min-height: 96.5vh;
 
   //Responsive

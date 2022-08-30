@@ -18,7 +18,7 @@ const WorkCategoryPage = () => {
   const categoryType = searchParams.get("type");
 
   const categoryList = ["websites", "apps", "editorial"];
-
+  console.log(data);
   const getNextCategory = () => {
     const currentCategoryIndex = categoryList.indexOf(categoryType);
 
@@ -66,7 +66,15 @@ const WorkCategoryPage = () => {
             {data?.description}
           </motion.p>
         </header>
-        <div className={styles.gridContainer}>
+        <div
+          className={styles.gridContainer}
+          style={{
+            gridTemplateColumns:
+              data?.projects.length > 7
+                ? "repeat(7, 300px)"
+                : "repeat(3, 250px)"
+          }}
+        >
           {data?.projects.map(({ src, label, id, ref }) => (
             <ProjectDisplay href={ref} src={src} label={label} key={id} />
           ))}

@@ -17,12 +17,12 @@ const works_categories = [
   {
     name: "Websites",
     order: "01",
-    src: process.env.PUBLIC_URL + "images/worksHomepage/websites.png"
+    src: process.env.PUBLIC_URL + "/images/worksHomepage/websites.png"
   },
   {
     name: "Apps",
     order: "02",
-    src: process.env.PUBLIC_URL + "images/worksHomepage/apps.png"
+    src: process.env.PUBLIC_URL + "/images/worksHomepage/apps.png"
   }
   /*  {
     name: "Editorial",

@@ -1,9 +1,15 @@
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import React from "react";
 import styles from "./gallery.module.scss";
 
 const GalleryBackgroundSlider = ({ children, images }) => {
   return (
-    <div className={styles.layer}>
+    <motion.div
+      variants={fadeInVariant}
+      initial="hidden"
+      animate="visible"
+      className={styles.layer}
+    >
       <div className={styles.container}>
         <div className={styles.background}>
           {images.map((src, index) => (
@@ -18,7 +24,7 @@ const GalleryBackgroundSlider = ({ children, images }) => {
         </div>
         <div className={styles.content}>{children}</div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

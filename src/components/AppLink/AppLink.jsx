@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./applink.module.scss";
 
-const AppLink = ({ label, to }) => {
+const AppLink = ({ label, to, scrollTop }) => {
   const getStyle = () => {
     if (label.toLowerCase() === "read now")
       return `${styles.appLink} ${styles.readNow}`;
@@ -11,7 +11,11 @@ const AppLink = ({ label, to }) => {
   };
 
   return (
-    <Link className={getStyle()} to={to}>
+    <Link
+      className={getStyle()}
+      to={to}
+      onClick={() => (scrollTop ? window.scrollTo(0, 0) : null)}
+    >
       {label}
     </Link>
   );

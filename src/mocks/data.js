@@ -162,7 +162,7 @@ const testimonials = [
       "https://media-exp1.licdn.com/dms/image/C4E03AQFA9UbFjErWGw/profile-displayphoto-shrink_800_800/0/1517429134277?e=1667433600&v=beta&t=JbA8emFA4ZsORl1bWAjaFFbymZtS4t_gosOVO8tphwQ",
     client_name: "Rafael Pereira",
     client_details: "Software developer",
-    project_link: ""
+    project_link: "https://www.itstudios.eu"
   },
   {
     id: uuid(),

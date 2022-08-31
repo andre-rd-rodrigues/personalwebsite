@@ -9,6 +9,7 @@ import {
   fadeInVariant,
   homepageDelayVariant
 } from "assets/motion/motionVariants";
+import { useEffect } from "react";
 
 const Homepage = () => {
   return (
@@ -27,7 +28,7 @@ const Homepage = () => {
               Produção de websites, apps e conteúdo digital
             </motion.p>
             <motion.div variants={fadeInVariant}>
-              <AppLink to="/works" label="portfolio" />
+              <AppLink to="/works" label="portfolio" scrollTop />
             </motion.div>
           </motion.div>
         </div>

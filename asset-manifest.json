@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.7f94e8fc.css",
+    "main.js": "/personalwebsite/static/js/main.3f668549.js",
+    "static/media/profile.png": "/personalwebsite/static/media/profile.6a93d5f676b23d9da2e9.png",
+    "static/media/rozha-one-regular.ttf": "/personalwebsite/static/media/rozha-one-regular.98d9f0edc7a836748ddb.ttf",
+    "static/media/blacker-sans.light.ttf": "/personalwebsite/static/media/blacker-sans.light.9d29226925500a80dc05.ttf",
+    "static/media/moniqa-italic.ttf": "/personalwebsite/static/media/moniqa-italic.6d759ee15a25bc5cea8e.ttf",
+    "static/media/moniqa.ttf": "/personalwebsite/static/media/moniqa.d683c02e133cf99e1d35.ttf",
+    "static/media/italiana.ttf": "/personalwebsite/static/media/italiana.41ce2d6fb8cd3d167ec9.ttf",
+    "static/media/slick.svg": "/personalwebsite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/personalwebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/personalwebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/personalwebsite/index.html",
+    "static/media/slick.woff": "/personalwebsite/static/media/slick.295183786cd8a1389865.woff",
+    "main.7f94e8fc.css.map": "/personalwebsite/static/css/main.7f94e8fc.css.map",
+    "main.3f668549.js.map": "/personalwebsite/static/js/main.3f668549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f94e8fc.css",
+    "static/js/main.3f668549.js"
+  ]
+}

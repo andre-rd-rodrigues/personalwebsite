@@ -1,5 +1,10 @@
 {
   "name": "personal-website",
+  "homepage": "https://andre-rd-rodrigues.github.io/personalwebsite/",
+  "author": {
+    "name": "Andre Rodrigues",
+    "url": "https://andre-rd-rodrigues.github.io/portfolio"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -13,14 +13,7 @@ const AppNavbar = () => {
     <Navbar expand="lg" fixed="top" className={styles.nav}>
       <Navbar.Brand as={Link} to="/">
         <div className={styles.logo}>
-          <div
-            id="personal_picture"
-            style={{
-              background: `url(${
-                process.env.PUBLIC_URL + "/images/profile.png"
-              }) center center`
-            }}
-          />
+          <div id="personal_picture" />
           <h1>AR</h1>
           <p>Programação</p>
         </div>

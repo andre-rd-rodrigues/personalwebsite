@@ -62,7 +62,7 @@ const Testimonials = () => {
         </Slider>
       </motion.div>
       <div className={styles.letsTalk}>
-        <h5>Gostaria de ver o seu feedback aqui?</h5>
+        <h5>O teu pode ser o próximo :)</h5>
         <AppLink label="Vamos conversar" to="/contact" />
       </div>
     </motion.div>

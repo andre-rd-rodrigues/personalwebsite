@@ -38,7 +38,7 @@ const About = () => {
                 contributos da minha identidade para o desenvolvimento e
                 implementação de soluções personalizadas. Ao longo da minha
                 carreira desenvolvi projetos para diversos sectores e dedico-me
-                essencialmente à criação de websites, apps e branding
+                essencialmente à criação de <b>websites, apps e branding</b>.
                 <br />
                 <span></span>
                 O meu objectivo primordial é de salientar a identidade e
@@ -50,7 +50,7 @@ const About = () => {
                 <HashLink to="/works#testimonials">
                   <i>Comentários</i>
                 </HashLink>{" "}
-                e ler alguns testemunhos dos que vieram antes de ti 🎯
+                e ler alguns testemunhos daqueles que vieram antes de ti! 🎯
               </motion.p>
 
               <div className={styles.educationContainer}>

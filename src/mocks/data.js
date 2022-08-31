@@ -121,7 +121,7 @@ const categories = {
   apps: {
     id: uuid(),
     title: "Apps",
-    description: `As aplicações de telemóvel permitem o acesso ao conteúdo de forma mais simples e rápida, resultando numa maior proximidade e envolvimento dos clientes com o teu negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play e a Apple Store, melhoras tanto a experiência do utilizador, como a qualidade do serviço, uma vez que permites ao utilizador descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo. Contruir uma app é cada vez mais fácil e pode revelar-se determinante para o sucesso do produto. Aqui podes encontrar algumas das apps que desenvolvi ao longo da minha carreira :)`,
+    description: `As aplicações de telemóvel permitem um acesso mais rápido e fácil ao produto, resultando numa maior proximidade e envolvimento dos clientes com o negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play ou a Apple Store, o utilizador pode descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo, melhorando a experiência e a qualidade do serviço. Criar uma app é cada vez mais fácil e pode revelar-se determinante para o sucesso de certas empresas. Aqui podes encontrar algumas das apps que desenvolvi ao longo da minha carreira :)`,
     projects: projects["apps"]
   },
   websites: {

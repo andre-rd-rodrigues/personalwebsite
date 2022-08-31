@@ -17,12 +17,12 @@ const works_categories = [
   {
     name: "Websites",
     order: "01",
-    src: process.env.PUBLIC_URL + "/images/worksHomepage/websites.png"
+    src: process.env.PUBLIC_URL + "/images/worksHomepage/websites.jpg"
   },
   {
     name: "Apps",
     order: "02",
-    src: process.env.PUBLIC_URL + "/images/worksHomepage/apps.png"
+    src: process.env.PUBLIC_URL + "/images/worksHomepage/apps.jpg"
   }
   /*  {
     name: "Editorial",
@@ -56,14 +56,14 @@ const projects = {
   websites: [
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/itstudios.png",
+      src: process.env.PUBLIC_URL + "/images/websites/itstudios.jpg",
       label: "IT Studios",
       ref: "https://itstudios.eu/"
     },
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/tic.png",
+      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
       label: "Tic Tac Toe",
       ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
     },
@@ -76,41 +76,41 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/lotto.png",
+      src: process.env.PUBLIC_URL + "/images/websites/lotto.jpg",
       label: "Lotto Jade",
       ref: "https://lottojade.com"
     },
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/woode.png",
+      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
       label: "Woode",
       ref: "https://andre-rd-rodrigues.github.io/woode"
     },
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/chocolate.png",
+      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
       label: "Chocolate d'Riviére",
       ref: "https://andre-rd-rodrigues.github.io/chocolatriviere"
     },
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/memory.png",
+      src: process.env.PUBLIC_URL + "/images/websites/memory.jpg",
       label: "Memory Game",
       ref: "https://andre-rd-rodrigues.github.io/memory-game/#/"
     },
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/mannaggia.png",
+      src: process.env.PUBLIC_URL + "/images/websites/mannaggia.jpg",
       label: "Mannagia",
       ref: "https://houseofmannaggia.com/"
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/rima.png",
+      src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
       label: "RIMA",
       ref: "https://www.rimarrabida.pt"
     }

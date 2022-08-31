@@ -12,11 +12,9 @@ const convertTextIntoWords = (text, words) => {
 
 const add_homepage_images = (empty_gallery) => {
   for (let i = 1; i <= 11; i++) {
-    empty_gallery.push(`/images/homepageGallery/${i}.png`);
+    empty_gallery.push(`/images/homepageGallery/${i}.jpg`);
   }
-  for (let i = 1; i <= 11; i++) {
-    empty_gallery.push(`/images/homepageGallery/${i}.png`);
-  }
+  empty_gallery.push(`/images/homepageGallery/2.jpg`);
 };
 
 export { convertTextIntoWords, add_homepage_images };

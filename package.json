@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "homepage": "https://andre-rd-rodrigues.github.io/personalwebsite/",
+  "homepage": "https://www.andrerodrigo.com",
   "author": {
     "name": "Andre Rodrigues",
     "url": "https://andre-rd-rodrigues.github.io/portfolio"
@@ -37,8 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b prod -d build",
+    "ghpages": "gh-pages -b gh-pages -d build",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"
   },

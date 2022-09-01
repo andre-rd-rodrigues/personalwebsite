@@ -16,7 +16,7 @@ const Homepage = () => {
     <div className={styles.homepage}>
       <GalleryBackgroundSlider images={homepage_gallery}>
         <div className={styles.title}>
-          <AnimatedHeading>
+          <AnimatedHeading centerOnSmallScreens>
             <h1>André Rodrigues</h1>
           </AnimatedHeading>
           <motion.div

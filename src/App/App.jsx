@@ -17,6 +17,7 @@ const App = () => {
 
   const isBlogPage = /blog|article/.test(location.pathname);
 
+  //Lifecycle
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);

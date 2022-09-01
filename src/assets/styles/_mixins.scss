@@ -12,7 +12,8 @@ $breaking-point-xl: 1200px;
 $breaking-point-lg: 992px;
 $breaking-point-md: 768px;
 $breaking-point-sm: 576px;
-$breaking-point-xs: 330px;
+$breaking-point-xs: 380px;
+$breaking-point-xxs: 330px;
 
 //Shapes
 @mixin button($color) {
@@ -63,8 +64,8 @@ $breaking-point-xs: 330px;
 
 //page
 @mixin page_container {
-  padding: 160px var(--padding-y);
-  min-height: 96.5vh;
+  padding: 160px var(--padding-y) 100px;
+  min-height: 85vh;
 
   //Responsive
   @media only screen and (max-width: $breaking-point-md) {

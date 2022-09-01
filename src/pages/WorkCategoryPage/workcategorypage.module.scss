@@ -7,18 +7,20 @@
   background-color: $dark;
   color: $white;
   padding-top: 50px;
+  min-height: 10vh !important;
 }
 .wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 0 var(--padding-y);
-  min-height: 100vh;
+  min-height: 90vh;
 }
-
 .header {
   position: relative;
+  overflow-y: hidden;
   min-width: 500px;
+  min-height: 100vh;
   margin-right: 300px;
   display: flex;
   flex-direction: column;
@@ -36,6 +38,7 @@
   }
 }
 
+//Gallery
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(7, 300px);
@@ -51,18 +54,20 @@
     grid-column: span 2;
   }
 }
+
+//Scroll
 .swipe {
+  position: absolute;
   display: none;
   transform: rotate(-90deg);
   width: 300px;
-  position: absolute;
   bottom: -60px;
   right: 0px;
 }
 
 //Next
 .nextCategoryContainer {
-  padding: 0 50px 0 300px;
+  padding: 0 50px 0 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -110,9 +115,11 @@
 @media only screen and (max-width: $breaking-point-sm) {
   .swipe {
     display: block;
+    bottom: -125px;
   }
   .header {
-    min-width: 400px;
+    min-width: 350px;
+    min-height: 80vh;
     margin-right: 40px;
     justify-content: flex-start;
     margin-top: 90px;
@@ -124,12 +131,32 @@
     padding-left: 0px;
   }
 }
-
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: $breaking-point-xs) {
+  .swipe {
+    display: block;
+    bottom: -125px;
+  }
   .header {
     min-width: 350px;
+    min-height: 90vh;
+    margin-right: 40px;
+    justify-content: flex-start;
+    margin-top: 90px;
+    & p {
+      text-align: start;
+    }
+  }
+  .nextCategoryContainer {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: $breaking-point-xxs) {
+  .header {
+    min-width: 280px;
+    min-height: 125vh;
   }
   .swipe {
     bottom: -130px;
+    right: -50px;
   }
 }

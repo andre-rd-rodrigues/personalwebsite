@@ -24,7 +24,7 @@ const Contact = () => {
             lg={spacing.title}
           >
             <div>
-              <AnimatedHeading className={styles.title}>
+              <AnimatedHeading centerOnSmallScreens>
                 <h1>Tens um projecto?</h1>
               </AnimatedHeading>
             </div>

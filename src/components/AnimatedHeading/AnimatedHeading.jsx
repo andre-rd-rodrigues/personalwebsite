@@ -12,7 +12,7 @@ const Wrapper = (props) => {
   return <span style={{ whiteSpace: "nowrap" }}>{props.children}</span>;
 };
 
-const AnimatedHeading = ({ children, className }) => {
+const AnimatedHeading = ({ children, className, centerOnSmallScreens }) => {
   const childrenWords = [];
   const childrenTag = children.type;
 
@@ -48,13 +48,16 @@ const AnimatedHeading = ({ children, className }) => {
         );
     }
   };
-
+  const centerOnSmallScreensStyle = {
+    justifyContent: centerOnSmallScreens ? "center" : null
+  };
   return (
     <motion.div
       initial="hidden"
       animate="visible"
       variants={animatedHeadingContainer}
       className={`${styles.container} ${className}`}
+      style={centerOnSmallScreensStyle}
     >
       {childrenWords.map((word, index) => {
         return (

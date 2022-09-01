@@ -1,5 +1,5 @@
-import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import React from "react";
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import styles from "./gallery.module.scss";
 
 const GalleryBackgroundSlider = ({ children, images }) => {

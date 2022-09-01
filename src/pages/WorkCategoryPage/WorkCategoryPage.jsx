@@ -1,15 +1,15 @@
-import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
-import { categories as categories_data } from "mocks/data";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
-import { Icon } from "@iconify/react";
-import styles from "./workcategorypage.module.scss";
-import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import { motion } from "assets/motion/motionVariants";
 import { useRef } from "react";
+import { Icon } from "@iconify/react";
 import swipe from "assets/animation/swipe.gif";
+import { motion } from "assets/motion/motionVariants";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
+import { categories as categories_data } from "mocks/data";
+import { Link, useSearchParams } from "react-router-dom";
+import styles from "./workcategorypage.module.scss";
 
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);

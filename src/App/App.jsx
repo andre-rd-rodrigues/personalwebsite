@@ -1,16 +1,16 @@
+import React from "react";
+import { useEffect } from "react";
 import Navbar from "components/AppNavbar/AppNavbar";
+import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 import Footer from "components/Footer/Footer";
 import { Works, Homepage } from "pages";
 import About from "pages/About/About";
 import BlogArticlePage from "pages/Blog/ArticlePage/BlogArticlePage";
-import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
-import Contact from "pages/Contact/Contact";
-import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
 import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
-import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
-import { useEffect } from "react";
+import Contact from "pages/Contact/Contact";
+import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 const App = () => {
   const location = useLocation();

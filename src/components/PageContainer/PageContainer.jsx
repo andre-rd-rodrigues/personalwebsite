@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./pagecontainer.module.scss";
+import { containerVariant } from "assets/motion/motionVariants";
 import colors from "assets/styles/_mixins.scss";
 import { motion } from "framer-motion";
-import { containerVariant } from "assets/motion/motionVariants";
+import styles from "./pagecontainer.module.scss";
 
 const PageContainer = ({
   children,

@@ -1,5 +1,5 @@
-import ImageZoomEffect from "components/ImageZoomEffect/ImageZoomEffect";
 import React from "react";
+import ImageZoomEffect from "components/ImageZoomEffect/ImageZoomEffect";
 import { Link } from "react-router-dom";
 import styles from "./workcategory.module.scss";
 

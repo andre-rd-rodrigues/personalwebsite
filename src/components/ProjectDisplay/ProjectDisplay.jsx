@@ -1,5 +1,5 @@
-import ImageZoomEffect from "components/ImageZoomEffect/ImageZoomEffect";
 import React from "react";
+import ImageZoomEffect from "components/ImageZoomEffect/ImageZoomEffect";
 import styles from "./projectdisplay.module.scss";
 
 const ProjectDisplay = ({ src, label, href }) => {

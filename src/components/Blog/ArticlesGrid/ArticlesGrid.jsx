@@ -1,14 +1,14 @@
-import AppButton from "components/AppButton/AppButton";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import ArticlePreviewBlock from "../ArticlePreviewBlock/ArticlePreviewBlock";
-import styles from "./articlesgrid.module.scss";
 import {
   containerVariant,
   fadeInVariant,
   motion
 } from "assets/motion/motionVariants";
+import AppButton from "components/AppButton/AppButton";
+import ArticlePreviewBlock from "../ArticlePreviewBlock/ArticlePreviewBlock";
+import styles from "./articlesgrid.module.scss";
 
 const ArticlesGrid = ({ articles }) => {
   const [pagination, setPagination] = useState({

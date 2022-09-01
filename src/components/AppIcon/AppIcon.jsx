@@ -1,6 +1,6 @@
 import React from "react";
-import FeatherIcon from "feather-icons-react";
 import colors from "assets/styles/_mixins.scss";
+import FeatherIcon from "feather-icons-react";
 
 const AppIcon = ({ icon, size = 20, color = "primary", onClick, href }) => {
   return (
@@ -9,8 +9,11 @@ const AppIcon = ({ icon, size = 20, color = "primary", onClick, href }) => {
         cursor: onClick || href ? "pointer" : "",
         display: onClick || href ? "inline" : "block"
       }}
+      tabIndex="0"
+      onKeyPress={onClick}
       onClick={onClick}
       id="app-icon"
+      role="button"
     >
       {href ? (
         <a href={href} target="_blank" rel="noreferrer">

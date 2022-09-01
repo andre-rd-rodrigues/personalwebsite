@@ -1,15 +1,15 @@
 import React from "react";
-import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import AppLink from "components/AppLink/AppLink";
-import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider";
-import { homepage_gallery } from "mocks/data";
-import { motion } from "framer-motion";
-import styles from "./homepage.module.scss";
+import { useEffect } from "react";
 import {
   fadeInVariant,
   homepageDelayVariant
 } from "assets/motion/motionVariants";
-import { useEffect } from "react";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import AppLink from "components/AppLink/AppLink";
+import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider";
+import { motion } from "framer-motion";
+import { homepage_gallery } from "mocks/data";
+import styles from "./homepage.module.scss";
 
 const Homepage = () => {
   return (

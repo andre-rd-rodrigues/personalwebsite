@@ -1,17 +1,17 @@
-import Avatar from "components/Avatar/Avatar";
-import { testimonials } from "mocks/data";
 import React from "react";
-import Slider from "react-slick";
-import { testimonials_sider } from "utils/settings";
 import { Icon } from "@iconify/react";
-import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import styles from "./testimonials.module.scss";
 import {
   containerVariant,
   fadeInVariant,
   motion
 } from "assets/motion/motionVariants";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import AppLink from "components/AppLink/AppLink";
+import Avatar from "components/Avatar/Avatar";
+import { testimonials } from "mocks/data";
+import Slider from "react-slick";
+import { testimonials_sider } from "utils/settings";
+import styles from "./testimonials.module.scss";
 
 const Testimonials = () => {
   const settings = {
@@ -56,8 +56,8 @@ const Testimonials = () => {
       </motion.div>
       <motion.div variants={fadeInVariant}>
         <Slider {...settings}>
-          {testimonials.map((item) => (
-            <Testimonial {...item} />
+          {testimonials.map((item, index) => (
+            <Testimonial key={index} {...item} />
           ))}
         </Slider>
       </motion.div>

@@ -1,8 +1,8 @@
+import React from "react";
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import AppImage from "components/AppImage/AppImage";
 import AppLink from "components/AppLink/AppLink";
-import React from "react";
 import { Link } from "react-router-dom";
-import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import styles from "./articlepreviewblock.module.scss";
 
 const ArticlePreviewBlock = ({ article }) => {

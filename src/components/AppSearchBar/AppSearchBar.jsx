@@ -1,6 +1,6 @@
-import AppIcon from "components/AppIcon/AppIcon";
 import React from "react";
 import { useState } from "react";
+import AppIcon from "components/AppIcon/AppIcon";
 import styles from "./appsearchbar.module.scss";
 
 const AppSearchBar = ({ onSearch }) => {

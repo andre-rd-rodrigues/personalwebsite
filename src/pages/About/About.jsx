@@ -1,16 +1,16 @@
-import PageContainer from "components/PageContainer/PageContainer";
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import { motion } from "framer-motion";
-import styles from "./about.module.scss";
 import {
   fadeInVariant,
   aboutTextDelayVariant
 } from "assets/motion/motionVariants";
-import { HashLink } from "react-router-hash-link";
-
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import PageContainer from "components/PageContainer/PageContainer";
+import { motion } from "framer-motion";
+import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import styles from "./about.module.scss";
+
 
 const About = () => {
   return (

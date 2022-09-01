@@ -1,7 +1,7 @@
+import React from "react";
 import AppIcon from "components/AppIcon/AppIcon";
 import AppSearchBar from "components/AppSearchBar/AppSearchBar";
 import { blog } from "mocks/data";
-import React from "react";
 import { push as Menu } from "react-burger-menu";
 import {
   Link,

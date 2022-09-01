@@ -1,8 +1,8 @@
+import React from "react";
+import { useEffect, useState } from "react";
 import Icon from "components/AppIcon/AppIcon";
 import Image from "components/AppImage/AppImage";
 import PageContainer from "components/PageContainer/PageContainer";
-import React from "react";
-import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { getArticleById } from "utils/blog-utils";
 import styles from "./blogarticlepage.module.scss";

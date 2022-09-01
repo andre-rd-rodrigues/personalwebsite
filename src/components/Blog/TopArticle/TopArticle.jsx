@@ -1,6 +1,6 @@
+import React from "react";
 import AppImage from "components/AppImage/AppImage";
 import AppLink from "components/AppLink/AppLink";
-import React from "react";
 import styles from "./toparticle.module.scss";
 
 const TopArticle = ({ article }) => {

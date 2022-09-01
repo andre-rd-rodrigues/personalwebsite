@@ -1,15 +1,15 @@
-import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import ArticlesGrid from "components/Blog/ArticlesGrid/ArticlesGrid";
-import TopArticle from "components/Blog/TopArticle/TopArticle";
-import PageContainer from "components/PageContainer/PageContainer";
-import { blog } from "mocks/data";
 import React from "react";
-import styles from "./bloghomepage.module.scss";
 import {
   blogHomepageDelayVariant,
   fadeInVariant,
   motion
 } from "assets/motion/motionVariants";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import ArticlesGrid from "components/Blog/ArticlesGrid/ArticlesGrid";
+import TopArticle from "components/Blog/TopArticle/TopArticle";
+import PageContainer from "components/PageContainer/PageContainer";
+import { blog } from "mocks/data";
+import styles from "./bloghomepage.module.scss";
 
 function BlogHomepage() {
   return (

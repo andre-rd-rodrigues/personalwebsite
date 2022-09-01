@@ -1,10 +1,10 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 import { Icon } from "@iconify/react";
-import styles from "./contact.module.scss";
-import PageContainer from "components/PageContainer/PageContainer";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import PageContainer from "components/PageContainer/PageContainer";
 import { motion } from "framer-motion";
+import { Col, Row } from "react-bootstrap";
+import styles from "./contact.module.scss";
 
 const Contact = () => {
   const spacing = {
@@ -113,7 +113,11 @@ const Contact = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100009559637125"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <Icon
                         icon="akar-icons:facebook-fill"
                         className={styles.social_icon}

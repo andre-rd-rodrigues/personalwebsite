@@ -1,8 +1,8 @@
-import ArticlesGrid from "components/Blog/ArticlesGrid/ArticlesGrid";
-import PageContainer from "components/PageContainer/PageContainer";
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import ArticlesGrid from "components/Blog/ArticlesGrid/ArticlesGrid";
+import PageContainer from "components/PageContainer/PageContainer";
 import { useSearchParams } from "react-router-dom";
 import { getSearchedPost } from "utils/blog-utils";
 import styles from "./blogresultspage.module.scss";

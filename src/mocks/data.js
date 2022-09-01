@@ -63,11 +63,10 @@ const projects = {
 
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
-      label: "Tic Tac Toe",
-      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
+      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
+      label: "Chocolate d'Riviére",
+      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere"
     },
-
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/novawalks.jpg",
@@ -80,19 +79,17 @@ const projects = {
       label: "Lotto Jade",
       ref: "https://lottojade.com"
     },
-
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
-      label: "Woode",
-      ref: "https://andre-rd-rodrigues.github.io/woode"
+      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
+      label: "Tic Tac Toe",
+      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
     },
-
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
-      label: "Chocolate d'Riviére",
-      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere"
+      src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
+      label: "RIMA",
+      ref: "https://www.rimarrabida.pt"
     },
 
     {
@@ -110,9 +107,9 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
-      label: "RIMA",
-      ref: "https://www.rimarrabida.pt"
+      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
+      label: "Woode",
+      ref: "https://andre-rd-rodrigues.github.io/woode"
     }
   ]
 };
@@ -121,14 +118,14 @@ const categories = {
   apps: {
     id: uuid(),
     title: "Apps",
-    description: `As aplicações de telemóvel permitem um acesso mais rápido e fácil ao produto, resultando numa maior proximidade e envolvimento dos clientes com o negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play ou a Apple Store, o utilizador pode descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo, melhorando a experiência e a qualidade do serviço. Criar uma app é cada vez mais fácil e pode revelar-se determinante para o sucesso de certas empresas. Aqui podes encontrar algumas das apps que desenvolvi ao longo da minha carreira.`,
+    description: `As aplicações de telemóvel permitem um acesso mais rápido e fácil ao produto, resultando numa maior proximidade e envolvimento dos clientes com o negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play ou a Apple Store, o utilizador pode descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo, melhorando a experiência e a qualidade do serviço. Criar uma app é cada vez mais fácil e pode revelar-se determinante para o sucesso de certas empresas. À tua direita encontrar algumas das apps que desenvolvi ao longo da minha carreira.`,
     projects: projects["apps"]
   },
   websites: {
     id: uuid(),
     title: "Websites",
     description: `A Internet revolucionou a forma como as pessoas acedem à informação, bens e serviços. Esta revolução levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento. Isto possibilitou o acesso contínuo à informação e serviços, trazendo vantagem competitiva aos negócios com presença online comparativamente aos que não disponham da mesma visibilidade.
-    Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. Aqui podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira.`,
+    Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. À tua direita podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira.`,
 
     projects: projects["websites"]
   }

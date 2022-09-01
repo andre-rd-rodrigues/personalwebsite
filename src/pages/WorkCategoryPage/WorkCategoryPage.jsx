@@ -9,6 +9,7 @@ import styles from "./workcategorypage.module.scss";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { motion } from "assets/motion/motionVariants";
 import { useRef } from "react";
+import swipe from "assets/animation/swipe.gif";
 
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
@@ -70,6 +71,7 @@ const WorkCategoryPage = () => {
           >
             {data?.description}
           </motion.p>
+          <img className={styles.swipe} src={swipe} alt="Swipe left" />
         </header>
         <div
           className={styles.gridContainer}

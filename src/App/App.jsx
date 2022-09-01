@@ -10,11 +10,16 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
+import { useEffect } from "react";
 
 const App = () => {
   const location = useLocation();
 
   const isBlogPage = /blog|article/.test(location.pathname);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div id="outer-container">

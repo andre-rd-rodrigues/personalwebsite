@@ -8,7 +8,7 @@
     font-size: var(--fs-xxl);
   }
   h3 {
-    font-size: 13px;
+    font-size: var(--fs-s);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1.4px;
@@ -28,6 +28,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
   }
   ul li {
     list-style: none;
@@ -59,5 +60,16 @@
 
   .col {
     margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: $breaking-point-sm) {
+  .container {
+    h1 {
+      font-size: 3.7rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
   }
 }

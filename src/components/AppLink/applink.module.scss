@@ -5,6 +5,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   color: white;
+  font-weight: 400;
   @include hover_underline($white);
   &:hover {
     letter-spacing: 6px;

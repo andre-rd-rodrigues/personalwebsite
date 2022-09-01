@@ -28,11 +28,13 @@
   text-align: justify;
   @include hover_scale(1.05, 0.3s);
 }
+
 .testimonialClientContainer {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   text-align: end;
+
   div {
     margin-left: 30px;
     p {
@@ -50,11 +52,12 @@
   margin-top: 100px;
   text-align: center;
 }
-//Responsive
 
+//Responsive
 @media only screen and (max-width: 466px) {
   .testimonialContainer {
-    padding: 50px 0px;
+    padding: 50px 15px !important;
+    text-align: left !important;
   }
 
   .quotation {

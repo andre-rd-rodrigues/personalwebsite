@@ -30,7 +30,8 @@
     "react-slick": "^0.29.0",
     "react-uuid": "^1.0.2",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,7 +40,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b prod -d build",
-    "ghpages": "gh-pages -b gh-pages -d build",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"
   },

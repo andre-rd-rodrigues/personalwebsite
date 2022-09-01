@@ -17,6 +17,7 @@
 }
 
 .header {
+  position: relative;
   min-width: 550px;
   margin-right: 300px;
   display: flex;
@@ -49,6 +50,14 @@
   :nth-child(3) {
     grid-column: span 2;
   }
+}
+.swipe {
+  position: absolute;
+  display: none;
+  transform: rotate(-90deg);
+  width: 300px;
+  bottom: 70px;
+  right: -110px;
 }
 
 //Next
@@ -100,11 +109,19 @@
   }
 }
 @media only screen and (max-width: $breaking-point-sm) {
+  .swipe {
+    display: block;
+  }
   .header {
     min-width: 350px;
     margin-right: 40px;
+    justify-content: flex-start;
+    margin-top: 90px;
     & p {
-      text-align: justify;
+      text-align: start;
     }
+  }
+  .nextCategoryContainer {
+    padding-left: 0px;
   }
 }

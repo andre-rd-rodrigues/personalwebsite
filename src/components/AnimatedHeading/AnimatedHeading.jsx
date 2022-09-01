@@ -5,13 +5,14 @@ import {
   animatedHeadingContainer
 } from "assets/motion/motionVariants";
 import { convertTextIntoWords } from "utils/global-utils";
+import styles from "./animatedheading.module.scss";
 
 // Prevent wrapping of words
 const Wrapper = (props) => {
   return <span style={{ whiteSpace: "nowrap" }}>{props.children}</span>;
 };
 
-const AnimatedHeading = ({ children }) => {
+const AnimatedHeading = ({ children, className }) => {
   const childrenWords = [];
   const childrenTag = children.type;
 
@@ -53,6 +54,7 @@ const AnimatedHeading = ({ children }) => {
       initial="hidden"
       animate="visible"
       variants={animatedHeadingContainer}
+      className={`${styles.container} ${className}`}
     >
       {childrenWords.map((word, index) => {
         return (

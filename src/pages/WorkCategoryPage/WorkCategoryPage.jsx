@@ -70,8 +70,8 @@ const WorkCategoryPage = () => {
             animate="visible"
           >
             {data?.description}
+            <img className={styles.swipe} src={swipe} alt="Swipe left" />
           </motion.p>
-          <img className={styles.swipe} src={swipe} alt="Swipe left" />
         </header>
         <div
           className={styles.gridContainer}

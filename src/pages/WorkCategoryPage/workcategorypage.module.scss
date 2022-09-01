@@ -18,7 +18,7 @@
 
 .header {
   position: relative;
-  min-width: 550px;
+  min-width: 500px;
   margin-right: 300px;
   display: flex;
   flex-direction: column;
@@ -52,19 +52,18 @@
   }
 }
 .swipe {
-  position: absolute;
   display: none;
   transform: rotate(-90deg);
   width: 300px;
-  bottom: 70px;
-  right: -110px;
+  position: absolute;
+  bottom: -60px;
+  right: 0px;
 }
 
 //Next
 .nextCategoryContainer {
   padding: 0 50px 0 300px;
   display: flex;
-
   justify-content: center;
   flex-direction: column;
 
@@ -113,7 +112,7 @@
     display: block;
   }
   .header {
-    min-width: 350px;
+    min-width: 400px;
     margin-right: 40px;
     justify-content: flex-start;
     margin-top: 90px;
@@ -123,5 +122,14 @@
   }
   .nextCategoryContainer {
     padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .header {
+    min-width: 350px;
+  }
+  .swipe {
+    bottom: -130px;
   }
 }

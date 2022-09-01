@@ -1,0 +1,28 @@
+name: Unit Testing
+on: [push]
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests 🧪
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm ci
+      - run: npm test
+
+  run-eslint:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install npm 🔧
+        run: npm ci
+      - name: Run ESLint 🔮
+        run: npm run lint
+      - run: npm run lint -- --fix

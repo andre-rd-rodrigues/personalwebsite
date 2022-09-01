@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.2918e8eb.css",
-    "main.js": "/static/js/main.83d65ee1.js",
+    "main.css": "/static/css/main.9018f89d.css",
+    "main.js": "/static/js/main.26608c5c.js",
     "static/media/profile.png": "/static/media/profile.6a93d5f676b23d9da2e9.png",
+    "static/media/swipe.gif": "/static/media/swipe.c53509d99c61672ff223.gif",
     "static/media/rozha-one-regular.woff2": "/static/media/rozha-one-regular.48932e08df015e3899ec.woff2",
     "static/media/blacker-sans.light.woff2": "/static/media/blacker-sans.light.b6698ff8d48826ba8b3b.woff2",
     "static/media/moniqa-italic.woff2": "/static/media/moniqa-italic.abcff3844afe9e8fb412.woff2",
@@ -12,13 +13,13 @@
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.2918e8eb.css.map": "/static/css/main.2918e8eb.css.map",
-    "main.83d65ee1.js.map": "/static/js/main.83d65ee1.js.map"
+    "index.html": "/index.html",
+    "main.9018f89d.css.map": "/static/css/main.9018f89d.css.map",
+    "main.26608c5c.js.map": "/static/js/main.26608c5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2918e8eb.css",
-    "static/js/main.83d65ee1.js"
+    "static/css/main.9018f89d.css",
+    "static/js/main.26608c5c.js"
   ]
 }

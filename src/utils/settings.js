@@ -1,15 +1,12 @@
 const testimonials_sider = {
+  speed: 11000,
+  autoplay: true,
+  autoplaySpeed: 0,
+  cssEase: "linear",
   className: "center",
   infinite: true,
-  speed: 1000,
-  slidesToScroll: 1,
   arrows: false,
-  autoplay: true,
-  autoplaySpeed: 6000,
-  dots: true,
-  draggable: true,
-  easing: "ease-out",
-  pauseOnHover: true,
+  dots: false,
   responsive: [
     {
       breakpoint: 3000,
@@ -18,13 +15,13 @@ const testimonials_sider = {
       }
     },
     {
-      breakpoint: 1600,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2
       }
     },
     {
-      breakpoint: 1200,
+      breakpoint: 900,
       settings: {
         slidesToShow: 1
       }

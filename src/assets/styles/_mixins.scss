@@ -65,7 +65,7 @@ $breaking-point-xxs: 330px;
 //page
 @mixin page_container {
   padding: 160px var(--padding-y) 100px;
-  min-height: 85vh;
+  min-height: 95vh;
 
   //Responsive
   @media only screen and (max-width: $breaking-point-md) {

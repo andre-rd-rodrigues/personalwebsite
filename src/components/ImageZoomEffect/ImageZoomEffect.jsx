@@ -13,7 +13,9 @@ const ImageZoomEffect = ({
   return (
     <div
       style={{ ...style, height, width, maxHeight }}
-      className={`${window.innerWidth >= 576 ? styles.wrapper : null}`}
+      className={`${
+        window.innerWidth >= 576 ? styles.wrapper : styles.wrapperMobile
+      }`}
     >
       <div
         className={`${styles.image} ${overlay && styles.overlay}`}

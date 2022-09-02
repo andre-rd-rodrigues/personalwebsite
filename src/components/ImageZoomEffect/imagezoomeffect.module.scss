@@ -43,11 +43,14 @@
   transition: 0.4s ease;
   opacity: 0;
 }
-
+.wrapperMobile {
+  display: flex;
+  align-items: center;
+}
 //Responsive
 @media only screen and (max-width: $breaking-point-sm) {
   .image {
-    height: 75%;
+    height: 55%;
     &:hover {
       transform: none;
     }

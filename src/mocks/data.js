@@ -60,12 +60,11 @@ const projects = {
       label: "IT Studios",
       ref: "https://itstudios.eu/"
     },
-
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
-      label: "Chocolate d'Riviére",
-      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere"
+      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
+      label: "Tic Tac Toe",
+      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
     },
     {
       id: uuid(),
@@ -81,10 +80,11 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
-      label: "Tic Tac Toe",
-      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
+      src: process.env.PUBLIC_URL + "/images/websites/portfolio.jpg",
+      label: "Portfolio",
+      ref: "https://andre-rd-rodrigues.github.io/portfolio"
     },
+
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",

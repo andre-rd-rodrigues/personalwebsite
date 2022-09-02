@@ -21,7 +21,6 @@ const WorkCategoryPage = () => {
   //Category
   const categoryType = searchParams.get("type");
   const categoryList = ["websites", "apps"];
-
   const getNextCategory = () => {
     const currentCategoryIndex = categoryList.indexOf(categoryType);
 
@@ -37,7 +36,6 @@ const WorkCategoryPage = () => {
       ? styles.mobileGridContainer
       : styles.gridContainer;
   };
-
   const getGridColumns = (projectsLength) => {
     const gridColumns = {
       gridTemplateColumns: null
@@ -45,11 +43,7 @@ const WorkCategoryPage = () => {
 
     //Mobile
     if (window.innerWidth <= 567) {
-      if (projectsLength >= 7) {
-        gridColumns.gridTemplateColumns = "repeat(5, 300px)";
-      } else {
-        gridColumns.gridTemplateColumns = "repeat(3, 350px)";
-      }
+      gridColumns.gridTemplateColumns = `repeat(${projectsLength}, 300px)`;
     } else {
       //Desktop
       if (projectsLength >= 7) {

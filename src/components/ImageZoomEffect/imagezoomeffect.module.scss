@@ -47,6 +47,7 @@
 //Responsive
 @media only screen and (max-width: $breaking-point-sm) {
   .image {
+    height: 75%;
     &:hover {
       transform: none;
     }

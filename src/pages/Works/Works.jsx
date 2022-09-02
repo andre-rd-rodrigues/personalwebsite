@@ -18,7 +18,7 @@ const Works = () => {
           <div className={styles.worksCategories}>
             <Row>
               {works_categories.map(({ name, order, src }, index) => (
-                <Col lg={4} md={12} sm={12} key={index}>
+                <Col lg={4} md={4} sm={12} key={index}>
                   <WorkCategory name={name} order={order} src={src} />
                 </Col>
               ))}

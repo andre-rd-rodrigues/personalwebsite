@@ -28,7 +28,7 @@ const Homepage = () => {
               Produção de websites, apps e conteúdo digital
             </motion.p>
             <motion.div variants={fadeInVariant}>
-              <AppLink to="/works" label="portfolio" scrollTop />
+              <AppLink to="/contact" label="contacto" scrollTop />
             </motion.div>
           </motion.div>
         </div>

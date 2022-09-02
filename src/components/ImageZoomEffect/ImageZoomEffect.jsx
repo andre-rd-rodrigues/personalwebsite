@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./imagezoomeffect.module.scss";
-import variables from "assets/styles/_mixins.scss";
 
 const ImageZoomEffect = ({
   src,
@@ -14,11 +13,7 @@ const ImageZoomEffect = ({
   return (
     <div
       style={{ ...style, height, width, maxHeight }}
-      className={`${
-        window.innerWidth > variables.mobile_breaking_point
-          ? styles.wrapper
-          : null
-      }`}
+      className={`${window.innerWidth >= 576 ? styles.wrapper : null}`}
     >
       <div
         className={`${styles.image} ${overlay && styles.overlay}`}

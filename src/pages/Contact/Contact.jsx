@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <PageContainer>
+    <PageContainer className={styles.pageContainer}>
       <div className={styles.container}>
         <Row>
           <Col

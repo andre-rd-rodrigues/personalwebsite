@@ -1,8 +1,9 @@
 @import "assets/styles/mixins";
 
-.container {
+.pageContainer {
   display: flex;
-  align-items: center;
+}
+.container {
   h1 {
     font-size: var(--fs-xxl);
   }

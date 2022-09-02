@@ -12,7 +12,7 @@ const containerVariant = {
   }
 };
 
-// Delay
+// Homepage
 const homepageDelayVariant = {
   hidden: {
     opacity: 0
@@ -39,6 +39,21 @@ const containerDelayVariant = {
   }
 };
 
+//Work page
+const workPageHeaderContent = {
+  hidden: {
+    opacity: 0
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1.3
+    }
+  }
+};
+
+//About
 const aboutTextDelayVariant = {
   hidden: {
     opacity: 0
@@ -51,6 +66,8 @@ const aboutTextDelayVariant = {
     }
   }
 };
+
+//Blog
 const blogHomepageDelayVariant = {
   hidden: {
     opacity: 0
@@ -111,5 +128,6 @@ export {
   aboutTextDelayVariant,
   blogHomepageDelayVariant,
   motion,
-  homepageDelayVariant
+  homepageDelayVariant,
+  workPageHeaderContent
 };

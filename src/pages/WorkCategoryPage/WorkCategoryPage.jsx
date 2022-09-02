@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRef } from "react";
 import { Icon } from "@iconify/react";
 import swipe from "assets/animation/swipe.gif";
-import { motion } from "assets/motion/motionVariants";
+import { motion, workPageHeaderContent } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
 import { categories as categories_data } from "mocks/data";
@@ -84,24 +84,20 @@ const WorkCategoryPage = () => {
             <h1>{data?.title}</h1>
           </AnimatedHeading>
           <motion.p
-            variants={{
-              hidden: {
-                opacity: 0
-              },
-              visible: {
-                opacity: 1,
-                transition: {
-                  duration: 1.2,
-                  delay: 1.3
-                }
-              }
-            }}
+            variants={workPageHeaderContent}
             initial="hidden"
             animate="visible"
           >
             {data?.description}
           </motion.p>
-          <img className={styles.swipe} src={swipe} alt="Swipe left" />
+          <motion.img
+            variants={workPageHeaderContent}
+            initial="hidden"
+            animate="visible"
+            className={styles.swipe}
+            src={swipe}
+            alt="Swipe left"
+          />
         </header>
         <div
           className={getGridClassName()}

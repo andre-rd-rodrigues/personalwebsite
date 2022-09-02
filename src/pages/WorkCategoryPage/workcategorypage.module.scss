@@ -18,7 +18,7 @@
 }
 .header {
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
   min-width: 500px;
   min-height: 100vh;
   margin-right: 300px;
@@ -41,7 +41,6 @@
 //Gallery
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(7, 300px);
   grid-template-rows: 1fr repeat(1, 1fr);
   grid-gap: 40px;
   grid-auto-flow: dense;
@@ -49,9 +48,17 @@
   :nth-child(3n + 1) {
     grid-column: span 2;
   }
-
   :nth-child(3) {
     grid-column: span 2;
+  }
+}
+.mobileGridContainer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  padding: 100px 0;
+  & div:last-child {
+    justify-self: flex-start;
   }
 }
 
@@ -61,8 +68,8 @@
   display: none;
   transform: rotate(-90deg);
   width: 300px;
-  bottom: -60px;
-  right: 0px;
+  bottom: -110px;
+  right: -100px;
 }
 
 //Next
@@ -107,15 +114,11 @@
 }
 
 //Responsive
-@media only screen and (max-height: 877px) {
-  .gridContainer {
-    padding: 40px 0;
-  }
-}
+
+//576px
 @media only screen and (max-width: $breaking-point-sm) {
   .swipe {
     display: block;
-    bottom: -125px;
   }
   .header {
     min-width: 350px;
@@ -131,32 +134,30 @@
     padding-left: 0px;
   }
 }
+
+//iPhone 8
 @media only screen and (max-width: $breaking-point-xs) {
   .swipe {
     display: block;
-    bottom: -125px;
   }
   .header {
     min-width: 350px;
-    min-height: 90vh;
+    min-height: 88vh;
     margin-right: 40px;
     justify-content: flex-start;
     margin-top: 90px;
-    & p {
-      text-align: start;
-    }
   }
   .nextCategoryContainer {
     padding-left: 0px;
   }
 }
+
 @media only screen and (max-width: $breaking-point-xxs) {
   .header {
     min-width: 280px;
     min-height: 125vh;
-  }
-  .swipe {
-    bottom: -130px;
-    right: -50px;
+    & p {
+      text-align: start;
+    }
   }
 }

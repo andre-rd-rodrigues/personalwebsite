@@ -31,6 +31,36 @@ const WorkCategoryPage = () => {
     setNextCategory(categoryList[currentCategoryIndex + 1]);
   };
 
+  //Grid
+  const getGridClassName = () => {
+    return window.innerWidth <= 567
+      ? styles.mobileGridContainer
+      : styles.gridContainer;
+  };
+
+  const getGridColumns = (projectsLength) => {
+    const gridColumns = {
+      gridTemplateColumns: null
+    };
+
+    //Mobile
+    if (window.innerWidth <= 567) {
+      if (projectsLength >= 7) {
+        gridColumns.gridTemplateColumns = "repeat(5, 300px)";
+      } else {
+        gridColumns.gridTemplateColumns = "repeat(3, 350px)";
+      }
+    } else {
+      //Desktop
+      if (projectsLength >= 7) {
+        gridColumns.gridTemplateColumns = "repeat(7, 300px)";
+      } else {
+        gridColumns.gridTemplateColumns = "repeat(3, 250px)";
+      }
+    }
+    return gridColumns;
+  };
+
   //Lifecycle
   useEffect(() => {
     if (categoryType) {
@@ -74,13 +104,8 @@ const WorkCategoryPage = () => {
           <img className={styles.swipe} src={swipe} alt="Swipe left" />
         </header>
         <div
-          className={styles.gridContainer}
-          style={{
-            gridTemplateColumns:
-              data?.projects.length > 7
-                ? "repeat(7, 300px)"
-                : "repeat(3, 250px)"
-          }}
+          className={getGridClassName()}
+          style={getGridColumns(data?.projects.length)}
         >
           {data?.projects.map(({ src, label, id, ref }) => (
             <ProjectDisplay href={ref} src={src} label={label} key={id} />

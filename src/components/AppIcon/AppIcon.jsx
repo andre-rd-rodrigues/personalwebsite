@@ -12,7 +12,7 @@ const AppIcon = ({ icon, size = 20, color = "primary", onClick, href }) => {
       tabIndex="0"
       onKeyPress={onClick}
       onClick={onClick}
-      id="app-icon"
+      className="app-icon"
       role="button"
     >
       {href ? (

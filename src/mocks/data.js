@@ -62,16 +62,17 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/tic.jpg",
-      label: "Tic Tac Toe",
-      ref: "https://andre-rd-rodrigues.github.io/tictactoe/"
+      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
+      label: "Chocolate riviere",
+      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere/"
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/novawalks.jpg",
-      label: "Novawalks",
-      ref: "https://novawalks.vercel.app/"
+      src: process.env.PUBLIC_URL + "/images/websites/arquitech.jpg",
+      label: "Mannagia",
+      ref: "https://andre-rd-rodrigues.github.io/architech"
     },
+
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/lotto.jpg",
@@ -84,7 +85,12 @@ const projects = {
       label: "Portfolio",
       ref: "https://andre-rd-rodrigues.github.io/portfolio"
     },
-
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
+      label: "Woode",
+      ref: "https://andre-rd-rodrigues.github.io/woodework"
+    },
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
@@ -98,18 +104,11 @@ const projects = {
       label: "Memory Game",
       ref: "https://andre-rd-rodrigues.github.io/memory-game/#/"
     },
-
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/mannaggia.jpg",
-      label: "Mannagia",
-      ref: "https://houseofmannaggia.com/"
-    },
-    {
-      id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
-      label: "Woode",
-      ref: "https://andre-rd-rodrigues.github.io/woode"
+      src: process.env.PUBLIC_URL + "/images/websites/novawalks.jpg",
+      label: "Novawalks",
+      ref: "https://novawalks.vercel.app/"
     }
   ]
 };

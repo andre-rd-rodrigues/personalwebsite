@@ -134,8 +134,7 @@ const testimonials = [
     id: uuid(),
     review:
       "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo como o resultado, foram excelentes! Recomendo vivamente o seu trabalho.",
-    picture_path:
-      "https://scontent-ams4-1.xx.fbcdn.net/v/t1.18169-9/18581536_1533796836662733_517004109599881743_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5HTOIfQAKWQAX80QnZM&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9NFKbSFeTKCmBzMqcJG9Ct-RASAgIl98vK1iik6tz-XA&oe=633094EF",
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/ferreira.jpg",
     client_name: "Pedro Ferreira",
     client_details: "Entrepreneur",
     project_link: "https://www.instagram.com/p/CS7ZtNVDXr8/"
@@ -153,8 +152,7 @@ const testimonials = [
     id: uuid(),
     review:
       "Os projetos do André apresentam um design moderno e minimalista, com especial atenção à experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria.",
-    picture_path:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQFA9UbFjErWGw/profile-displayphoto-shrink_800_800/0/1517429134277?e=1667433600&v=beta&t=JbA8emFA4ZsORl1bWAjaFFbymZtS4t_gosOVO8tphwQ",
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/rafa.jpg",
     client_name: "Rafael Pereira",
     client_details: "Software developer",
     project_link: "https://www.itstudios.eu"
@@ -165,8 +163,7 @@ const testimonials = [
       "Quero dar um agradecimento especial ao André pelo trabalho desenvolvido! Se tiverem oportunidade, visitem a sua página e vejam os seus trabalhos incríveis, valem muito a pena 💪",
     client_name: "Doart",
     client_details: "Artist/Musician",
-    picture_path:
-      "https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-1/251152789_235456278577046_5717205769368067528_n.jpg?stp=c0.0.480.480a_dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=c6021c&_nc_ohc=Opm0q1n2YtYAX8bFvhg&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9TDPGyfC2K37xVH6c7T2KZpZje0kmwY6sLIEfbmF1xQg&oe=63117B1A",
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/doart.jpg",
     project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   },
   {
@@ -174,8 +171,7 @@ const testimonials = [
     review: "O André desenvolve um trabalho espectacular! É um grande talento.",
     client_name: "Patrícia",
     client_details: "Entrepreneur",
-    picture_path:
-      "https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/74209169_10218763178778128_3384977499661271040_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=VYMH9t9Q2ioAX9M6OHM&tn=eQWn85x-yCcjgff5&_nc_ht=scontent-ams4-1.xx&oh=00_AT9-umvVaNKzIicyayEOqVNfAY7G980WTH9ibQjdbB112w&oe=633360B4",
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/patricia.jpg",
     project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   }
 ];

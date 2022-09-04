@@ -45,7 +45,13 @@ const About = () => {
           <motion.h2 variants={aboutTextDelayVariant}>SERVIÇOS EXTRA</motion.h2>
           <Row>
             {services?.extra.map((item) => (
-              <Col key={item.id} className={`${styles.serviceCol}`}>
+              <Col
+                sm={12}
+                md={6}
+                lg={6}
+                key={item.id}
+                className={`${styles.serviceCol}`}
+              >
                 <ServiceDisplay service={item} />
               </Col>
             ))}

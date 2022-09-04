@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useRef } from "react";
 import { Icon } from "@iconify/react";
-import swipe from "assets/animation/swipe.gif";
 import { motion, workPageHeaderContent } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
+import Scroll from "components/Scroll/Scroll";
 import { categories as categories_data } from "mocks/data";
 import { Link, useSearchParams } from "react-router-dom";
 import styles from "./workcategorypage.module.scss";
@@ -84,14 +84,14 @@ const WorkCategoryPage = () => {
           >
             {data?.description}
           </motion.p>
-          <motion.img
+          <motion.div
             variants={workPageHeaderContent}
             initial="hidden"
             animate="visible"
-            className={styles.swipe}
-            src={swipe}
-            alt="Swipe left"
-          />
+            className={styles.scrollContainer}
+          >
+            <Scroll />
+          </motion.div>
         </header>
         <div
           className={getGridClassName()}

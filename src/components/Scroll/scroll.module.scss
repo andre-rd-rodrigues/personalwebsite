@@ -1,0 +1,24 @@
+@import "assets/styles/mixins";
+
+.container {
+  max-width: 110px;
+  position: relative;
+  & img {
+    animation: spin 10s infinite linear;
+    width: 100%;
+  }
+  & svg {
+    position: absolute;
+    top: 42px;
+    left: 39px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

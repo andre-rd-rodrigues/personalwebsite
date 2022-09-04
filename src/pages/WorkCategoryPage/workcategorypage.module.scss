@@ -63,15 +63,11 @@
 }
 
 //Scroll
-.swipe {
-  position: absolute;
-  display: none;
-  transform: rotate(-90deg);
-  width: 300px;
-  bottom: -100px;
-  right: -100px;
+.scrollContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
-
 //Next
 .nextCategoryContainer {
   padding: 0 50px 0 100px;
@@ -117,9 +113,6 @@
 
 //576px
 @media only screen and (max-width: $breaking-point-sm) {
-  .swipe {
-    display: block;
-  }
   .header {
     min-width: 350px;
     min-height: 80vh;
@@ -137,9 +130,6 @@
 
 //iPhone 8
 @media only screen and (max-width: $breaking-point-xs) {
-  .swipe {
-    display: block;
-  }
   .header {
     min-width: 350px;
     margin-right: 40px;

@@ -1,8 +1,8 @@
-import { Icon } from "@iconify/react";
 import React from "react";
+import { Icon } from "@iconify/react";
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import variables from "assets/styles/_mixins.scss";
 import styles from "./servicedisplay.module.scss";
-import { fadeInVariant, motion } from "assets/motion/motionVariants";
 
 const ServiceDisplay = ({ service }) => {
   return (

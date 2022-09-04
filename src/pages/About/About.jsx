@@ -5,13 +5,13 @@ import {
 } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
+import ServiceDisplay from "components/ServiceDisplay/ServiceDisplay";
 import { motion } from "framer-motion";
+import { services } from "mocks/data";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import styles from "./about.module.scss";
-import { services } from "mocks/data";
-import ServiceDisplay from "components/ServiceDisplay/ServiceDisplay";
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 const testimonials_sider = {
   speed: 1500,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 7000,
   autoplay: true,
   className: "center",
   infinite: true,
@@ -13,7 +13,8 @@ const testimonials_sider = {
       breakpoint: 900,
       settings: {
         slidesToShow: 1,
-        arrows: false
+        arrows: false,
+        autoplaySpeed: 9000
       }
     }
   ]

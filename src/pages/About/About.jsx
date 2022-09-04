@@ -10,7 +10,8 @@ import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import styles from "./about.module.scss";
-
+import { services } from "mocks/data";
+import ServiceDisplay from "components/ServiceDisplay/ServiceDisplay";
 
 const About = () => {
   return (
@@ -19,16 +20,49 @@ const About = () => {
         <AnimatedHeading>
           <h1>Aumenta a visibilidade do teu negócio.</h1>
         </AnimatedHeading>
+
+        {/*   Services */}
         <motion.div
           variants={aboutTextDelayVariant}
           initial="hidden"
           animate="visible"
+          className={`${styles.services} ${styles.section}`}
+        >
+          <motion.h2 variants={aboutTextDelayVariant}>SERVIÇOS</motion.h2>
+          <Row>
+            {services?.main.map((item) => (
+              <Col
+                sm={12}
+                md={6}
+                lg={6}
+                className="d-flex justify-content-center"
+                key={item.id}
+              >
+                <ServiceDisplay service={item} />
+              </Col>
+            ))}
+          </Row>
+          <motion.h2 variants={aboutTextDelayVariant}>SERVIÇOS EXTRA</motion.h2>
+          <Row>
+            {services?.extra.map((item) => (
+              <Col key={item.id} className={`${styles.serviceCol}`}>
+                <ServiceDisplay service={item} />
+              </Col>
+            ))}
+          </Row>
+        </motion.div>
+
+        {/*   About me */}
+        <motion.div
+          variants={fadeInVariant}
+          initial="hidden"
+          whileInView="visible"
           className={`${styles.about} ${styles.section}`}
         >
           <Row>
             <Col lg={6} md={6} sm={12} className={styles.aboutTextContainer}>
-              <motion.h2 variants={fadeInVariant}>SOBRE MIM</motion.h2>
-              <motion.p variants={fadeInVariant}>
+              <h2 variants={fadeInVariant}>SOBRE MIM</h2>
+              <p variants={fadeInVariant}>
                 Desde o dia em que decidi tornar a minha paixão pela tecnologia
                 numa carreira profissional, dedico-me inteiramente ao
                 desenvolvimento de projetos digitais e à aquisição de novos
@@ -51,7 +85,7 @@ const About = () => {
                   <i>Comentários</i>
                 </HashLink>{" "}
                 e ler alguns testemunhos daqueles que vieram antes de ti! 🎯
-              </motion.p>
+              </p>
 
               <div className={styles.educationContainer}>
                 <motion.h2
@@ -87,21 +121,7 @@ const About = () => {
               </div>
             </Col>
             <Col lg={6} md={6} sm={12} className={styles.profileImageContainer}>
-              <motion.div
-                variants={{
-                  hidden: {
-                    opacity: 0
-                  },
-                  visible: {
-                    opacity: 1,
-                    transition: {
-                      duration: 1.2,
-                      delay: 3.7
-                    }
-                  }
-                }}
-                className={styles.profileImage}
-              />
+              <div className={styles.profileImage} />
             </Col>
           </Row>
         </motion.div>

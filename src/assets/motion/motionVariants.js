@@ -61,8 +61,8 @@ const aboutTextDelayVariant = {
   visible: {
     opacity: 1,
     transition: {
-      delayChildren: 3,
-      staggerChildren: 0.5
+      delayChildren: 2.4,
+      staggerChildren: 0.4
     }
   }
 };

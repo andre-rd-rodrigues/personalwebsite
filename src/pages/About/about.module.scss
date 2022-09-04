@@ -30,6 +30,22 @@
   }
 }
 
+//Services
+.services {
+  h2 {
+    &:last-of-type {
+      margin-top: 50px;
+    }
+  }
+  h3 {
+    font-family: Italiana;
+    font-size: 1.8rem;
+  }
+}
+.serviceCol {
+  display: flex;
+  justify-content: center;
+}
 //About
 .aboutTextContainer {
   a {
@@ -114,5 +130,9 @@
 
     //Same value as .section
     margin-bottom: 50px;
+  }
+  .serviceCol {
+    display: flex;
+    justify-content: center;
   }
 }

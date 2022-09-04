@@ -277,6 +277,53 @@ const blog = {
   ]
 };
 
+const services = {
+  main: [
+    {
+      id: uuid(),
+      title: "Design",
+      description:
+        "Terás um design exclusivo e cativante, adaptado à tua área de negócio.",
+      icon: "ph:pencil-thin"
+    },
+    {
+      id: uuid(),
+      title: "Programação",
+      description: "Programação e implementação com domínio à tua escolha.",
+      icon: "bytesize:code"
+    },
+    {
+      id: uuid(),
+      title: "Optimização de SEO",
+      description:
+        "Queremos que o teu novo website apareça no topo das pesquisas, portanto tens incluída a optimização de SEO.",
+      icon: "clarity:world-line"
+    },
+    {
+      id: uuid(),
+      title: "Métricas e Campanhas",
+      description:
+        "Terás acesso a relatórios completos sobre quem visita o teu website e a realizar campanhas online!",
+      icon: "fluent:megaphone-loud-16-regular"
+    }
+  ],
+  extra: [
+    {
+      id: uuid(),
+      title: "Branding",
+      description:
+        "Gostarias também de criar ou recriar a imagem da tua marca? Sem problema! Por um valor apelativo, incluímos branding no pacote.",
+      icon: "ph:paint-brush-light"
+    },
+    {
+      id: uuid(),
+      title: "",
+      description: "",
+      icon: ""
+    }
+  ]
+};
+
 const translator = {
   language: "pt",
   components: {
@@ -361,5 +408,6 @@ export {
   testimonials,
   homepage_gallery,
   blog,
-  translator
+  translator,
+  services
 };

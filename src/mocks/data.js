@@ -2,7 +2,7 @@ import uuid from "react-uuid";
 import { add_homepage_images } from "utils/global-utils";
 
 const social_media = [
-  { label: "facebook", ref: "" },
+  { label: "facebook", ref: "https://www.facebook.com/andrerodrigoweb" },
   {
     label: "instagram",
     ref: "https://www.instagram.com/andre.creativedesign/"

@@ -343,10 +343,8 @@ const translator = {
     },
     about: {
       heading: {
-        pt: [
-          "André Rodrigues é um programador criativo residente em Portugal."
-        ],
-        en: ["André Rodrigues is a creative web developer from Portugal"]
+        pt: ["André Rodrigo é um programador criativo residente em Portugal."],
+        en: ["André Rodrigo is a creative web developer from Portugal"]
       },
       introduction: {
         pt: [

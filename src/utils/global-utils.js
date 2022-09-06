@@ -16,6 +16,7 @@ const add_homepage_images = (empty_gallery) => {
     empty_gallery.push(`/images/homepageGallery/${i}.jpg`);
   }
   empty_gallery.push(`/images/homepageGallery/2.jpg`);
+  empty_gallery.push(`/images/homepageGallery/3.jpg`);
 };
 
 export { convertTextIntoWords, add_homepage_images };

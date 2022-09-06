@@ -11,7 +11,7 @@ const Footer = () => {
           <AppIcon key={index} href={ref} onClick icon={label} />
         ))}
       </div>
-      <div id="footer-copyright">&#169; 2022 by André Rodrigues</div>
+      <div id="footer-copyright">&#169; 2022 by André Rodrigo</div>
     </footer>
   );
 };

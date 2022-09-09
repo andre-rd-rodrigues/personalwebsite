@@ -1,7 +1,7 @@
 import React from "react";
 import {
   fadeInVariant,
-  aboutTextDelayVariant
+  aboutTextDelayVariant,
 } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
@@ -35,7 +35,8 @@ const About = () => {
                 sm={12}
                 md={6}
                 lg={6}
-                className="d-flex justify-content-center"
+                xxl={3}
+                className={`d-flex justify-content-center`}
                 key={item.id}
               >
                 <ServiceDisplay service={item} />
@@ -49,6 +50,7 @@ const About = () => {
                 sm={12}
                 md={6}
                 lg={6}
+                xxl={3}
                 key={item.id}
                 className={`${styles.serviceCol}`}
               >

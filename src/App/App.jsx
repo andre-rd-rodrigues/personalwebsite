@@ -10,7 +10,9 @@ import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
 import Contact from "pages/Contact/Contact";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
+import ReactGa from "react-ga";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { GOOGLE_ANALYTICS_ID } from "utils/settings";
 
 const App = () => {
   const location = useLocation();
@@ -20,7 +22,12 @@ const App = () => {
   //Lifecycle
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGa.pageview(location.pathname);
   }, [location.pathname]);
+
+  useEffect(() => {
+    ReactGa.initialize(GOOGLE_ANALYTICS_ID);
+  }, []);
 
   return (
     <div id="outer-container">

@@ -14,10 +14,12 @@ const testimonials_sider = {
       settings: {
         slidesToShow: 1,
         arrows: false,
-        autoplaySpeed: 9000
-      }
-    }
-  ]
+        autoplaySpeed: 9000,
+      },
+    },
+  ],
 };
 
-export { testimonials_sider };
+const GOOGLE_ANALYTICS_ID = "G-K901N5P0GC";
+
+export { testimonials_sider, GOOGLE_ANALYTICS_ID };

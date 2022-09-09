@@ -21,13 +21,13 @@ const App = () => {
 
   //Lifecycle
   useEffect(() => {
-    window.scrollTo(0, 0);
-    ReactGa.pageview(location.pathname);
-  }, [location.pathname]);
-
-  useEffect(() => {
     ReactGa.initialize(GOOGLE_ANALYTICS_ID);
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    ReactGa.pageview(location.pathname + location.search);
+  }, [location.pathname, location.search]);
 
   return (
     <div id="outer-container">

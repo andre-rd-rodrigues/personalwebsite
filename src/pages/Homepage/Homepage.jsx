@@ -1,7 +1,8 @@
 import React from "react";
+import { analyticsClickEvent } from "analytics/utils";
 import {
   fadeInVariant,
-  homepageDelayVariant
+  homepageDelayVariant,
 } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import AppLink from "components/AppLink/AppLink";
@@ -26,7 +27,12 @@ const Homepage = () => {
             <motion.p variants={fadeInVariant}>
               Produção de websites, apps e conteúdo digital
             </motion.p>
-            <motion.div variants={fadeInVariant}>
+            <motion.div
+              variants={fadeInVariant}
+              onClick={() =>
+                analyticsClickEvent("Contacto Link", "Homepage - clicked link")
+              }
+            >
               <AppLink to="/contact" label="contacto" scrollTop />
             </motion.div>
           </motion.div>

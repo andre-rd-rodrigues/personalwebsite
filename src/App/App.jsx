@@ -10,17 +10,27 @@ import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
 import Contact from "pages/Contact/Contact";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
+import ReactGa from "react-ga";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { GOOGLE_ANALYTICS_ID } from "utils/settings";
 
 const App = () => {
   const location = useLocation();
 
   const isBlogPage = /blog|article/.test(location.pathname);
+  const ga_ID = process.env.REACT_APP_GA_ID;
 
   //Lifecycle
   useEffect(() => {
+    ReactGa.initialize(ga_ID);
+  }, []);
+
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }, [location.pathname]);
+    if (ga_ID) {
+      ReactGa.pageview(location.pathname + location.search);
+    }
+  }, [location.pathname, location.search]);
 
   return (
     <div id="outer-container">

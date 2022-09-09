@@ -18,15 +18,18 @@ const App = () => {
   const location = useLocation();
 
   const isBlogPage = /blog|article/.test(location.pathname);
+  const ga_ID = process.env.REACT_APP_GA_ID;
 
   //Lifecycle
   useEffect(() => {
-    ReactGa.initialize(GOOGLE_ANALYTICS_ID);
+    ReactGa.initialize(ga_ID);
   }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    ReactGa.pageview(location.pathname + location.search);
+    if (ga_ID) {
+      ReactGa.pageview(location.pathname + location.search);
+    }
   }, [location.pathname, location.search]);
 
   return (

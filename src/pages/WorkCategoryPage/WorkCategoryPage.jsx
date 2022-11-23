@@ -14,7 +14,7 @@ import styles from "./workcategorypage.module.scss";
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
-  const [forceUpdate, setForceUpdate] = useState(0);
+  const [, setForceUpdate] = useState(0);
   const [searchParams] = useSearchParams();
   const containerRef = useRef();
 

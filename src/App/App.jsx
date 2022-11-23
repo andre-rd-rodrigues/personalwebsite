@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import { GA_ID } from "analytics/utils";
 import Navbar from "components/AppNavbar/AppNavbar";
 import BlogSidebar from "components/BlogSidebar/BlogSidebar";
 import Footer from "components/Footer/Footer";
@@ -10,7 +11,7 @@ import BlogHomepage from "pages/Blog/Homepage/BlogHomepage";
 import BlogResultsPage from "pages/Blog/ResultsPage/BlogResultsPage";
 import Contact from "pages/Contact/Contact";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 const App = () => {
@@ -20,14 +21,17 @@ const App = () => {
 
   //Lifecycle
   useEffect(() => {
-    ReactGA.initialize("G-K901N5P0GC");
+    ReactGA.initialize(GA_ID);
   }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
     if (location.pathname !== "/") {
-      ReactGA.pageview(location.pathname + location.search);
+      ReactGA.send({
+        hitType: "pageview",
+        page: location.pathname + location.search
+      });
     }
   }, [location.pathname, location.search]);
 

@@ -13,23 +13,23 @@ import ReactGA from "react-ga4";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 const App = () => {
-  const location = useLocation();
+  const routerLocation = useLocation();
 
   //Lifecycle
   useEffect(() => {
-    ReactGA.initialize(GA_ID);
+    /*     ReactGA.initialize(GA_ID); */
   }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    if (location.pathname !== "/") {
+    if (routerLocation.pathname !== "/") {
       ReactGA.send({
         hitType: "pageview",
-        page: location.pathname + location.search
+        page: routerLocation.pathname + routerLocation.search
       });
     }
-  }, [location.pathname, location.search]);
+  }, [routerLocation.pathname, routerLocation.search]);
 
   return (
     <div id="outer-container">

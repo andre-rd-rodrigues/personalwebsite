@@ -17,6 +17,7 @@ const App = () => {
 
   //Lifecycle
   useEffect(() => {
+    //TODO: Change this to get metrics
     /*     ReactGA.initialize(GA_ID); */
   }, []);
 

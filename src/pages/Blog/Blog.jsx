@@ -1,6 +1,7 @@
+import React from "react";
 import PageContainer from "components/PageContainer/PageContainer";
 import { articles } from "mocks/articles";
-import React from "react";
+import ReactGA from "react-ga4";
 import ArticlesGrid from "./ArticlesGrid/ArticlesGrid";
 import styles from "./blog.module.scss";
 
@@ -11,7 +12,14 @@ const Blog = () => {
         <div className={styles.blogImage}></div>
         <h1>Curiosity Gem</h1>
         <p>Get the real experience and visit my official blog website</p>
-        <button>
+        <button
+          onClick={() =>
+            ReactGA.event({
+              category: "Navigation",
+              action: "click_navigation_to_blog"
+            })
+          }
+        >
           <a
             target="_blank"
             rel="noreferrer"

@@ -52,7 +52,7 @@ const AppNavbar = () => {
             <br />
             <Nav.Link as={Link} to="/blog" href="/blog">
               Blog (EN)
-            </Nav.Link>{" "}
+            </Nav.Link>
             <br />
           </Nav>
         </Offcanvas.Body>

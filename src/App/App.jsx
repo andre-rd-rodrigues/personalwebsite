@@ -5,12 +5,12 @@ import Navbar from "components/AppNavbar/AppNavbar";
 import Footer from "components/Footer/Footer";
 import { Works, Homepage } from "pages";
 import About from "pages/About/About";
+import BlogArticlePage from "pages/Blog/ArticlePage/ArticlePage";
+import Blog from "pages/Blog/Blog";
 import Contact from "pages/Contact/Contact";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
 import ReactGA from "react-ga4";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Blog from "pages/Blog/Blog";
-import BlogArticlePage from "pages/Blog/ArticlePage/ArticlePage";
 
 const App = () => {
   const location = useLocation();

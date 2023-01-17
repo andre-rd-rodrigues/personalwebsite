@@ -1,0 +1,19 @@
+@import "assets/styles/mixins";
+
+.container {
+  text-align: center;
+  button {
+    margin-top: 90px;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  grid-gap: 60px;
+}
+
+@media only screen and (max-width: $breaking-point-sm) {
+  .grid {
+    grid-template-columns: none;
+  }
+}

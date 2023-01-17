@@ -42,13 +42,16 @@ const AppNavbar = () => {
               Trabalhos
             </Nav.Link>
             <br />
-            {/*  <Nav.Link href="/blog">Blog</Nav.Link> <br /> */}
             <Nav.Link as={Link} to="/about" href="/about">
               Sobre
-            </Nav.Link>{" "}
+            </Nav.Link>
             <br />
             <Nav.Link as={Link} to="/contact" href="/contact">
               Contactos
+            </Nav.Link>
+            <br />
+            <Nav.Link as={Link} to="/blog" href="/blog">
+              Blog
             </Nav.Link>{" "}
             <br />
           </Nav>

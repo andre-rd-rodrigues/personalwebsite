@@ -9,6 +9,8 @@ import Contact from "pages/Contact/Contact";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
 import ReactGA from "react-ga4";
 import { Routes, Route, useLocation } from "react-router-dom";
+import Blog from "pages/Blog/Blog";
+import BlogArticlePage from "pages/Blog/ArticlePage/ArticlePage";
 
 const App = () => {
   const location = useLocation();
@@ -38,6 +40,8 @@ const App = () => {
           <Route path="/works/category" element={<WorkCategoryPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog/article/:id" element={<BlogArticlePage />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/" element={<Homepage />} />
         </Routes>
         <Footer />

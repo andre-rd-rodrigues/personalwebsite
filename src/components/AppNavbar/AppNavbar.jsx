@@ -51,7 +51,7 @@ const AppNavbar = () => {
             </Nav.Link>
             <br />
             <Nav.Link as={Link} to="/blog" href="/blog">
-              Blog
+              Blog (EN)
             </Nav.Link>{" "}
             <br />
           </Nav>

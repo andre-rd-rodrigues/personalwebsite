@@ -10,6 +10,7 @@ import Scroll from "components/Scroll/Scroll";
 import { categories as categories_data } from "mocks/data";
 import { Link, useSearchParams } from "react-router-dom";
 import styles from "./workcategorypage.module.scss";
+import { useTranslation } from "react-i18next";
 
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
@@ -18,9 +19,12 @@ const WorkCategoryPage = () => {
   const [searchParams] = useSearchParams();
   const containerRef = useRef();
 
+  const { t } = useTranslation();
+
   //Category
   const categoryType = searchParams.get("type");
   const categoryList = ["websites", "apps"];
+
   const getNextCategory = () => {
     const currentCategoryIndex = categoryList.indexOf(categoryType);
 
@@ -82,7 +86,7 @@ const WorkCategoryPage = () => {
             initial="hidden"
             animate="visible"
           >
-            {data?.description}
+            {t(data?.description)}
           </motion.p>
           <motion.div
             variants={workPageHeaderContent}

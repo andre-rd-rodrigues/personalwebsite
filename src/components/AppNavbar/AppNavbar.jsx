@@ -5,9 +5,12 @@ import FeatherIcon from "feather-icons-react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styles from "./appnavbar.module.scss";
+import { useTranslation } from "react-i18next";
 
 const AppNavbar = () => {
   const [show, setShow] = useState(false);
+
+  const { t } = useTranslation();
 
   return (
     <Navbar expand="lg" fixed="top" className={styles.nav}>
@@ -15,7 +18,7 @@ const AppNavbar = () => {
         <div className={styles.logo}>
           <div id="personal_picture" />
           <h1>AR</h1>
-          <p>Programação</p>
+          <p> {t("navbar.brand_label")}</p>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle
@@ -39,19 +42,19 @@ const AppNavbar = () => {
             className={styles.offcanvasLinks}
           >
             <Nav.Link as={Link} to="/works" href="/works">
-              Trabalhos
+              {t("navbar.works")}
             </Nav.Link>
             <br />
             <Nav.Link as={Link} to="/about" href="/about">
-              Sobre
+              {t("navbar.about")}
             </Nav.Link>
             <br />
             <Nav.Link as={Link} to="/contact" href="/contact">
-              Contactos
+              {t("navbar.contacts")}
             </Nav.Link>
             <br />
             <Nav.Link as={Link} to="/blog" href="/blog">
-              Blog (EN)
+              {t("navbar.blog")}
             </Nav.Link>
             <br />
           </Nav>

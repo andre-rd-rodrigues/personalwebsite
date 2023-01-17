@@ -116,15 +116,13 @@ const categories = {
   apps: {
     id: uuid(),
     title: "Apps",
-    description: `As aplicações de telemóvel permitem um acesso mais rápido e fácil ao produto, resultando numa maior proximidade e envolvimento dos clientes com o negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play ou a Apple Store, o utilizador pode descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo, melhorando a experiência e a qualidade do serviço. À tua direita podes encontrar algumas das apps que desenvolvi ao longo da minha carreira.`,
+    description: `apps_category_page.description`,
     projects: projects["apps"]
   },
   websites: {
     id: uuid(),
     title: "Websites",
-    description:
-      "A Internet revolucionou a forma como as pessoas acedem à informação, bens e serviços. Esta revolução levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento, trazendo uma vantagem competitiva comparativamente aos que não disponham da mesma visibilidade. Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. À tua direita podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira.",
-
+    description: "websites_category_page.description",
     projects: projects["websites"]
   }
 };
@@ -132,45 +130,44 @@ const categories = {
 const testimonials = [
   {
     id: uuid(),
-    review:
-      "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo como o resultado, foram excelentes! Recomendo vivamente o seu trabalho.",
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/ferreira.jpg",
     client_name: "Pedro Ferreira",
-    client_details: "Entrepreneur",
+    review: "testimonials.pedro.review",
+    client_details: "testimonials.pedro.details",
     project_link: "https://www.instagram.com/p/CS7ZtNVDXr8/"
   },
   {
     id: uuid(),
-    review:
-      "O trabalho desenvolvido pelo André superou as nossas expectativas! A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!",
+    review: "testimonials.sofia.review",
     picture_path: "https://www.rimarrabida.pt/images/sofia.jpeg",
     client_name: "Sofia Pimenta",
-    client_details: "Médica",
+    client_details: "testimonials.sofia.details",
     project_link: "https://www.rimarrabida.pt/"
   },
   {
     id: uuid(),
-    review:
-      "Os projetos do André apresentam um design moderno e minimalista, com especial atenção à experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria.",
+    review: "testimonials.rafa.review",
+    client_details: "testimonials.rafa.details",
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/rafa.jpg",
     client_name: "Rafael Pereira",
-    client_details: "Software developer",
+
     project_link: "https://www.itstudios.eu"
   },
   {
     id: uuid(),
-    review:
-      "Quero dar um agradecimento especial ao André pelo trabalho desenvolvido! Se tiverem oportunidade, visitem a sua página e vejam os seus trabalhos incríveis, valem muito a pena 💪",
+    review: "testimonials.doart.review",
+    client_details: "testimonials.doart.details",
     client_name: "Doart",
-    client_details: "Artist/Musician",
+
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/doart.jpg",
     project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   },
   {
     id: uuid(),
-    review: "O André desenvolve um trabalho espectacular! É um grande talento.",
+    review: "testimonials.patricia.review",
+    client_details: "testimonials.patricia.details",
     client_name: "Patrícia",
-    client_details: "Entrepreneur",
+
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/patricia.jpg",
     project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   }
@@ -281,38 +278,34 @@ const services = {
   main: [
     {
       id: uuid(),
-      title: "Design",
-      description:
-        "Terás um design exclusivo e cativante, adaptado à tua área de negócio.",
+      title: "about_page.services.main.design.title",
+      description: "about_page.services.main.design.description",
       icon: "ph:pencil-thin"
     },
     {
       id: uuid(),
-      title: "Programação",
-      description: "Programação e implementação com domínio à tua escolha.",
+      title: "about_page.services.main.programming.title",
+      description: "about_page.services.main.programming.description",
       icon: "bytesize:code"
     },
     {
       id: uuid(),
-      title: "Optimização de SEO",
-      description:
-        "Queremos que o teu novo website apareça no topo das pesquisas, portanto tens incluída a optimização de SEO.",
+      title: "about_page.services.main.seo.title",
+      description: "about_page.services.main.seo.description",
       icon: "clarity:world-line"
     },
     {
       id: uuid(),
-      title: "Métricas e Campanhas",
-      description:
-        "Terás acesso a relatórios completos sobre quem visita o teu website e a realizar campanhas online!",
+      title: "about_page.services.main.metrics.title",
+      description: "about_page.services.main.metrics.description",
       icon: "fluent:megaphone-loud-16-regular"
     }
   ],
   extra: [
     {
       id: uuid(),
-      title: "Branding",
-      description:
-        "Gostarias também de criar ou recriar a imagem da tua marca? Sem problema! Por um valor apelativo, incluímos branding no pacote.",
+      title: "about_page.services.extra.branding.title",
+      description: "about_page.services.extra.branding.description",
       icon: "ph:paint-brush-light"
     },
     {
@@ -324,80 +317,6 @@ const services = {
   ]
 };
 
-const translator = {
-  language: "pt",
-  components: {
-    homepage: {
-      heading: {
-        pt: [""],
-        en: [""]
-      },
-      subtitle: {
-        pt: [""],
-        en: [""]
-      },
-      action_button: {
-        pt: [""],
-        en: [""]
-      }
-    },
-    about: {
-      heading: {
-        pt: ["André Rodrigo é um programador criativo residente em Portugal."],
-        en: ["André Rodrigo is a creative web developer from Portugal"]
-      },
-      introduction: {
-        pt: [
-          "Desde que tornei a minha paixão numa carreira, estou continuamente a desenvolver e a entregar projetos há cerca de 4 anos. A minha atenção aos detalhes, visão criativa do mundo e natureza meticulosa são os principais contributos da minha identidade para o desenvolvimento e criação de soluções personalizadas ao projeto. Ao longo da minha carreira, desenvolvi soluções para diversos sectores, desde pequenos negócios a trabalhadores independentes dedico-me "
-        ],
-        en: [
-          " Since turning my passion into a career, I've been continuously creating and delivering projects for almost 4 years. My eye for detail, creative view of the world, and meticulous nature help me make a difference and deliver unique and personalized solutions. I've created and delivered solutions for various types of projects, from small businesses to independent workers, I'm here to help you bring your website vision to life so you can free up your time to do what you do best - running your awesome business, of course!",
-          "When I'm not busy making website dreams come true, you can find me relaxing at home in Lisbon, with my partner or unique friends, laughing with silly jokes, taking a walk, making something fun, or eating an amazing croissant accompained by jazz oldies."
-        ]
-      },
-
-      education_title: {
-        pt: ["Formação"],
-        en: ["Education"]
-      },
-      courses: {
-        pt: [
-          "Front-End Libraries Certification",
-          "Back-End Development and APIs Certification",
-          "Algorithms and Data Structures Certification",
-          "Responsive Web Design Certification",
-          "Design Thinking Certification",
-          "UX/UI Fundamentals Certification"
-        ]
-      }
-    },
-    testimonials: {
-      heading: {
-        pt: ["Testemunhos que nos enchem o coração"],
-        en: ["Sweet testimonials from warming people"]
-      },
-      question: {
-        pt: ["Gostaria de ver o seu feedback aqui?", "Vamos conversar"],
-        en: ["Would you like to be next?", "Let's talk!"]
-      }
-    },
-    work_category_page: {
-      heading: {
-        pt: [""],
-        en: [""]
-      },
-      description: {
-        pt: [""],
-        en: [""]
-      }
-    }
-  },
-
-  gettext(component, content) {
-    return translator.components[component][content][translator.language];
-  }
-};
-
 export {
   social_media,
   works_categories,
@@ -406,6 +325,5 @@ export {
   testimonials,
   homepage_gallery,
   blog,
-  translator,
   services
 };

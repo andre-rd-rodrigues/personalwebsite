@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "works": "Projetos",
+    "about": "Sobre",
+    "contacts": "Contactos",
+    "blog": "Blog (EN)",
+    "brand_label": "Programação"
+  },
+  "homepage": {
+    "subtitle": "Produção de websites, apps e conteúdo digital",
+    "cta": "Contacto"
+  },
+  "websites_category_page": {
+    "description": "A Internet revolucionou a forma como as pessoas acedem à informação, bens e serviços. Esta revolução levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento, trazendo uma vantagem competitiva comparativamente aos que não disponham da mesma visibilidade. Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. À tua direita podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira."
+  },
+  "apps_category_page": {
+    "description": "As aplicações de telemóvel permitem um acesso mais rápido e fácil ao produto, resultando numa maior proximidade e envolvimento dos clientes com o negócio. Quando tens uma app disponível nas lojas digitais, como a Google Play ou a Apple Store, o utilizador pode descarregar o teu negócio diretamente para o seu telemóvel, ficando disponível 24 horas para uso pessoal e adaptado ao sistema operativo, melhorando a experiência e a qualidade do serviço. À tua direita podes encontrar algumas das apps que desenvolvi ao longo da minha carreira."
+  },
+
+  "about_page": {
+    "title": "Aumenta a visibilidade do teu negócio",
+    "services": {
+      "title": "Serviços",
+      "main": {
+        "design": {
+          "title": "Design",
+          "description": "Terás um design exclusivo e cativante, adaptado à tua área de negócio."
+        },
+        "programming": {
+          "title": "Programação",
+          "description": "Programação e implementação com domínio à tua escolha."
+        },
+        "seo": {
+          "title": "Optimização de SEO",
+          "description": "Queremos que o teu novo website apareça no topo das pesquisas, portanto tens incluída a optimização de SEO."
+        },
+        "metrics": {
+          "title": "Métricas e Campanhas",
+          "description": "Terás acesso a relatórios completos sobre quem visita o teu website e a realizar campanhas online!"
+        }
+      },
+
+      "extra": {
+        "branding": {
+          "title": "Branding",
+          "description": "Gostarias também de criar ou recriar a imagem da tua marca? Sem problema! Por um valor apelativo, incluímos branding no pacote."
+        }
+      }
+    },
+    "about_me": {
+      "title": "Sobre mim",
+      "description": "Desde o dia em que decidi tornar a minha paixão pela tecnologia numa carreira profissional, dedico-me inteiramente ao desenvolvimento de projetos digitais e à aquisição de novos conhecimentos, de forma a acrescentar valor competitivo na criação de soluções digitais. A minha atenção aos detalhes, visão criativa do mundo e natureza meticulosa são os principais contributos da minha identidade para o desenvolvimento e implementação de soluções personalizadas. Ao longo da minha carreira desenvolvi projetos para diversos sectores e dedico-me essencialmente à criação de websites, apps e branding. O meu objectivo primordial é de salientar a identidade e aumentar a visibilidade da tua marca no mercado digital. Explora alguns dos projetos que desenvolvi ao longo da minha carreira. Podes sempre visitar a secção dos Comentários e ler alguns testemunhos daqueles que vieram antes de ti!"
+    },
+    "education": "Education"
+  },
+
+  "contacts_page": {
+    "title": "Tens um projecto?",
+    "email": "Vamos conversar",
+    "social": "rede social"
+  },
+
+  "testimonials": {
+    "title": "Testemunhos calorosos",
+    "lets_talk": {
+      "title": "O teu pode ser o próximo",
+      "cta": "vamos conversar"
+    },
+    "pedro": {
+      "details": "Empresário",
+      "review": "O André desenvolveu um trabalho de branding para o meu negócio e tanto o processo como o resultado, foram excelentes! Recomendo vivamente o seu trabalho."
+    },
+
+    "sofia": {
+      "details": "Médica",
+      "review": "O trabalho desenvolvido pelo André superou as nossas expectativas! A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!"
+    },
+
+    "rafa": {
+      "details": "Developer",
+      "review": "Os projetos do André apresentam um design moderno e minimalista, com especial atenção à experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria."
+    },
+
+    "doart": {
+      "details": "Artista",
+      "review": "Quero dar um agradecimento especial ao André pelo trabalho desenvolvido! Se tiverem oportunidade, visitem a sua página e vejam os seus trabalhos incríveis, valem muito a pena 💪"
+    },
+    "patricia": {
+      "details": "Artista",
+      "review": "O André desenvolve um trabalho espectacular! É um grande talento."
+    }
+  }
+}

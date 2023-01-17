@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "works": "Works",
+    "about": "About",
+    "contacts": "Contacts",
+    "blog": "Blog",
+    "brand_label": "Web Developer"
+  },
+  "homepage": {
+    "subtitle": "Production of websites, apps and digital presence",
+    "cta": "Contact"
+  },
+
+  "websites_category_page": {
+    "description": "The internet revolutionized the way people access information, goods, and services. This revolution has led to numerous companies and entrepreneurs seeing an opportunity to promote their businesses without limiting their customers to a geographical location or operating hours, bringing a competitive advantage compared to those who do not have the same visibility. Currently, the digital presence of any business is crucial for its growth. To your right, you can find some of the work that I have developed throughout my career."
+  },
+  "apps_category_page": {
+    "description": "Mobile applications allow for faster and easier access to the product, resulting in greater proximity and involvement of customers with the business. When you have an app available in digital stores, such as Google Play or the Apple Store, the user can download your business directly to their mobile phone, becoming available 24 hours for personal use and adapted to the operating system, improving the experience and quality of service. To your right, you can find some of the apps that I have developed throughout my career."
+  },
+
+  "about_page": {
+    "title": "Increase the visibility of your business",
+    "services": {
+      "title": "Services",
+      "main": {
+        "design": {
+          "title": "Design",
+          "description": "You will have a unique and captivating design, tailored to your business area."
+        },
+        "programming": {
+          "title": "Programming",
+          "description": "Develpment of the website and domain of your choice"
+        },
+        "seo": {
+          "title": "SEO Optimization",
+          "description": "We want your new website to appear at the top of search results, so SEO optimization is included."
+        },
+        "metrics": {
+          "title": "Metrics and Campaigns",
+          "description": "You will have access to complete reports on who visits your website and to conducting online campaigns!"
+        }
+      },
+
+      "extra": {
+        "title": "Extra",
+        "branding": {
+          "title": "Branding",
+          "description": "Would you also like to create or recreate your brand image? No problem! For an attractive price, we include branding in the package."
+        }
+      }
+    },
+
+    "about_me": {
+      "title": "About me",
+      "description": "Ever since I decided to make my passion for technology a professional career, I have been fully dedicated to the development of digital projects and the acquisition of new knowledge, in order to add competitive value in the creation of digital solutions. My attention to detail, creative vision of the world and meticulous nature are the main contributions of my identity to the development and implementation of custom solutions. Throughout my career, I have developed projects for various sectors and I am mainly dedicated to creating websites, apps, and branding. My primary goal is to highlight the identity and increase the visibility of your brand in the digital market. Explore some of the projects I have developed throughout my career. You can always visit the reviews section and read some testimonials from those who came before you!"
+    },
+    "education": "Education"
+  },
+
+  "contacts_page": {
+    "title": "Got a project?",
+    "email": "let's chat",
+    "social": "social network"
+  },
+
+  "testimonials": {
+    "title": "Warm-hearted testimonials",
+    "lets_talk": {
+      "title": "Yours can be next!",
+      "cta": "lets talk"
+    },
+    "pedro": {
+      "details": "Entrepreneur",
+      "review": "André developed excellent branding work for my business, both the process and the result were outstanding! I highly recommend his work."
+    },
+
+    "sofia": {
+      "details": "Doctor",
+      "review": "The work developed by André exceeded our expectations! His empathy and creativity won us over in the first meeting and since then we've been continuously positively surprised. Now we count on him for future RIMA editions!"
+    },
+
+    "rafa": {
+      "details": "Developer",
+      "review": "André's projects have a modern and minimalist design, with special attention to the user experience. I couldn't be more satisfied with our partnership."
+    },
+
+    "doart": {
+      "details": "Artist",
+      "review": "I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it 💪"
+    },
+    "patricia": {
+      "details": "Artist",
+      "review": "André develops spectacular work! He is a great talent."
+    }
+  }
+}

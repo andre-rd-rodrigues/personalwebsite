@@ -12,8 +12,11 @@ import { testimonials } from "mocks/data";
 import Slider from "react-slick";
 import { testimonials_sider } from "utils/settings";
 import styles from "./testimonials.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+
   const settings = {
     ...testimonials_sider,
     dotsClass: `${styles.dots} slick-dots`
@@ -29,11 +32,11 @@ const Testimonials = () => {
     <div id="testimonials" className={styles.testimonialContainer}>
       <a href={project_link} rel="noreferrer" target="_blank">
         <Icon icon="ri:double-quotes-l" className={styles.quotation} />
-        <p className={styles.testimonialReview}>{review}</p>
+        <p className={styles.testimonialReview}>{t(review)}</p>
         <div className={styles.testimonialClientContainer}>
           <div>
             <h5>{client_name}</h5>
-            <p>{client_details}</p>
+            <p>{t(client_details)}</p>
           </div>
           <Avatar src={picture_path} />
         </div>
@@ -51,7 +54,7 @@ const Testimonials = () => {
     >
       <motion.div variants={fadeInVariant}>
         <AnimatedHeading>
-          <h1>Testemunhos calorosos</h1>
+          <h1>{t("testimonials.title")}</h1>
         </AnimatedHeading>
       </motion.div>
       <motion.div variants={fadeInVariant}>
@@ -62,8 +65,8 @@ const Testimonials = () => {
         </Slider>
       </motion.div>
       <div className={styles.letsTalk}>
-        <p>O teu pode ser o próximo</p>
-        <AppLink label="Vamos conversar" to="/contact" />
+        <p>{t("testimonials.lets_talk.title")}</p>
+        <AppLink label={t("testimonials.lets_talk.cta")} to="/contact" />
       </div>
     </motion.div>
   );

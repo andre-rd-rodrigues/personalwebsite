@@ -5,8 +5,11 @@ import PageContainer from "components/PageContainer/PageContainer";
 import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
 import styles from "./contact.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const spacing = {
     title: 6,
     others: 3,
@@ -25,7 +28,7 @@ const Contact = () => {
           >
             <div>
               <AnimatedHeading centerOnSmallScreens>
-                <h1>Tens um projecto?</h1>
+                <h1>{t("contacts_page.title")}</h1>
               </AnimatedHeading>
             </div>
           </Col>
@@ -51,7 +54,7 @@ const Contact = () => {
                 }
               }}
             >
-              <h3>Vamos conversar</h3>
+              <h3>{t("contacts_page.email")}</h3>
               <a
                 id="contact_email"
                 href="mailto:andrerodrigo.web@gmail.com"
@@ -85,7 +88,7 @@ const Contact = () => {
               }}
               className={styles.social}
             >
-              <h3>Rede social</h3>
+              <h3>{t("contacts_page.social")}</h3>
               <div>
                 <ul>
                   <li>

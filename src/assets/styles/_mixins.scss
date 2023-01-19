@@ -23,8 +23,9 @@ $breaking-point-xxs: 330px;
 
   text-transform: uppercase;
   border: 1px solid $color;
-  padding: 0.25rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   color: $color;
+  letter-spacing: 2px;
   &:hover {
     color: white;
     --p: 100%;

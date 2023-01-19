@@ -556,6 +556,100 @@ export const articles = [
       "https://images.unsplash.com/photo-1563115298-e9585e7943d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
     writer: "Andre Rodrigues"
   },
+  {
+    id: "d509s2a482-532-9876asdh32",
+    title: "Revolutionizing Healthcare: The Rise of Smart Hospitals",
+    description:
+      "Discover how the Internet of Things (IoT) is revolutionizing healthcare through the use of Smart Hospitals. Learn about the different ways in which this technology is being used, the potential benefits it offers, and how it can improve patient outcomes and streamline operations in this easy-to-read and engaging article.",
+    category: CATEGORIES_TYPE.tech,
+    date: "2023-01-20",
+    isTopArticle: true,
+    content: (
+      <div>
+        <p>
+          You&apos;ve probably heard of the Internet of Things (IoT) and how
+          it&apos;s connecting everyday devices and appliances to the internet.
+          But did you know that this technology is also being used in healthcare
+          to create what&apos;s known as smart hospitals? In this article,
+          we&apos;ll explore what smart hospitals are, how they&apos;re being
+          used, and the potential benefits they offer to patients and healthcare
+          providers.
+        </p>
+        <h2>What are smart hospitals?</h2>
+        <p>
+          A smart hospital is a healthcare facility that uses IoT technology to
+          connect and manage medical devices and equipment, improve patient
+          care, and streamline operations. This can include anything from
+          wearable medical devices for remote patient monitoring, to IoT-enabled
+          medical imaging, to smart beds that can automatically adjust to the
+          patient&apos;s needs.{" "}
+        </p>
+        <p>
+          By connecting all these devices and systems, smart hospitals can
+          collect and analyze data in real-time, providing healthcare providers
+          with valuable insights that can be used to improve patient outcomes
+          and streamline operations.{" "}
+        </p>
+        <h2>How are smart hospitals being used?</h2>
+        <p>Smart hospitals are being used in a variety of ways, including: </p>
+        <ul className="section-points">
+          <li>
+            {" "}
+            <h5>Remote patient monitoring</h5> Wearable medical devices can be
+            used to monitor vital signs and send the data to healthcare
+            providers for analysis. This can help to detect potential health
+            issues early and improve patient outcomes.{" "}
+          </li>
+          <li>
+            {" "}
+            <h5>Improved medical imaging</h5> IoT-enabled medical imaging
+            devices can provide doctors with more detailed and accurate images,
+            which can help to improve diagnosis and treatment.{" "}
+          </li>
+          <li>
+            {" "}
+            <h5>Automated hospital operations</h5> Smart hospitals can use IoT
+            technology to automate tasks such as inventory management and room
+            cleaning, which can help to improve efficiency and reduce costs.{" "}
+          </li>
+        </ul>
+        <h2>Potential benefits of smart hospitals</h2>
+        <p>Smart hospitals offer a number of potential benefits, including: </p>
+        <ul className="section-points">
+          <li>
+            {" "}
+            <h5>Improved patient outcomes</h5>By using IoT technology to monitor
+            patients and collect data, healthcare providers can detect potential
+            health issues early and take action to improve patient outcomes.{" "}
+          </li>
+          <li>
+            {" "}
+            <h5>Increased efficiency </h5>Smart hospitals can use IoT technology
+            to automate tasks, streamline operations and reduce costs.{" "}
+          </li>
+          <li>
+            {" "}
+            <h5>Better patient experience</h5> Smart hospitals can use IoT
+            technology to improve the patient experience, for example by
+            providing more comfortable beds, more accurate medical imaging, and
+            more efficient medical care.{" "}
+          </li>
+        </ul>
+        <h2>Conclusion</h2>
+        <p>
+          Smart hospitals are revolutionizing healthcare by using IoT technology
+          to connect and manage medical devices, improve patient care, and
+          streamline operations. While the technology is still in its early
+          stages, the potential benefits are clear. We can expect to see more
+          and more healthcare facilities adopt IoT technology in the future,
+          making healthcare more efficient, effective and patient-centric.
+        </p>
+      </div>
+    ),
+    image_src:
+      "https://images.unsplash.com/photo-1533042789716-e9a9c97cf4ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80",
+    writer: "Andre Rodrigues"
+  },
 
   // Career
   {

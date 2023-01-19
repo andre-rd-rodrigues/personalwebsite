@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <PageContainer bgColor="light-grey" className={styles.container}>
       <div className={styles.title}>
-        <div className={styles.blogImage}></div>
+        <div className={styles.blogImage} />
         <h1>Curiosity Gem</h1>
         <p>Get the real experience and visit my official blog website</p>
         <button

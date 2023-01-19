@@ -23,8 +23,8 @@ const works_categories = [
     name: "Apps",
     order: "02",
     src: process.env.PUBLIC_URL + "/images/worksHomepage/apps.jpg"
-  }
-  /*  {
+  } /* ,
+   {
     name: "Editorial",
     order: "03",
     src: process.env.PUBLIC_URL + "images/worksHomepage/editorial.png"

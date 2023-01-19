@@ -1,9 +1,9 @@
 import React from "react";
 import PageContainer from "components/PageContainer/PageContainer";
-import { articles } from "mocks/articles";
 import ReactGA from "react-ga4";
 import ArticlesGrid from "./ArticlesGrid/ArticlesGrid";
 import styles from "./blog.module.scss";
+import { sortArticlesByDate } from "utils";
 
 const Blog = () => {
   return (
@@ -30,7 +30,7 @@ const Blog = () => {
         </button>
       </div>
       <div style={styles.articles}>
-        <ArticlesGrid articles={articles} />
+        <ArticlesGrid articles={sortArticlesByDate()} />
       </div>
     </PageContainer>
   );

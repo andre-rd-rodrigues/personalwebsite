@@ -881,7 +881,7 @@ export const articles = [
           There are many online resources available, such as Freecodecamp,
           Codecademy, Udemy, Coursera, edX and others, that offer free or
           low-cost courses in programming. Check this article about{" "}
-          <Link to={`/article?id=0998fghj124da482-532-2397hsfgh`}>
+          <Link to={`/blog/article/0998fghj124da482-532-2397hsfgh`}>
             &quote;Start Your Journey to Becoming a Web Developer: Free Online
             Resources to Learn From&quote;
           </Link>
@@ -1020,8 +1020,8 @@ export const articles = [
           to strengthen my skills and keep improving.
           <br />
           If you want to learn on how to properly structure your learning path,
-          check this article:
-          <Link to="/article?id=0998fghj124da482-532-2398kasd35">
+          check this article:{" "}
+          <Link to="/blog/article/0998fghj124da482-532-2398kasd35">
             Defining Your Web Development Roadmap: How to Structure Your
             Learning Path
           </Link>
@@ -1182,7 +1182,7 @@ export const articles = [
           </a>
           <br /> Check this article to learn some of the best free online
           resources out there:{" "}
-          <Link to="/article?id=0998fghj124da482-532-2397hsfgh">
+          <Link to="/blog/article/0998fghj124da482-532-2397hsfgh">
             Start Your Journey to Becoming a Web Developer: Free Online
             Resources to Learn From
           </Link>

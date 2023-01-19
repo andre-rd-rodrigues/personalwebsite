@@ -1007,9 +1007,9 @@ export const articles = [
           define a clear roadmap for your development journey.
           <br />
           Specifically for web development you can follow this amazing
-          interactive roadmap:
+          interactive roadmap:{" "}
           <a href="https://roadmap.sh/" target="_">
-            https://roadmap.sh/
+            Web Developer Roadmap
           </a>
           . It helped me keeping track of my evolution and setting up the next
           topics to learn. It was so effective that I still to this day follow

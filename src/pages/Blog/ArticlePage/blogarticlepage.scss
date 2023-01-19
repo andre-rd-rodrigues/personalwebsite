@@ -6,6 +6,16 @@
     font-size: var(--fs-l-s);
     font-weight: 500;
     margin: 50px 0 20px;
+    text-align: start;
+  }
+
+  a {
+    color: $salmon;
+    font-weight: 500;
+    &:hover {
+      opacity: 0.8;
+      color: $salmon;
+    }
   }
 }
 
@@ -23,7 +33,7 @@
 .subtitle {
   display: flex;
   color: $grey;
-  margin: 13px 0 60px;
+  margin: 13px 0 20px;
 
   span {
     margin: 0 15px;
@@ -80,7 +90,11 @@
 }
 //Responsive
 @media only screen and (max-width: $breaking-point-md) {
-  .article-container {
-    margin-top: 20px;
+  .subtitle {
+    margin-bottom: 10px;
+  }
+
+  .body-container {
+    margin-top: 40px;
   }
 }

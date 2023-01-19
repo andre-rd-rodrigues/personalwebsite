@@ -25,7 +25,7 @@ const Blog = () => {
             rel="noreferrer"
             href="https://blog.andrerodrigo.com"
           >
-            get started
+            go to blog
           </a>
         </button>
       </div>

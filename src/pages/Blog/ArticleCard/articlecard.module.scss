@@ -12,6 +12,9 @@
     font-size: var(--fs-m-s);
     text-align: justify;
   }
+  h5 {
+    text-align: start;
+  }
   &:hover {
     & .wrapper {
       display: inline-block;
@@ -52,4 +55,15 @@
 
 .footer {
   text-align: end;
+}
+
+//Responsive
+@media only screen and (max-width: $breaking-point-md) {
+  .container {
+    &:hover {
+      & .wrapper {
+        transform: scale(1);
+      }
+    }
+  }
 }

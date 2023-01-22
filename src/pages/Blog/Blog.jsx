@@ -20,11 +20,7 @@ const Blog = () => {
             })
           }
         >
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://blog.andrerodrigo.com"
-          >
+          <a target="_blank" rel="noreferrer" href="https://curiositygem.com">
             go to blog
           </a>
         </button>

@@ -17,7 +17,9 @@ const App = () => {
 
   //Lifecycle
   useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_GA_ID);
+    if (process.env.REACT_APP_GA_ID) {
+      ReactGA.initialize(process.env.REACT_APP_GA_ID);
+    }
   }, []);
 
   useEffect(() => {

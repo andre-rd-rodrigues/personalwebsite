@@ -1,5 +1,6 @@
 import soft from "assets/images/soft.jpeg";
 import work from "assets/images/work.jpeg";
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import { Col, Row } from "react-bootstrap";
@@ -16,10 +17,21 @@ const Skills = () => {
       </AnimatedHeading>
       <Row className={styles.section}>
         <Col sm={12} md={12} lg={6} className={styles.imgCol}>
-          <img src={work} alt="Development experience" className={styles.img} />
+          <motion.img
+            variants={fadeInVariant}
+            initial="hidden"
+            whileInView="visible"
+            src={work}
+            alt="Development experience"
+            className={styles.img}
+          />
         </Col>
         <Col sm={12} md={12} lg={6} className={styles.developerSkillsCol}>
-          <div>
+          <motion.div
+            variants={fadeInVariant}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h2>Development</h2>
             <ul>
               <li>
@@ -49,8 +61,13 @@ const Skills = () => {
                 </b>
               </li>
             </ul>
-          </div>
-          <div className={styles.webDesignContainer}>
+          </motion.div>
+          <motion.div
+            variants={fadeInVariant}
+            initial="hidden"
+            whileInView="visible"
+            className={styles.webDesignContainer}
+          >
             <h2>Web design</h2>
             <ul>
               <li>Sketch</li>
@@ -60,19 +77,30 @@ const Skills = () => {
               <li>Adobe Illustrator</li>
               <li>UX, UI, Web, Mobile, Apps, Logos</li>
             </ul>
-          </div>
+          </motion.div>
         </Col>
       </Row>
 
       <Row>
         <Col sm={12} md={12} lg={6} className={styles.softSkillsCol}>
-          <div>
+          <motion.div
+            variants={fadeInVariant}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h2>Soft skills</h2>
             <p>{t("skills_page.soft_skills")}</p>
-          </div>
+          </motion.div>
         </Col>
         <Col sm={12} md={12} lg={6} className={styles.softSkillsImgCol}>
-          <img src={soft} alt="Development experience" className={styles.img} />
+          <motion.img
+            variants={fadeInVariant}
+            initial="hidden"
+            whileInView="visible"
+            src={soft}
+            alt="Development experience"
+            className={styles.img}
+          />
         </Col>
       </Row>
     </PageContainer>

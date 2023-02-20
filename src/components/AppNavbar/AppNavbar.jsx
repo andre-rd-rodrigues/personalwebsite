@@ -6,6 +6,7 @@ import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import styles from "./appnavbar.module.scss";
+import Language from "components/Language/Language";
 
 const AppNavbar = () => {
   const [show, setShow] = useState(false);
@@ -44,22 +45,23 @@ const AppNavbar = () => {
             <Nav.Link as={Link} to="/portfolio" href="/portfolio">
               {t("navbar.works")}
             </Nav.Link>
-            <br />
+
             <Nav.Link as={Link} to="/about" href="/about">
               {t("navbar.about")}
             </Nav.Link>
             <Nav.Link as={Link} to="/skills" href="/skills">
               Skills
             </Nav.Link>
-            <br />
+
             <Nav.Link as={Link} to="/contact" href="/contact">
               {t("navbar.contacts")}
             </Nav.Link>
-            <br />
+
             <Nav.Link as={Link} to="/blog" href="/blog">
               {t("navbar.blog")}
             </Nav.Link>
-            <br />
+
+            <Language />
           </Nav>
         </Offcanvas.Body>
       </Navbar.Offcanvas>

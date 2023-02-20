@@ -3,9 +3,9 @@ import { useState } from "react";
 import AppIcon from "components/AppIcon/AppIcon";
 import FeatherIcon from "feather-icons-react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import styles from "./appnavbar.module.scss";
-import { useTranslation } from "react-i18next";
 
 const AppNavbar = () => {
   const [show, setShow] = useState(false);
@@ -41,7 +41,7 @@ const AppNavbar = () => {
             onSelect={() => setShow(false)}
             className={styles.offcanvasLinks}
           >
-            <Nav.Link as={Link} to="/works" href="/works">
+            <Nav.Link as={Link} to="/portfolio" href="/portfolio">
               {t("navbar.works")}
             </Nav.Link>
             <br />

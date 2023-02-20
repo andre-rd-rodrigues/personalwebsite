@@ -8,9 +8,9 @@ import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
 import Scroll from "components/Scroll/Scroll";
 import { categories as categories_data } from "mocks/data";
+import { useTranslation } from "react-i18next";
 import { Link, useSearchParams } from "react-router-dom";
 import styles from "./workcategorypage.module.scss";
-import { useTranslation } from "react-i18next";
 
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);

@@ -1,9 +1,8 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import variables from "assets/styles/_mixins.scss";
-import styles from "./servicedisplay.module.scss";
 import { useTranslation } from "react-i18next";
+import styles from "./servicedisplay.module.scss";
 
 const ServiceDisplay = ({ service }) => {
   const { t } = useTranslation();

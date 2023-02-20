@@ -38,7 +38,7 @@ const App = () => {
       <main id="page-wrap">
         <Navbar />
         <Routes>
-          <Route path="/works" element={<Works />} />
+          <Route path="/portfolio" element={<Works />} />
           <Route path="/works/category" element={<WorkCategoryPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

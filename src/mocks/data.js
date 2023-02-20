@@ -219,6 +219,8 @@ const services = {
   ]
 };
 
+const experience = ["about_page.experience.web_basics", ""];
+
 export {
   social_media,
   works_categories,

@@ -4,8 +4,8 @@ import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
-import styles from "./contact.module.scss";
 import { useTranslation } from "react-i18next";
+import styles from "./contact.module.scss";
 
 const Contact = () => {
   const { t } = useTranslation();

@@ -9,8 +9,8 @@ import AppLink from "components/AppLink/AppLink";
 import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider";
 import { motion } from "framer-motion";
 import { homepage_gallery } from "mocks/data";
-import styles from "./homepage.module.scss";
 import { useTranslation } from "react-i18next";
+import styles from "./homepage.module.scss";
 
 const Homepage = () => {
   const { t } = useTranslation();
@@ -33,10 +33,13 @@ const Homepage = () => {
             <motion.div
               variants={fadeInVariant}
               onClick={() =>
-                analyticsClickEvent("Contacto Link", "Homepage - clicked link")
+                analyticsClickEvent(
+                  "Portfolio Link",
+                  "Portfolio - clicked link"
+                )
               }
             >
-              <AppLink to="/contact" label={t("homepage.cta")} scrollTop />
+              <AppLink to="/portfolio" label={t("homepage.cta")} scrollTop />
             </motion.div>
           </motion.div>
         </div>

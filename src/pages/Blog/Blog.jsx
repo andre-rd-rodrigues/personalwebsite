@@ -1,9 +1,9 @@
 import React from "react";
 import PageContainer from "components/PageContainer/PageContainer";
 import ReactGA from "react-ga4";
+import { sortArticlesByDate } from "utils";
 import ArticlesGrid from "./ArticlesGrid/ArticlesGrid";
 import styles from "./blog.module.scss";
-import { sortArticlesByDate } from "utils";
 
 const Blog = () => {
   return (
@@ -20,7 +20,11 @@ const Blog = () => {
             })
           }
         >
-          <a target="_blank" rel="noreferrer" href="https://curiositygem.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.curiositygem.com"
+          >
             go to blog
           </a>
         </button>

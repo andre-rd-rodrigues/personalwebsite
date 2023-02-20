@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "works": "Works",
+    "works": "Portfolio",
     "about": "About",
     "contacts": "Contacts",
     "blog": "Blog",
@@ -8,7 +8,7 @@
   },
   "homepage": {
     "subtitle": "Production of websites, apps and digital presence",
-    "cta": "Contact"
+    "cta": "Portfolio"
   },
 
   "websites_category_page": {
@@ -19,7 +19,8 @@
   },
 
   "about_page": {
-    "title": "Increase the visibility of your business",
+    "title": "Web developer passionate about innovation",
+    "services_separator": "Increase your business discoverability",
     "services": {
       "title": "Services",
       "main": {
@@ -53,6 +54,15 @@
     "about_me": {
       "title": "About me",
       "description": "Ever since I decided to make my passion for technology a professional career, I have been fully dedicated to the development of digital projects and the acquisition of new knowledge, in order to add competitive value in the creation of digital solutions. My attention to detail, creative vision of the world and meticulous nature are the main contributions of my identity to the development and implementation of custom solutions. Throughout my career, I have developed projects for various sectors and I am mainly dedicated to creating websites, apps, and branding. My primary goal is to highlight the identity and increase the visibility of your brand in the digital market. Explore some of the projects I have developed throughout my career. You can always visit the reviews section and read some testimonials from those who came before you!"
+    },
+    "experience": {
+      "title": "Experience",
+      "web_basics": "Created and optimized projects using web basics (HTML, CSS, and SASS) and modern JavaScript libraries and frameworks like React.js, React Native, Next JS, Typescript and adjusting advanced state-management with Redux and React Context;",
+      "web_advanced": "Improved skills in back-end, creating API's with Node JS, connecting databases with MongoDB and using Docker to deploy and consume locally through RESTfull API requests.",
+      "business": "Structured, applied, and enhanced front-end architecture and data-structure to improve efficiency and sustainability, tailored to the business area;",
+      "arquitecture": "Skilled in using microservices and event-driven architecture to develop and maintain features, and taking ownership of the development process from design and code review to implementation;",
+      "responsive": "Standardized all output with a new, responsive, mobile-first-approach through advanced responsive web design and UX/UI best practices through Bootstrap, Tailwind CSS, media queries, responsive layouts and performance best pratices;",
+      "testing": "Experience with testing frameworks, performance testing, and unit testing with Jest, React Testing Library and Cypress."
     },
     "education": "Education"
   },

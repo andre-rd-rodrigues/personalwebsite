@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "works": "Projetos",
+    "works": "Portfólio",
     "about": "Sobre",
     "contacts": "Contactos",
     "blog": "Blog (EN)",
@@ -8,7 +8,7 @@
   },
   "homepage": {
     "subtitle": "Produção de websites, apps e conteúdo digital",
-    "cta": "Contacto"
+    "cta": "Portfólio"
   },
   "websites_category_page": {
     "description": "A Internet revolucionou a forma como as pessoas acedem à informação, bens e serviços. Esta revolução levou a que inúmeras empresas e empreendedores vissem uma oportunidade de promoção dos seu negócios sem limitarem os seus clientes a uma localização geográfica, nem a horários de funcionamento, trazendo uma vantagem competitiva comparativamente aos que não disponham da mesma visibilidade. Atualmente, a presença digital de qualquer negócio é determinante para o seu crescimento. À tua direita podes encontrar alguns dos trabalhos que desenvolvi ao longo da minha carreira."
@@ -18,7 +18,8 @@
   },
 
   "about_page": {
-    "title": "Aumenta a visibilidade do teu negócio",
+    "title": "Web developer apaixonado por inovação",
+    "services_separator": "Aumenta a visibilidade do teu negócio",
     "services": {
       "title": "Serviços",
       "main": {
@@ -49,9 +50,19 @@
     },
     "about_me": {
       "title": "Sobre mim",
-      "description": "Desde o dia em que decidi tornar a minha paixão pela tecnologia numa carreira profissional, dedico-me inteiramente ao desenvolvimento de projetos digitais e à aquisição de novos conhecimentos, de forma a acrescentar valor competitivo na criação de soluções digitais. A minha atenção aos detalhes, visão criativa do mundo e natureza meticulosa são os principais contributos da minha identidade para o desenvolvimento e implementação de soluções personalizadas. Ao longo da minha carreira desenvolvi projetos para diversos sectores e dedico-me essencialmente à criação de websites, apps e branding. O meu objectivo primordial é de salientar a identidade e aumentar a visibilidade da tua marca no mercado digital. Explora alguns dos projetos que desenvolvi ao longo da minha carreira. Podes sempre visitar a secção dos Comentários e ler alguns testemunhos daqueles que vieram antes de ti!"
+      "description": "Desde o dia em que decidi tornar a minha paixão pela tecnologia numa carreira profissional, dedico-me inteiramente ao desenvolvimento de projetos digitais e à aquisição de novos conhecimentos, de forma a acrescentar valor competitivo na criação de soluções digitais. A minha atenção aos detalhes, visão criativa do mundo e natureza meticulosa são os principais contributos da minha identidade para o desenvolvimento e implementação de soluções personalizadas. Ao longo da minha carreira desenvolvi projetos para diversos sectores e dedico-me essencialmente à criação de websites, web apps e branding. O meu objectivo primordial é de salientar a identidade e aumentar a visibilidade das marcas no mercado digital."
     },
-    "education": "Education"
+    "experience": {
+      "title": "Experiência",
+
+      "web_basics": "Criação de optimização de projetos através dos web basics (HTML, CSS, and SASS) e frameworks modernas de JavaScript como React.js, React Native, Next JS, Typescript e advanced state-management tais como Redux and React Context;",
+      "web_advanced": "Desenvolvimento e criação de API's com Node JS, conectando bases de dados em MongoDB e Docker para consumo local através de RESTfull API requests.",
+      "business": "Planeamento, desenvolvimento e implementação de estratégias de UX/UI e Front-End de forma a aumentar a eficácia, eficiência e sustentabilidade do negócio;",
+      "arquitecture": "Skilled em microserviços e event-driven architecture para desenvolver e manter features, bem como proatividade e ownership no processo de  desenvolvimento desde o design, code review e implementação;",
+      "responsive": "Standardização e adaptação de projetos para mobile-first mantendo as melhores práticas de UX/UI, com recurso a web responsive libraries tais como Bootstrap, Tailwind CSS, media queries e responsive layouts;",
+      "testing": "Experiência com unit testing, E2E testing e performance testing, com Jest, React Testing Library, Cypress e DevTools."
+    },
+    "education": "Formação"
   },
 
   "contacts_page": {

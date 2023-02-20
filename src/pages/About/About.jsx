@@ -35,6 +35,7 @@ const About = () => {
                 {t("about_page.about_me.description")} 🎯
               </p>
 
+              {/* Experience */}
               <div className={styles.section}>
                 <motion.h2
                   variants={fadeInVariant}
@@ -62,6 +63,11 @@ const About = () => {
                 <motion.ul variants={fadeInVariant}>
                   <li>
                     <a href="img/docs/c_frontend.png" download="">
+                      JavaScript Algorithms and Data Structures
+                    </a>
+                  </li>
+                  <li>
+                    <a href="img/docs/c_frontend.png" download="">
                       Front-End Libraries Certification
                     </a>
                   </li>
@@ -70,6 +76,9 @@ const About = () => {
                       Back-End Development and APIs Certification
                     </a>
                   </li>
+                  <li>The Complete Node.js Course | Code with Mosh</li>
+                  <li>The Ultimate Redux Course | Code with Mosh</li>
+                  <li>The Ultimate Docker Course | Code with Mosh</li>
                   <li>
                     <a href="img/docs/c_algorithms.png" download="">
                       Algorithms and Data Structures Certification

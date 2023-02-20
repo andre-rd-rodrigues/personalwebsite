@@ -8,6 +8,7 @@ import About from "pages/About/About";
 import BlogArticlePage from "pages/Blog/ArticlePage/ArticlePage";
 import Blog from "pages/Blog/Blog";
 import Contact from "pages/Contact/Contact";
+import Skills from "pages/Skills/Skills";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
 import ReactGA from "react-ga4";
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/portfolio" element={<Works />} />
           <Route path="/works/category" element={<WorkCategoryPage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog/article/:id" element={<BlogArticlePage />} />
           <Route path="/blog" element={<Blog />} />

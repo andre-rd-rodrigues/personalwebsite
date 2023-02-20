@@ -16,12 +16,12 @@
 .section {
   margin-bottom: 90px;
   h2 {
-    margin: 20px 0;
+    margin-bottom: 20px;
   }
 }
 
 .developerSkillsCol {
-  padding-left: 40px;
+  padding-left: 40px !important;
 }
 
 .webDesignContainer {
@@ -38,6 +38,9 @@
 }
 
 @media only screen and (max-width: $breaking-point-lg) {
+  .developerSkillsCol {
+    padding-left: 12px !important;
+  }
   .imgCol {
     margin-bottom: 40px;
   }
@@ -55,10 +58,6 @@
     h2 {
       margin-top: 40px;
     }
-  }
-
-  .developerSkillsCol {
-    padding-left: 0px;
   }
 
   .section {

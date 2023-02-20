@@ -1,12 +1,7 @@
-import {
-  aboutTextDelayVariant,
-  fadeInVariant
-} from "assets/motion/motionVariants";
+import { fadeInVariant } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
-import ServiceDisplay from "components/ServiceDisplay/ServiceDisplay";
 import { motion } from "framer-motion";
-import { services } from "mocks/data";
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import styles from "./about.module.scss";
@@ -97,53 +92,6 @@ const About = () => {
             <Col lg={6} md={6} sm={12} className={styles.profileImageContainer}>
               <div className={styles.profileImage} />
             </Col>
-          </Row>
-        </motion.div>
-
-        <AnimatedHeading className={styles.titleSeparator}>
-          <h1>{t("about_page.services_separator")}</h1>
-        </AnimatedHeading>
-
-        {/*   Services */}
-        <motion.div
-          variants={aboutTextDelayVariant}
-          initial="hidden"
-          animate="visible"
-          className={`${styles.services} ${styles.section}`}
-        >
-          <motion.h2 variants={aboutTextDelayVariant}>
-            {t("about_page.services.title")}
-          </motion.h2>
-          <Row>
-            {services?.main.map((item) => (
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-                xxl={3}
-                className={`d-flex justify-content-center`}
-                key={item.id}
-              >
-                <ServiceDisplay service={item} />
-              </Col>
-            ))}
-          </Row>
-          <motion.h2 variants={aboutTextDelayVariant}>
-            {t("about_page.services.extra.title")}
-          </motion.h2>
-          <Row>
-            {services?.extra.map((item) => (
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-                xxl={3}
-                key={item.id}
-                className={`${styles.serviceCol}`}
-              >
-                <ServiceDisplay service={item} />
-              </Col>
-            ))}
           </Row>
         </motion.div>
       </div>

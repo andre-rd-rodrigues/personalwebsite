@@ -3,9 +3,12 @@ import work from "assets/images/work.jpeg";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import styles from "./skills.module.scss";
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <PageContainer className={styles.container}>
       <AnimatedHeading>
@@ -65,15 +68,7 @@ const Skills = () => {
         <Col sm={12} md={12} lg={6} className={styles.softSkillsCol}>
           <div>
             <h2>Soft skills</h2>
-            <p>
-              Arts and human-behavior had always been a huge part of my life.
-              Through my other passions like theatre, music, and psychology, I
-              was able to develop versatile skills that contributed immensely to
-              my emotional, social, and psychological health, revealing an asset
-              in the work environment. Some of them are creativity, emotional
-              intelligence, empathy, interpersonal skills, critical thinking,
-              problem-solving, and communication.
-            </p>
+            <p>{t("skills_page.soft_skills")}</p>
           </div>
         </Col>
         <Col sm={12} md={12} lg={6} className={styles.softSkillsImgCol}>

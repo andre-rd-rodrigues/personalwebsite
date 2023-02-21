@@ -68,6 +68,7 @@ const WorkCategoryPage = () => {
       containerRef.current.scrollLeft = -200;
     }
   }, [categoryType]);
+
   useEffect(() => {
     if (categoryList) {
       getNextCategory();

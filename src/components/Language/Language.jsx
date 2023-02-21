@@ -14,8 +14,12 @@ const Language = () => {
     <div className={styles.container}>
       <AppIcon icon="globe" />
       <select onChange={handleChangeLanguage}>
-        <option value="pt">Português</option>
-        <option value="en">English</option>
+        <option value="pt" selected={"pt" === i18n.language}>
+          Português
+        </option>
+        <option value="en" selected={"en" === i18n.language}>
+          English
+        </option>
       </select>
     </div>
   );

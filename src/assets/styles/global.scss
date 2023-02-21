@@ -19,6 +19,7 @@ p,
 a {
   font-weight: 300;
   font-size: var(--fs-m);
+  white-space: break-spaces;
 }
 a {
   color: $white;

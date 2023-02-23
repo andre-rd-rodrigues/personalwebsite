@@ -61,7 +61,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                andrerodrigo.web@gmail.com
+                andreptrodrigo@gmail.com
               </a>
             </motion.div>
           </Col>

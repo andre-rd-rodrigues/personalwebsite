@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import AppIcon from "components/AppIcon/AppIcon";
+import LanguageSelector from "components/LanguageSelector/LanguageSelector";
 import FeatherIcon from "feather-icons-react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import styles from "./appnavbar.module.scss";
-import Language from "components/Language/Language";
 
 const AppNavbar = () => {
   const [show, setShow] = useState(false);
@@ -61,7 +61,7 @@ const AppNavbar = () => {
               {t("navbar.blog")}
             </Nav.Link>
 
-            <Language />
+            <LanguageSelector />
           </Nav>
         </Offcanvas.Body>
       </Navbar.Offcanvas>

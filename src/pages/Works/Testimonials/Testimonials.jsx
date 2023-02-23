@@ -8,7 +8,7 @@ import {
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import AppLink from "components/AppLink/AppLink";
 import Avatar from "components/Avatar/Avatar";
-import { testimonials } from "mocks/data";
+import { testimonials } from "data";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import { testimonials_sider } from "utils/settings";

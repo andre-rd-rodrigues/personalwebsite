@@ -2,7 +2,7 @@ import React from "react";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import WorkCategory from "components/WorkCategory/WorkCategory";
-import { works_categories } from "mocks/data";
+import { works_categories } from "data";
 import { Col, Row } from "react-bootstrap";
 import Testimonials from "./Testimonials/Testimonials";
 import styles from "./works.module.scss";

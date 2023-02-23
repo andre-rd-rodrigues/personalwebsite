@@ -2,7 +2,7 @@ import AppIcon from "components/AppIcon/AppIcon";
 import { useTranslation } from "react-i18next";
 import styles from "./language.module.scss";
 
-const Language = () => {
+const LanguageSelector = () => {
   const { i18n } = useTranslation();
 
   const handleChangeLanguage = (e) => {
@@ -25,4 +25,4 @@ const Language = () => {
   );
 };
 
-export default Language;
+export default LanguageSelector;

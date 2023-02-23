@@ -7,8 +7,8 @@ import {
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import AppLink from "components/AppLink/AppLink";
 import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider";
+import { homepage_gallery } from "data";
 import { motion } from "framer-motion";
-import { homepage_gallery } from "mocks/data";
 import { useTranslation } from "react-i18next";
 import styles from "./homepage.module.scss";
 

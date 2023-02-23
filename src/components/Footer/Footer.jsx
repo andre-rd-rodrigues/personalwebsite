@@ -1,6 +1,6 @@
 import React from "react";
 import AppIcon from "components/AppIcon/AppIcon";
-import { social_media } from "mocks/data";
+import { social_media } from "data";
 import styles from "./footer.module.scss";
 
 const Footer = () => {

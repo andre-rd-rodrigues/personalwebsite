@@ -7,7 +7,7 @@ import { motion, workPageHeaderContent } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
 import Scroll from "components/Scroll/Scroll";
-import { categories as categories_data } from "mocks/data";
+import { categories as categories_data } from "data";
 import { useTranslation } from "react-i18next";
 import { Link, useSearchParams } from "react-router-dom";
 import styles from "./workcategorypage.module.scss";
@@ -15,7 +15,6 @@ import styles from "./workcategorypage.module.scss";
 const WorkCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
-  const [, setForceUpdate] = useState(0);
   const [searchParams] = useSearchParams();
   const containerRef = useRef();
 
@@ -34,31 +33,6 @@ const WorkCategoryPage = () => {
     setNextCategory(categoryList[currentCategoryIndex + 1]);
   };
 
-  //Grid
-  const getGridClassName = () => {
-    return window.innerWidth <= 567
-      ? styles.mobileGridContainer
-      : styles.gridContainer;
-  };
-  const getGridColumns = (projectsLength) => {
-    const gridColumns = {
-      gridTemplateColumns: null
-    };
-
-    //Mobile
-    if (window.innerWidth <= 567) {
-      gridColumns.gridTemplateColumns = `repeat(${projectsLength}, 300px)`;
-    } else {
-      //Desktop
-      if (projectsLength >= 7) {
-        gridColumns.gridTemplateColumns = "repeat(7, 300px)";
-      } else {
-        gridColumns.gridTemplateColumns = "repeat(3, 250px)";
-      }
-    }
-    return gridColumns;
-  };
-
   //Lifecycle
   useEffect(() => {
     if (categoryType) {
@@ -67,7 +41,7 @@ const WorkCategoryPage = () => {
       //Scroll left
       containerRef.current.scrollLeft = -200;
     }
-  }, [categoryType]);
+  }, [categoryType, searchParams]);
 
   useEffect(() => {
     if (categoryList) {
@@ -98,19 +72,15 @@ const WorkCategoryPage = () => {
             <Scroll />
           </motion.div>
         </header>
-        <div
-          className={getGridClassName()}
-          style={getGridColumns(data?.projects.length)}
-        >
-          {data?.projects.map(({ src, label, id, ref }) => (
-            <ProjectDisplay href={ref} src={src} label={label} key={id} />
-          ))}
+        <div className={styles.showCaseContainer}>
+          <div className={styles.showCaseWrapper}>
+            {data?.projects.map(({ src, label, id, ref }) => (
+              <ProjectDisplay href={ref} src={src} label={label} key={id} />
+            ))}
+          </div>
         </div>
         <div className={styles.nextCategoryContainer}>
-          <Link
-            to={`/works/category?type=${nextCategory}`}
-            onClick={() => setForceUpdate((prev) => prev + 1)}
-          >
+          <Link to={`/works/category?type=${nextCategory}`}>
             <div className="nextCategoryWrapper">
               <p>NEXT</p>
               <p>{nextCategory}</p>

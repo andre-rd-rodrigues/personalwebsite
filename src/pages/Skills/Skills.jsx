@@ -1,5 +1,3 @@
-import soft from "assets/images/soft.jpeg";
-import work from "assets/images/work.jpeg";
 import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
@@ -21,7 +19,7 @@ const Skills = () => {
             variants={fadeInVariant}
             initial="hidden"
             whileInView="visible"
-            src={work}
+            src={`${process.env.PUBLIC_URL}/images/skills/development.jpg`}
             alt="Development experience"
             className={styles.img}
           />
@@ -97,7 +95,7 @@ const Skills = () => {
             variants={fadeInVariant}
             initial="hidden"
             whileInView="visible"
-            src={soft}
+            src={`${process.env.PUBLIC_URL}/images/skills/soft.jpeg`}
             alt="Development experience"
             className={styles.img}
           />

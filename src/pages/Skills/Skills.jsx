@@ -33,30 +33,29 @@ const Skills = () => {
             <h2>Development</h2>
             <ul>
               <li>
-                Master the Basics - <b>HTML5, CSS3, ES6, LESS, SASS, jQuery</b>
+                <b>Master the Basics:</b> HTML5, CSS3, Javascript, LESS, SASS,
+                jQuery
               </li>
               <li>
-                Deep knowledge in Responsive Layouts -
-                <b>Bootstrap, React-Bootstrap, Tailwind-CSS, Media queries</b>
+                <b>Deep knowledge in Responsive Layouts:</b> Bootstrap,
+                React-Bootstrap, Tailwind-CSS, Media queries
               </li>
               <li>
-                Front-End Libraries - <b>React.js, React Native</b>
+                <b>Front-End Frameworks:</b> React.js, React Native, Next.js
               </li>
               <li>
-                Back-end -
-                <b>Node.js, RESTful APIs, GraphQL, MongoDB, Mongoose</b>
+                <b>Back-end:</b> Node.js, RESTful APIs, GraphQL, MongoDB,
+                Mongoose
               </li>
               <li>
-                Infrastructure - <b>Pipelines, yml, Github actions, Docker</b>
+                <b>DevOps:</b> Github actions, Docker, Pipelines, yml
               </li>
               <li>
-                Testing - <b>Jest, Enzyme, React Testing Library</b>
+                <b>Testing:</b> Jest, Enzyme, React Testing Library
               </li>
               <li>
-                Others -
-                <b>
-                  Next, Version control (Git/Github), Python, Webpack and others
-                </b>
+                <b>Others:</b> Version control (Git/Github), Python, Webpack and
+                others
               </li>
             </ul>
           </motion.div>

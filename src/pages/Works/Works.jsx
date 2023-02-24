@@ -6,14 +6,17 @@ import { works_categories } from "data";
 import { Col, Row } from "react-bootstrap";
 import Testimonials from "./Testimonials/Testimonials";
 import styles from "./works.module.scss";
+import { useTranslation } from "react-i18next";
 
 const Works = () => {
+  const { t } = useTranslation();
+
   return (
     <PageContainer>
       <div className={styles.container}>
         <div className={styles.works}>
-          <AnimatedHeading>
-            <h1>Trabalhos</h1>
+          <AnimatedHeading className={styles.title}>
+            <h1>{t("portfolio.title")}</h1>
           </AnimatedHeading>
           <div className={styles.worksCategories}>
             <Row>

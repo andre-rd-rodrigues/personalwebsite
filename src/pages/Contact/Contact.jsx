@@ -26,7 +26,7 @@ const Contact = () => {
             md={spacing.title}
             lg={spacing.title}
           >
-            <div>
+            <div className={styles.title}>
               <AnimatedHeading centerOnSmallScreens>
                 <h1>{t("contacts_page.title")}</h1>
               </AnimatedHeading>

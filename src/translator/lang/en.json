@@ -6,14 +6,20 @@
     "blog": "Blog",
     "brand_label": "Web Developer"
   },
+
   "homepage": {
     "subtitle": "Production of websites, apps and digital presence",
     "cta": "Portfolio"
   },
 
+  "portfolio": {
+    "title": "Portfolio"
+  },
+
   "websites_category_page": {
     "description": "I have always strived to create websites that are not only aesthetically pleasing but also intuitive and user-friendly. I believe that the integration of modern technologies and frameworks has allowed me to achieve this goal while also enhancing the performance of the websites that I develop.\nIn this section, you'll find personal and client projects where I've utilized a range of modern technologies such as React, Redux, Next JS, Web basics, Figma, Sketch and Affinity to create visually stunning and functionally-rich websites.\nI hope that you will enjoy the websites as much as I enjoyed developing them! :)"
   },
+
   "apps_category_page": {
     "description": "I am excited to showcase some of my personal projects specifically focused on mobile apps! As technology continues to advance, mobile devices have become an essential part of our daily lives, and developing mobile apps has become an increasingly important skill in the tech industry.\nHere you'll find some of my mobile apps projects, where I've utilized modern technologies and frameworks such as React Native.\nSo, take a look around, and please feel free to contact me if you have any questions or feedback. Thank you for visiting! :)"
   },

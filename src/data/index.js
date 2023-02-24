@@ -62,29 +62,30 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/portfolio.jpg",
-      label: "Portfolio",
-      ref: "https://andre-rd-rodrigues.github.io/portfolio"
-    },
-    {
-      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
       label: "RIMA",
       ref: "https://www.rimarrabida.pt"
     },
     {
       id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/portfolio.jpg",
+      label: "Portfolio",
+      ref: "https://andre-rd-rodrigues.github.io/portfolio"
+    },
+
+    {
+      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
       label: "Woode",
       ref: "https://andre-rd-rodrigues.github.io/woodework"
     },
+
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/arquitech.jpg",
-      label: "Mannagia",
-      ref: "https://andre-rd-rodrigues.github.io/architech"
+      src: process.env.PUBLIC_URL + "/images/websites/memory.jpg",
+      label: "Memory Game",
+      ref: "https://andre-rd-rodrigues.github.io/memory-game/#/"
     },
-
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
@@ -97,17 +98,12 @@ const projects = {
       label: "Novawalks",
       ref: "https://novawalks.vercel.app/"
     },
+
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/lotto.jpg",
-      label: "Lotto Jade",
-      ref: "https://lottojade.com"
-    },
-    {
-      id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/memory.jpg",
-      label: "Memory Game",
-      ref: "https://andre-rd-rodrigues.github.io/memory-game/#/"
+      src: process.env.PUBLIC_URL + "/images/websites/arquitech.jpg",
+      label: "Architecture",
+      ref: "https://andre-rd-rodrigues.github.io/architech"
     }
   ]
 };

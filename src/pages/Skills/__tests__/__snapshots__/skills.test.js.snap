@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills page renders page correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container container"
+  >
+    <div
+      class="wrapper"
+      style="opacity: 0;"
+    >
+      <div
+        class="container undefined"
+      >
+        <span
+          style="white-space: nowrap;"
+        >
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              S
+            </h1>
+          </span>
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              k
+            </h1>
+          </span>
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              i
+            </h1>
+          </span>
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              l
+            </h1>
+          </span>
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              l
+            </h1>
+          </span>
+          <span
+            style="overflow: hidden; display: inline-block;"
+          >
+            <h1
+              style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+            >
+              s
+            </h1>
+          </span>
+        </span>
+      </div>
+      <div
+        class="section row"
+      >
+        <div
+          class="imgCol col-lg-6 col-md-12 col-sm-12"
+        >
+          <img
+            alt="Development experience"
+            class="img"
+            src="/images/skills/development.jpg"
+            style="opacity: 0;"
+          />
+        </div>
+        <div
+          class="developerSkillsCol col-lg-6 col-md-12 col-sm-12"
+        >
+          <div
+            style="opacity: 0;"
+          >
+            <h2>
+              Development
+            </h2>
+            <ul>
+              <li>
+                <b>
+                  Master the Basics:
+                </b>
+                 HTML5, CSS3, Javascript, LESS, SASS, jQuery
+              </li>
+              <li>
+                <b>
+                  Deep knowledge in Responsive Layouts:
+                </b>
+                 Bootstrap, React-Bootstrap, Tailwind-CSS, Media queries
+              </li>
+              <li>
+                <b>
+                  Front-End Frameworks:
+                </b>
+                 React.js, React Native, Next.js
+              </li>
+              <li>
+                <b>
+                  Back-end:
+                </b>
+                 Node.js, RESTful APIs, GraphQL, MongoDB, Mongoose
+              </li>
+              <li>
+                <b>
+                  DevOps:
+                </b>
+                 Github actions, Docker, Pipelines, yml
+              </li>
+              <li>
+                <b>
+                  Testing:
+                </b>
+                 Jest, Enzyme, React Testing Library
+              </li>
+              <li>
+                <b>
+                  Others:
+                </b>
+                 Version control (Git/Github), Python, Webpack and others
+              </li>
+            </ul>
+          </div>
+          <div
+            class="webDesignContainer"
+            style="opacity: 0;"
+          >
+            <h2>
+              Web design
+            </h2>
+            <ul>
+              <li>
+                Sketch
+              </li>
+              <li>
+                Figma
+              </li>
+              <li>
+                Affinity Designer
+              </li>
+              <li>
+                Affinity Publisher
+              </li>
+              <li>
+                Adobe Illustrator
+              </li>
+              <li>
+                UX, UI, Web, Mobile, Apps, Logos
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="softSkillsCol col-lg-6 col-md-12 col-sm-12"
+        >
+          <div
+            style="opacity: 0;"
+          >
+            <h2>
+              Soft skills
+            </h2>
+            <p>
+              Arts and human-behavior had always been a huge part of my life. Through my other passions like theatre, music, and psychology, I was able to develop versatile skills that contributed immensely to my emotional, social, and psychological health, revealing an asset in the work environment. Some of them are creativity, emotional intelligence, empathy, interpersonal skills, critical thinking, problem-solving, and communication.
+            </p>
+          </div>
+        </div>
+        <div
+          class="softSkillsImgCol col-lg-6 col-md-12 col-sm-12"
+        >
+          <img
+            alt="Development experience"
+            class="img"
+            src="/images/skills/soft.jpeg"
+            style="opacity: 0;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

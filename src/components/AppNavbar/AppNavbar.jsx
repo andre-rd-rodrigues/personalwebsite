@@ -43,7 +43,7 @@ const AppNavbar = () => {
             className={styles.offcanvasLinks}
           >
             <Nav.Link as={Link} to="/portfolio" href="/portfolio">
-              {t("navbar.works")}
+              {t("navbar.portfolio")}
             </Nav.Link>
 
             <Nav.Link as={Link} to="/about" href="/about">

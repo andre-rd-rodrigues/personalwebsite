@@ -10,9 +10,9 @@ import Scroll from "components/Scroll/Scroll";
 import { categories as categories_data } from "data";
 import { useTranslation } from "react-i18next";
 import { Link, useSearchParams } from "react-router-dom";
-import styles from "./workcategorypage.module.scss";
+import styles from "./portfoliocategorypage.module.scss";
 
-const WorkCategoryPage = () => {
+const PortfolioCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
   const [searchParams] = useSearchParams();
@@ -80,7 +80,7 @@ const WorkCategoryPage = () => {
           </div>
         </div>
         <div className={styles.nextCategoryContainer}>
-          <Link to={`/works/category?type=${nextCategory}`}>
+          <Link to={`/portfolio/category?type=${nextCategory}`}>
             <div className="nextCategoryWrapper">
               <p>NEXT</p>
               <p>{nextCategory}</p>
@@ -93,4 +93,4 @@ const WorkCategoryPage = () => {
   );
 };
 
-export default WorkCategoryPage;
+export default PortfolioCategoryPage;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Category Page renders page correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="wrapper"
+    >
+      <header
+        class="header"
+      >
+        <p
+          style="opacity: 0;"
+        />
+        <div
+          class="scrollContainer"
+          style="opacity: 0;"
+        >
+          <div
+            class="container undefined"
+          >
+            <img
+              alt="Scroll right"
+              src="/images/scroll.png"
+            />
+            <span />
+          </div>
+        </div>
+      </header>
+      <div
+        class="showCaseContainer"
+      >
+        <div
+          class="showCaseWrapper"
+        />
+      </div>
+      <div
+        class="nextCategoryContainer"
+      >
+        <a
+          href="/portfolio/category?type=websites"
+        >
+          <div
+            class="nextCategoryWrapper"
+          >
+            <p>
+              NEXT
+            </p>
+            <p>
+              websites
+            </p>
+            <span />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

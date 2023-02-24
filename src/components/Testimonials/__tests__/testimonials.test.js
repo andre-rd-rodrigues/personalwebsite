@@ -1,10 +1,9 @@
 import { render } from "utils/tests/test-utils";
+import Testimonials from "../Testimonials";
 
-import Contact from "../Contact";
-
-describe("Contact page", () => {
+describe("Testimonials", () => {
   it("renders page correctly", () => {
-    const { asFragment } = render(<Contact />);
+    const { asFragment } = render(<Testimonials />);
 
     expect(asFragment()).toMatchSnapshot();
   });

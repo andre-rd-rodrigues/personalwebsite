@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page renders page correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container undefined"
+  >
+    <div
+      class="wrapper"
+      style="opacity: 0;"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="container undefined"
+        >
+          <span
+            style="white-space: nowrap;"
+          >
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                W
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                e
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                b
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                 
+              </h1>
+            </span>
+          </span>
+          <span
+            style="white-space: nowrap;"
+          >
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                d
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                e
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                v
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                e
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                l
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                o
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                p
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                e
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                r
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                 
+              </h1>
+            </span>
+          </span>
+          <span
+            style="white-space: nowrap;"
+          >
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                p
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                a
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                s
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                s
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                i
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                o
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                n
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                a
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                t
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                e
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                 
+              </h1>
+            </span>
+          </span>
+          <span
+            style="white-space: nowrap;"
+          >
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                a
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                b
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                o
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                u
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                t
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                 
+              </h1>
+            </span>
+          </span>
+          <span
+            style="white-space: nowrap;"
+          >
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                i
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                n
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                n
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                o
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                v
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                a
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                t
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                i
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                o
+              </h1>
+            </span>
+            <span
+              style="overflow: hidden; display: inline-block;"
+            >
+              <h1
+                style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+              >
+                n
+              </h1>
+            </span>
+          </span>
+        </div>
+        <div
+          class="about section"
+          style="opacity: 0;"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="aboutTextContainer col-lg-6 col-md-6 col-sm-12"
+            >
+              <h2
+                variants="[object Object]"
+              >
+                About me
+              </h2>
+              <p
+                variants="[object Object]"
+              >
+                Ever since I decided to make my passion for technology a professional career, I have been fully dedicated to the development of digital projects and the acquisition of new knowledge, in order to add competitive value in the creation of digital solutions.
+My attention to detail, creative vision of the world and meticulous nature are the main contributions of my identity to the development and implementation of custom solutions. Throughout my career, I have developed projects for various sectors and I am mainly dedicated to creating websites, web apps, and branding.
+My primary goal is to establish quick and long-lasting solutions, relationships, and assist in developing and implementing high-quality products. 🎯
+              </p>
+              <div
+                class="section"
+              >
+                <h2
+                  style="margin-top: 30px; opacity: 0;"
+                >
+                  Experience
+                </h2>
+                <ul
+                  style="opacity: 0;"
+                >
+                  <li>
+                    Created and optimized projects using web basics (HTML, CSS, and SASS) and modern JavaScript libraries and frameworks like React.js, React Native, Next JS, Typescript and adjusting advanced state-management with Redux and React Context;
+                  </li>
+                  <li>
+                    Improved skills in back-end, creating API's with Node JS, connecting databases with MongoDB and using Docker to deploy and consume locally through RESTfull API requests.
+                  </li>
+                  <li>
+                    Structured, applied, and enhanced front-end architecture and data-structure to improve efficiency and sustainability, tailored to the business area;
+                  </li>
+                  <li>
+                    Skilled in using microservices and event-driven architecture to develop and maintain features, and taking ownership of the development process from design and code review to implementation;
+                  </li>
+                  <li>
+                    Standardized all output with a new, responsive, mobile-first-approach through advanced responsive web design and UX/UI best practices through Bootstrap, Tailwind CSS, media queries, responsive layouts and performance best pratices;
+                  </li>
+                  <li>
+                    Experience with testing frameworks, performance testing, and unit testing with Jest, React Testing Library and Cypress.
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="educationContainer"
+              >
+                <h2
+                  style="margin-top: 30px; opacity: 0;"
+                >
+                  Education
+                </h2>
+                <ul
+                  style="opacity: 0;"
+                >
+                  <li>
+                    <a
+                      download=""
+                      href="img/docs/c_frontend.png"
+                    >
+                      JavaScript Algorithms and Data Structures
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      download=""
+                      href="img/docs/c_frontend.png"
+                    >
+                      Front-End Libraries Certification
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      download=""
+                      href="img/docs/c_backend.png"
+                    >
+                      Back-End Development and APIs Certification
+                    </a>
+                  </li>
+                  <li>
+                    The Complete Node.js Course | Code with Mosh
+                  </li>
+                  <li>
+                    The Ultimate Redux Course | Code with Mosh
+                  </li>
+                  <li>
+                    The Ultimate Docker Course | Code with Mosh
+                  </li>
+                  <li>
+                    <a
+                      download=""
+                      href="img/docs/c_algorithms.png"
+                    >
+                      Algorithms and Data Structures Certification
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      download=""
+                      href="img/docs/c_responsive.png"
+                    >
+                      Responsive Web Design Certification
+                    </a>
+                  </li>
+                  <li>
+                    Design Thinking Certification
+                  </li>
+                  <li>
+                    UX/UI Fundamentals Certification
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="profileImageContainer col-lg-6 col-md-6 col-sm-12"
+            >
+              <div
+                class="profileImage"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

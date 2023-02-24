@@ -6,7 +6,7 @@ import styles from "./workcategory.module.scss";
 const WorkCategory = ({ name, order, src }) => {
   return (
     <Link
-      to={`/works/category?type=${name.toLowerCase()}`}
+      to={`/portfolio/category?type=${name.toLowerCase()}`}
       className={styles.container}
     >
       <ImageZoomEffect height="40vw" maxHeight="300px" src={src} />

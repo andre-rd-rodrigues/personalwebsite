@@ -1,4 +1,4 @@
 import Homepage from "./Homepage/Homepage";
-import Works from "./Works/Works";
+import Portfolio from "./Portfolio/Portfolio";
 
-export { Homepage, Works };
+export { Homepage, Portfolio };

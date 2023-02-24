@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact page renders page correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="homepage"
+  >
+    <div
+      class="layer"
+      style="opacity: 0;"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="background"
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          class="content"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="container undefined"
+              style="justify-content: center;"
+            >
+              <span
+                style="white-space: nowrap;"
+              >
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    A
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    n
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    d
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    r
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    é
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                     
+                  </h1>
+                </span>
+              </span>
+              <span
+                style="white-space: nowrap;"
+              >
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    R
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    o
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    d
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    r
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    i
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    g
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    o
+                  </h1>
+                </span>
+              </span>
+            </div>
+            <div
+              style="opacity: 0;"
+            >
+              <p
+                style="opacity: 0;"
+              >
+                Production of websites, apps and digital presence
+              </p>
+              <div
+                style="opacity: 0;"
+              >
+                <a
+                  class="appLink"
+                  href="/portfolio"
+                >
+                  Portfolio
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

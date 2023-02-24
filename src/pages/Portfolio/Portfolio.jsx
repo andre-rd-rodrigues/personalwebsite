@@ -4,17 +4,17 @@ import PageContainer from "components/PageContainer/PageContainer";
 import WorkCategory from "components/WorkCategory/WorkCategory";
 import { works_categories } from "data";
 import { Col, Row } from "react-bootstrap";
-import Testimonials from "./Testimonials/Testimonials";
-import styles from "./works.module.scss";
+import Testimonials from "../../components/Testimonials/Testimonials";
+import styles from "./portfolio.module.scss";
 import { useTranslation } from "react-i18next";
 
-const Works = () => {
+const Portfolio = () => {
   const { t } = useTranslation();
 
   return (
     <PageContainer>
       <div className={styles.container}>
-        <div className={styles.works}>
+        <div className={styles.portfolio}>
           <AnimatedHeading className={styles.title}>
             <h1>{t("portfolio.title")}</h1>
           </AnimatedHeading>
@@ -34,4 +34,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Portfolio;

@@ -1,0 +1,991 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio page renders page correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container undefined"
+  >
+    <div
+      class="wrapper"
+      style="opacity: 0;"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="portfolio"
+        >
+          <div
+            class="container title"
+          >
+            <span
+              style="white-space: nowrap;"
+            >
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  P
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  o
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  r
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  t
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  f
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  o
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  l
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  i
+                </h1>
+              </span>
+              <span
+                style="overflow: hidden; display: inline-block;"
+              >
+                <h1
+                  style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                >
+                  o
+                </h1>
+              </span>
+            </span>
+          </div>
+          <div
+            class="worksCategories"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-4 col-md-4 col-sm-12"
+              >
+                <a
+                  class="container"
+                  href="/portfolio/category?type=websites"
+                >
+                  <div
+                    class="wrapper"
+                    style="height: 40vw; width: 100%; max-height: 300px;"
+                  >
+                    <div
+                      class="image undefined"
+                      style="background-image: url(/images/worksHomepage/websites.jpg);"
+                    />
+                    <div
+                      class="children"
+                    />
+                  </div>
+                  <div
+                    class="text"
+                  >
+                    <p>
+                      01
+                    </p>
+                    <h3>
+                      Websites
+                    </h3>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-4 col-sm-12"
+              >
+                <a
+                  class="container"
+                  href="/portfolio/category?type=apps"
+                >
+                  <div
+                    class="wrapper"
+                    style="height: 40vw; width: 100%; max-height: 300px;"
+                  >
+                    <div
+                      class="image undefined"
+                      style="background-image: url(/images/worksHomepage/apps.jpg);"
+                    />
+                    <div
+                      class="children"
+                    />
+                  </div>
+                  <div
+                    class="text"
+                  >
+                    <p>
+                      02
+                    </p>
+                    <h3>
+                      Apps
+                    </h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+          style="opacity: 0;"
+        >
+          <div
+            style="opacity: 0;"
+          >
+            <div
+              class="container undefined"
+            >
+              <span
+                style="white-space: nowrap;"
+              >
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    W
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    a
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    r
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    m
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    -
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    h
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    e
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    a
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    r
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    t
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    e
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    d
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                     
+                  </h1>
+                </span>
+              </span>
+              <span
+                style="white-space: nowrap;"
+              >
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    t
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    e
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    s
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    t
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    i
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    m
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    o
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    n
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    i
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    a
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    l
+                  </h1>
+                </span>
+                <span
+                  style="overflow: hidden; display: inline-block;"
+                >
+                  <h1
+                    style="display: inline-block; opacity: 0; transform: translateY(200%) translateZ(0);"
+                  >
+                    s
+                  </h1>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            style="opacity: 0;"
+          >
+            <div
+              class="slick-slider center slick-initialized"
+              dir="ltr"
+            >
+              <button
+                class="slick-arrow slick-prev"
+                data-role="none"
+                style="display: block;"
+                type="button"
+              >
+                 Previous
+              </button>
+              <div
+                class="slick-list"
+              >
+                <div
+                  class="slick-track"
+                  style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="-2"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it 💪
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Doart
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/doart.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="-1"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André develops spectacular work! He is a great talent.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Patrícia
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/patricia.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="false"
+                    class="slick-slide slick-active slick-current"
+                    data-index="0"
+                    style="outline: none; width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CS7ZtNVDXr8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André developed excellent branding work for my business, both the process and the result were outstanding! I highly recommend his work.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Pedro Ferreira
+                              </h5>
+                              <p>
+                                Entrepreneur
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/ferreira.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="false"
+                    class="slick-slide slick-active"
+                    data-index="1"
+                    style="outline: none; width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.rimarrabida.pt/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            The work developed by André exceeded our expectations! His empathy and creativity won us over in the first meeting and since then we've been continuously positively surprised. Now we count on him for future RIMA editions!
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Sofia Pimenta
+                              </h5>
+                              <p>
+                                Doctor
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(https://www.rimarrabida.pt/images/sofia.jpeg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide"
+                    data-index="2"
+                    style="outline: none; width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.itstudios.eu"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André's projects have a modern and minimalist design, with special attention to the user experience. I couldn't be more satisfied with our partnership.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Rafael Pereira
+                              </h5>
+                              <p>
+                                Developer
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/rafa.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide"
+                    data-index="3"
+                    style="outline: none; width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it 💪
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Doart
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/doart.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide"
+                    data-index="4"
+                    style="outline: none; width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André develops spectacular work! He is a great talent.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Patrícia
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/patricia.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="5"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CS7ZtNVDXr8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André developed excellent branding work for my business, both the process and the result were outstanding! I highly recommend his work.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Pedro Ferreira
+                              </h5>
+                              <p>
+                                Entrepreneur
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/ferreira.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="6"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.rimarrabida.pt/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            The work developed by André exceeded our expectations! His empathy and creativity won us over in the first meeting and since then we've been continuously positively surprised. Now we count on him for future RIMA editions!
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Sofia Pimenta
+                              </h5>
+                              <p>
+                                Doctor
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(https://www.rimarrabida.pt/images/sofia.jpeg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="7"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.itstudios.eu"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André's projects have a modern and minimalist design, with special attention to the user experience. I couldn't be more satisfied with our partnership.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Rafael Pereira
+                              </h5>
+                              <p>
+                                Developer
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/rafa.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="8"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it 💪
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Doart
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/doart.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="slick-slide slick-cloned"
+                    data-index="9"
+                    style="width: 0px;"
+                    tabindex="-1"
+                  >
+                    <div>
+                      <div
+                        class="testimonialContainer"
+                        id="testimonials"
+                      >
+                        <a
+                          href="https://www.instagram.com/p/CDE5gqVAii8/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <span />
+                          <p
+                            class="testimonialReview"
+                          >
+                            André develops spectacular work! He is a great talent.
+                          </p>
+                          <div
+                            class="testimonialClientContainer"
+                          >
+                            <div>
+                              <h5>
+                                Patrícia
+                              </h5>
+                              <p>
+                                Artist
+                              </p>
+                            </div>
+                            <div
+                              class="container"
+                              style="background-image: url(/images/testimonials/patricia.jpg); width: 10vw; height: 10vw;"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="slick-arrow slick-next"
+                data-role="none"
+                style="display: block;"
+                type="button"
+              >
+                 Next
+              </button>
+            </div>
+          </div>
+          <div
+            class="letsTalk"
+          >
+            <p>
+              Yours can be next!
+            </p>
+            <a
+              class="appLink"
+              href="/contact"
+            >
+              lets talk
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

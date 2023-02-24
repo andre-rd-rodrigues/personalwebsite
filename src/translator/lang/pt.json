@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "works": "Portfólio",
+    "portfolio": "Portfólio",
     "about": "Sobre",
     "contacts": "Contactos",
     "blog": "Blog",
@@ -114,7 +114,7 @@
   },
 
   "404": {
-    "title": "Página não encontrada.",
+    "title": "Página não encontrada",
     "description": "A página que procuras pode ter sido removida ou o link inserido não corresponde a nenhuma página existente.",
     "cta": "VOLTAR"
   }

@@ -104,5 +104,11 @@
       "details": "Artista",
       "review": "O André desenvolve um trabalho espectacular! É um grande talento."
     }
+  },
+
+  "404": {
+    "title": "Página não encontrada.",
+    "description": "A página que procuras pode ter sido removida ou o link inserido não corresponde a nenhuma página existente.",
+    "cta": "VOLTAR"
   }
 }

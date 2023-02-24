@@ -5,6 +5,7 @@ import { Homepage, Works } from "pages";
 import About from "pages/About/About";
 import Blog from "pages/Blog/Blog";
 import Contact from "pages/Contact/Contact";
+import PageNotFound from "pages/PageNotFound/PageNotFound";
 import Skills from "pages/Skills/Skills";
 import WorkCategoryPage from "pages/WorkCategoryPage/WorkCategoryPage";
 import ReactGA from "react-ga4";
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/" element={<Homepage />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </main>

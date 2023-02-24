@@ -106,5 +106,11 @@
       "details": "Artist",
       "review": "André develops spectacular work! He is a great talent."
     }
+  },
+
+  "404": {
+    "title": "Page not found.",
+    "description": "The page you're looking maybe removed or the inserted link doesn't match any existing page.",
+    "cta": "GO BACK"
   }
 }

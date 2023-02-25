@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Category Page renders page correctly 1`] = `
+<DocumentFragment>
+  <footer
+    class="container"
+  >
+    <div
+      id="footer-social-media"
+    >
+      <div
+        class="app-icon"
+        role="button"
+        style="cursor: pointer; display: inline;"
+        tabindex="0"
+      >
+        <a
+          href="https://www.facebook.com/andrerodrigoweb"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <svg
+            class="feather feather-facebook "
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            style="stroke-width: 1;"
+            viewBox="0 0 24 24"
+            width="20"
+          >
+            <g>
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div
+        class="app-icon"
+        role="button"
+        style="cursor: pointer; display: inline;"
+        tabindex="0"
+      >
+        <a
+          href="https://www.instagram.com/andre.creativedesign/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <svg
+            class="feather feather-instagram "
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            style="stroke-width: 1;"
+            viewBox="0 0 24 24"
+            width="20"
+          >
+            <g>
+              <rect
+                height="20"
+                rx="5"
+                ry="5"
+                width="20"
+                x="2"
+                y="2"
+              />
+              <path
+                d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+              />
+              <line
+                x1="17.5"
+                x2="17.51"
+                y1="6.5"
+                y2="6.5"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div
+        class="app-icon"
+        role="button"
+        style="cursor: pointer; display: inline;"
+        tabindex="0"
+      >
+        <a
+          href="https://www.linkedin.com/in/andr%C3%A9-rodrigues-4b4a9b188/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <svg
+            class="feather feather-linkedin "
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            style="stroke-width: 1;"
+            viewBox="0 0 24 24"
+            width="20"
+          >
+            <g>
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              />
+              <rect
+                height="12"
+                width="4"
+                x="2"
+                y="9"
+              />
+              <circle
+                cx="4"
+                cy="4"
+                r="2"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="footer-copyright"
+    >
+      © 2022 by André Rodrigo
+    </div>
+  </footer>
+</DocumentFragment>
+`;

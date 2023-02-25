@@ -26,8 +26,7 @@ const AppNavbar = () => {
         aria-controls="offcanvas-container"
         onClick={() => setShow(true)}
       >
-        <AppIcon />
-        <FeatherIcon icon="menu" color="white" />
+        <AppIcon icon="menu" color="white" />
       </Navbar.Toggle>
       <Navbar.Offcanvas
         show={show}

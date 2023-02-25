@@ -13,13 +13,9 @@ const LanguageSelector = () => {
   return (
     <div className={styles.container}>
       <AppIcon icon="globe" />
-      <select onChange={handleChangeLanguage}>
-        <option value="pt" selected={"pt" === i18n.language}>
-          Português
-        </option>
-        <option value="en" selected={"en" === i18n.language}>
-          English
-        </option>
+      <select onChange={handleChangeLanguage} value={i18n.language}>
+        <option value="pt">Português</option>
+        <option value="en">English</option>
       </select>
     </div>
   );

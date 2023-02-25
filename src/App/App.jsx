@@ -37,17 +37,17 @@ const App = () => {
       <main id="page-wrap">
         <Navbar />
         <Routes>
+          <Route path="*" exact={true} element={<PageNotFound />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route
             path="/portfolio/category"
             element={<PortfolioCategoryPage />}
           />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/" element={<Homepage />} />
-          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </main>

@@ -4,9 +4,9 @@ import PageContainer from "components/PageContainer/PageContainer";
 import WorkCategory from "components/WorkCategory/WorkCategory";
 import { works_categories } from "data";
 import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import styles from "./portfolio.module.scss";
-import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
   const { t } = useTranslation();

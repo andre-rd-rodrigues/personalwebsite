@@ -6,8 +6,8 @@ import About from "pages/About/About";
 import Blog from "pages/Blog/Blog";
 import Contact from "pages/Contact/Contact";
 import PageNotFound from "pages/PageNotFound/PageNotFound";
-import Skills from "pages/Skills/Skills";
 import PortfolioCategoryPage from "pages/PortfolioCategoryPage/PortfolioCategoryPage";
+import Skills from "pages/Skills/Skills";
 import ReactGA from "react-ga4";
 import { Route, Routes, useLocation } from "react-router-dom";
 

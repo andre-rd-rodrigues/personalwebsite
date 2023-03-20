@@ -1,8 +1,6 @@
-import React from "react";
 import { useState } from "react";
 import AppIcon from "components/AppIcon/AppIcon";
 import LanguageSelector from "components/LanguageSelector/LanguageSelector";
-import FeatherIcon from "feather-icons-react";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";

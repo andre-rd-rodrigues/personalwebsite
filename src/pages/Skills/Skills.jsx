@@ -44,6 +44,10 @@ const Skills = () => {
                 <b>Front-End Frameworks:</b> React.js, React Native, Next.js
               </li>
               <li>
+                <b>SEO & Analytics:</b> SEO optimization, Google Analytics,
+                Insights
+              </li>
+              <li>
                 <b>Back-end:</b> Node.js, RESTful APIs, GraphQL, MongoDB,
                 Mongoose
               </li>

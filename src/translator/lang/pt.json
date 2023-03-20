@@ -65,8 +65,10 @@
       "web_basics": "Criação de optimização de projetos através dos web basics (HTML, CSS, and SASS) e frameworks modernas de JavaScript como React.js, React Native, Next JS, Typescript e advanced state-management tais como Redux and React Context;",
       "web_advanced": "Desenvolvimento e criação de API's com Node JS, conectando bases de dados em MongoDB e Docker para consumo local através de RESTfull API requests.",
       "business": "Planeamento, desenvolvimento e implementação de estratégias de UX/UI e Front-End de forma a aumentar a eficácia, eficiência e sustentabilidade do negócio;",
-      "arquitecture": "Skilled em microserviços e event-driven architecture para desenvolver e manter features, bem como proatividade e ownership no processo de  desenvolvimento desde o design, code review e implementação;",
+      "arquitecture": "Experiente em microserviços e event-driven architecture para desenvolver e manter features, bem como proatividade e ownership no processo de  desenvolvimento desde o design, code review e implementação;",
       "responsive": "Standardização e adaptação de projetos para mobile-first mantendo as melhores práticas de UX/UI, com recurso a web responsive libraries tais como Bootstrap, Tailwind CSS, media queries e responsive layouts;",
+      "seo": "Experiente na optimização de SEO, com recurso a técnicas como pre-rendering, server-side rendering, utilização de keywords e indexação de páginas para maximizar o volume de trafego vindo dos motores de busca;",
+      "analytics": "Experiente na utilização de ferramentas avançadas de analytics, como Google Analytics e Insights, na configuração e optimização dos parâmetros garantindo a escabilidade e as melhores práticas;",
       "testing": "Experiência com unit testing, E2E testing e performance testing, com Jest, React Testing Library, Cypress e DevTools."
     },
     "education": "Formação"

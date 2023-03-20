@@ -114,6 +114,12 @@ exports[`Skills page renders page correctly 1`] = `
               </li>
               <li>
                 <b>
+                  SEO & Analytics:
+                </b>
+                 SEO optimization, Google Analytics, Insights
+              </li>
+              <li>
+                <b>
                   Back-end:
                 </b>
                  Node.js, RESTful APIs, GraphQL, MongoDB, Mongoose

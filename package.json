@@ -32,7 +32,6 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
     "react-slick": "^0.29.0",
-    "react-snap": "^1.23.0",
     "react-uuid": "^1.0.2",
     "serve": "^14.2.0",
     "slick-carousel": "^1.8.1",
@@ -40,12 +39,11 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "craco start",
-    "postbuild": "react-snap",
-    "build": "CI=false && craco build",
+    "start": "react-scripts start",
+    "build": "CI=false && react-scripts build",
     "prod": "npm run build && serve build",
-    "test": "craco test",
-    "eject": "craco eject",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b prod -d build",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
@@ -76,7 +74,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.0.0",
     "@iconify/react": "^3.2.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",

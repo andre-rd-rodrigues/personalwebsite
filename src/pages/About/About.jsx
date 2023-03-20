@@ -43,11 +43,14 @@ const About = () => {
                   <li>{t("about_page.experience.web_advanced")}</li>
                   <li>{t("about_page.experience.business")}</li>
                   <li>{t("about_page.experience.arquitecture")}</li>
+                  <li>{t("about_page.experience.seo")}</li>
+                  <li>{t("about_page.experience.analytics")}</li>
                   <li>{t("about_page.experience.responsive")}</li>
                   <li>{t("about_page.experience.testing")}</li>
                 </motion.ul>
               </div>
 
+              {/* Education */}
               <div className={styles.educationContainer}>
                 <motion.h2
                   variants={fadeInVariant}

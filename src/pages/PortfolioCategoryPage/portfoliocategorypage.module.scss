@@ -43,7 +43,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 1300px;
+
+  // Add new projects -> increase min-width
+  min-width: 1600px;
 }
 
 .showCaseWrapper {
@@ -61,6 +63,7 @@
   display: flex;
   justify-content: end;
 }
+
 //Next
 .nextCategoryContainer {
   padding-right: 50px;
@@ -98,6 +101,7 @@
     }
   }
 }
+
 .arrow {
   font-size: var(--fs-l);
 }

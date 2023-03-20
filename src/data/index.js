@@ -62,6 +62,12 @@ const projects = {
     },
     {
       id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/curiosity.png",
+      label: "Curiosity Gem",
+      ref: "https://curiositygem.com"
+    },
+    {
+      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
       label: "RIMA",
       ref: "https://www.rimarrabida.pt"

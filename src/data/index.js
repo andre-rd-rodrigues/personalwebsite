@@ -221,7 +221,27 @@ const services = {
   ]
 };
 
+const experienceTimeline = [
+  {
+    company: "Wise Sparrow",
+    duration: "2019 - 2020",
+    role: "Lead Frontend Developer",
+    experience:
+      "As a Lead Front-End Developer & UX/UI Designer, I've built an online lottery from scratch, being responsible for the design implementation and the frontend decisions. I integrated testing for efficiency and sustainability, tailored solutions to business needs, and maintained brand standards across the platform. I utilized modern web frameworks along with version control, infrastructure tools and devops.",
+    img_url: process.env.PUBLIC_URL + "/images/companies/wise.jpeg"
+  },
+  {
+    company: "Sky",
+    duration: "2019 - 2020",
+    role: "Frontend Developer",
+    experience:
+      "As part of the Peacock frontend team, I ensured a seamless user experience for NBCUniversal's streaming service. I also contributed to a scalable global platform with millions of monthly views, by taking ownership of the development process, I actively participated in product discussions and advocated for quality, security, and performance enhancements.",
+    img_url: process.env.PUBLIC_URL + "/images/companies/sky.jpeg"
+  }
+];
+
 export {
+  experienceTimeline,
   social_media,
   works_categories,
   categories,

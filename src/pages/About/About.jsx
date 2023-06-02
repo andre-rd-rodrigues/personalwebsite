@@ -1,10 +1,11 @@
-import { fadeInVariant } from "assets/motion/motionVariants";
+import { motion, fadeInVariant } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
-import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import styles from "./about.module.scss";
+import profile from "assets/images/profile.png";
+import ExperienceTimeline from "components/ExperienceTimeline/ExperienceTimeline";
 
 const About = () => {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ const About = () => {
         <AnimatedHeading>
           <h1>{t("about_page.title")}</h1>
         </AnimatedHeading>
-
+        <ExperienceTimeline />
         {/*   About me */}
         <motion.div
           variants={fadeInVariant}
@@ -93,7 +94,12 @@ const About = () => {
               </div>
             </Col>
             <Col lg={6} md={6} sm={12} className={styles.profileImageContainer}>
-              <div className={styles.profileImage} />
+              <img
+                alt="profile_picture"
+                src={profile}
+                className={styles.profileImage}
+                loading="lazy"
+              />
             </Col>
           </Row>
         </motion.div>

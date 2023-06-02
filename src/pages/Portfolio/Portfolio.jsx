@@ -7,18 +7,32 @@ import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import styles from "./portfolio.module.scss";
+import {
+  containerVariant,
+  fadeInVariant,
+  motion
+} from "assets/motion/motionVariants";
 
 const Portfolio = () => {
   const { t } = useTranslation();
 
   return (
     <PageContainer>
-      <div className={styles.container}>
+      <motion.div
+        variants={containerVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className={styles.container}
+      >
         <div className={styles.portfolio}>
           <AnimatedHeading className={styles.title}>
             <h1>{t("portfolio.title")}</h1>
           </AnimatedHeading>
-          <div className={styles.worksCategories}>
+          <motion.div
+            variants={fadeInVariant}
+            className={styles.worksCategories}
+          >
             <Row>
               {works_categories.map(({ name, order, src }, index) => (
                 <Col lg={4} md={4} sm={12} key={index}>
@@ -26,10 +40,10 @@ const Portfolio = () => {
                 </Col>
               ))}
             </Row>
-          </div>
+          </motion.div>
         </div>
         <Testimonials />
-      </div>
+      </motion.div>
     </PageContainer>
   );
 };

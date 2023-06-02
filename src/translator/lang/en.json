@@ -9,7 +9,10 @@
 
   "homepage": {
     "subtitle": "Production of websites, apps and digital presence",
-    "cta": "Portfolio"
+    "cta": "Portfolio",
+    "form": {
+      "button": "Work with me"
+    }
   },
 
   "portfolio": {

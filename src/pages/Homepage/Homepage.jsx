@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupButton } from "@typeform/embed-react";
 import { analyticsClickEvent } from "analytics/utils";
 import {
   fadeInVariant,
@@ -10,6 +11,7 @@ import GalleryBackgroundSlider from "components/Gallery/GalleryBackgroundSlider"
 import { homepage_gallery } from "data";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+
 import styles from "./homepage.module.scss";
 
 const Homepage = () => {
@@ -39,7 +41,14 @@ const Homepage = () => {
                 )
               }
             >
-              <AppLink to="/portfolio" label={t("homepage.cta")} scrollTop />
+              <AppLink to="/portfolio" label={t("homepage.cta")} scrollTop />|
+              <PopupButton
+                id="wTr5ba0e"
+                size={60}
+                className={styles.formButton}
+              >
+                {t("homepage.form.button")}
+              </PopupButton>
             </motion.div>
           </motion.div>
         </div>

@@ -72,13 +72,18 @@ const PortfolioCategoryPage = () => {
             <Scroll />
           </motion.div>
         </header>
-        <div className={styles.showCaseContainer}>
+        <motion.div
+          variants={workPageHeaderContent}
+          initial="hidden"
+          animate="visible"
+          className={styles.showCaseContainer}
+        >
           <div className={styles.showCaseWrapper}>
             {data?.projects.map(({ src, label, id, ref }) => (
               <ProjectDisplay href={ref} src={src} label={label} key={id} />
             ))}
           </div>
-        </div>
+        </motion.div>
         <div className={styles.nextCategoryContainer}>
           <Link to={`/portfolio/category?type=${nextCategory}`}>
             <div className="nextCategoryWrapper">

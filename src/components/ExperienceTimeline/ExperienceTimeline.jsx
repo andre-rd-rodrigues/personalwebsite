@@ -6,9 +6,9 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import TimelineIcon from "./TimelineIcon";
-import styles from "./experiencetimeline.module.scss";
 import { LINKEDIN_URL } from "utils/constants";
+import styles from "./experiencetimeline.module.scss";
+import TimelineIcon from "./TimelineIcon";
 
 const ExperienceTimeline = () => {
   const { t } = useTranslation();

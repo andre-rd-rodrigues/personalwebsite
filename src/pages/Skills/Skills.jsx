@@ -33,8 +33,7 @@ const Skills = () => {
             <h2>Development</h2>
             <ul>
               <li>
-                <b>Master the Basics:</b> HTML5, CSS3, Javascript, LESS, SASS,
-                jQuery
+                <b>Master the Basics:</b> HTML5, CSS3, Javascript, SASS, jQuery
               </li>
               <li>
                 <b>Deep knowledge in Responsive Layouts:</b> Bootstrap,
@@ -49,13 +48,13 @@ const Skills = () => {
               </li>
               <li>
                 <b>Back-end:</b> Node.js, RESTful APIs, GraphQL, MongoDB,
-                Mongoose
+                Mongoose, PostgreSQL
               </li>
               <li>
                 <b>DevOps:</b> Github actions, Docker, Pipelines, yml
               </li>
               <li>
-                <b>Testing:</b> Jest, Enzyme, React Testing Library
+                <b>Testing:</b> Jest, Enzyme, Cypress, React Testing Library
               </li>
               <li>
                 <b>Others:</b> Version control (Git/Github), Python, Webpack and

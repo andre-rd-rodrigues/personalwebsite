@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6b7575f.css",
-    "main.js": "/static/js/main.6a315faf.js",
+    "main.css": "/static/css/main.ffa2d6cd.css",
+    "main.js": "/static/js/main.116ee227.js",
+    "static/css/21.206cabca.chunk.css": "/static/css/21.206cabca.chunk.css",
+    "static/js/21.d8ad1c79.chunk.js": "/static/js/21.d8ad1c79.chunk.js",
     "static/media/profile.png": "/static/media/profile.6a93d5f676b23d9da2e9.png",
     "static/media/rozha-one-regular.woff2": "/static/media/rozha-one-regular.48932e08df015e3899ec.woff2",
     "static/media/blacker-sans.light.woff2": "/static/media/blacker-sans.light.b6698ff8d48826ba8b3b.woff2",
@@ -14,11 +16,13 @@
     "index.html": "/index.html",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.b6b7575f.css.map": "/static/css/main.b6b7575f.css.map",
-    "main.6a315faf.js.map": "/static/js/main.6a315faf.js.map"
+    "main.ffa2d6cd.css.map": "/static/css/main.ffa2d6cd.css.map",
+    "main.116ee227.js.map": "/static/js/main.116ee227.js.map",
+    "21.206cabca.chunk.css.map": "/static/css/21.206cabca.chunk.css.map",
+    "21.d8ad1c79.chunk.js.map": "/static/js/21.d8ad1c79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6b7575f.css",
-    "static/js/main.6a315faf.js"
+    "static/css/main.ffa2d6cd.css",
+    "static/js/main.116ee227.js"
   ]
 }

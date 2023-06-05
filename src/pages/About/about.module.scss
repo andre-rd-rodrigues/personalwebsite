@@ -24,11 +24,6 @@
   li {
     font-size: var(--fs-m);
   }
-  span {
-    display: block;
-    width: 100%;
-    height: 20px;
-  }
 
   li {
     margin-bottom: 10px;
@@ -60,6 +55,11 @@
 }
 
 .aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   a {
     text-decoration: dotted;
     text-decoration-color: rgba(255, 255, 255, 0.747);
@@ -100,13 +100,15 @@
 }
 
 // Image
-.profileImage {
-  width: 100%;
-  max-width: 700px;
-  height: 100%;
-  background-size: cover;
-  margin: auto;
-  object-fit: cover;
+.profileImageContainer {
+  text-align: center;
+  img {
+    width: 55%;
+    max-width: 700px;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
 }
 
 //Responsive
@@ -138,12 +140,6 @@
     background-position: 0 -20vw;
   }
 
-  .profileImageContainer {
-    order: 1;
-
-    //Same value as .section
-    margin-bottom: 50px;
-  }
   .serviceCol {
     display: flex;
     justify-content: center;

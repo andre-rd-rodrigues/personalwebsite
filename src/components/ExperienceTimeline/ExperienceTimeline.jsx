@@ -1,20 +1,17 @@
-import React from "react";
-import styles from "./experiencetimeline.module.scss";
+import { fadeInVariant, motion } from "assets/motion/motionVariants";
+import { experienceTimeline } from "data";
+import { useTranslation } from "react-i18next";
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
-import { motion, fadeInVariant } from "assets/motion/motionVariants";
-import { useTranslation } from "react-i18next";
-import colors from "assets/styles/_mixins.scss";
 import "react-vertical-timeline-component/style.min.css";
-import { experienceTimeline } from "data";
-import FeatherIcon from "feather-icons-react";
 import TimelineIcon from "./TimelineIcon";
+import styles from "./experiencetimeline.module.scss";
+import { LINKEDIN_URL } from "utils/constants";
+
 const ExperienceTimeline = () => {
   const { t } = useTranslation();
-
-  const primaryColor = colors.yellow;
 
   return (
     <motion.div
@@ -32,14 +29,22 @@ const ExperienceTimeline = () => {
               key={company}
               className="vertical-timeline-element--work"
               date={duration}
-              contentStyle={{ background: "none" }}
-              contentArrowStyle={{ borderRight: `7px solid white` }}
+              contentStyle={{
+                background: "none",
+                borderRadius: "0",
+                cursor: "pointer"
+              }}
+              contentArrowStyle={{
+                borderRight: "none"
+              }}
+              dateClassName={styles.date}
               iconStyle={{ overflow: "hidden" }}
               icon={<TimelineIcon src={img_url} />}
+              onTimelineElementClick={() => window.open(LINKEDIN_URL, "_blank")}
             >
               <h4>{company}</h4>
               <h5>{role}</h5>
-              <p>{experience}</p>
+              <p>{t(experience)}</p>
             </VerticalTimelineElement>
           )
         )}

@@ -1,0 +1,35 @@
+@import "assets/styles/mixins";
+
+.section {
+  margin: 100px 0 160px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 70px;
+  align-items: center;
+}
+
+.techSection {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  div {
+    position: relative;
+    width: inherit;
+    height: inherit;
+
+    img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}

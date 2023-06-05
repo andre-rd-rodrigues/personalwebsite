@@ -223,23 +223,121 @@ const services = {
 
 const experienceTimeline = [
   {
-    company: "Wise Sparrow",
-    duration: "2019 - 2020",
-    role: "Lead Frontend Developer",
-    experience:
-      "As a Lead Front-End Developer & UX/UI Designer, I've built an online lottery from scratch, being responsible for the design implementation and the frontend decisions. I integrated testing for efficiency and sustainability, tailored solutions to business needs, and maintained brand standards across the platform. I utilized modern web frameworks along with version control, infrastructure tools and devops.",
-    img_url: process.env.PUBLIC_URL + "/images/companies/wise.jpeg"
+    company: "Paytrix",
+    duration: "2023 - Now",
+    role: "Frontend Developer",
+    experience: "experience.paytrix",
+    img_url: process.env.PUBLIC_URL + "/images/companies/paytrix.jpeg"
   },
   {
+    company: "Pipedrive",
+    duration: "2022 - 2023 \u2022 11 months",
+    role: "Web Developer",
+    experience: "experience.pipedrive",
+    img_url: process.env.PUBLIC_URL + "/images/companies/pipedrive.jpeg"
+  },
+
+  {
     company: "Sky",
-    duration: "2019 - 2020",
+    duration: "2022 \u2022 5 months",
     role: "Frontend Developer",
-    experience:
-      "As part of the Peacock frontend team, I ensured a seamless user experience for NBCUniversal's streaming service. I also contributed to a scalable global platform with millions of monthly views, by taking ownership of the development process, I actively participated in product discussions and advocated for quality, security, and performance enhancements.",
+    experience: "experience.sky",
     img_url: process.env.PUBLIC_URL + "/images/companies/sky.jpeg"
+  },
+  {
+    company: "Wise Sparrow",
+    duration: "2021 - 2022 \u2022 1 year",
+    role: "Lead Frontend Developer",
+    experience: "experience.wise",
+    img_url: process.env.PUBLIC_URL + "/images/companies/wise.jpeg"
+  },
+
+  {
+    company: "Freelance",
+    role: "Web Developer & UX/UI Designer",
+    duration: "2020 - 2021 \u2022 1 year",
+    experience: "experience.freelance",
+    img_url: process.env.PUBLIC_URL + "/images/companies/freelance.jpeg"
   }
 ];
 
+const techStack = [
+  {
+    label: "JavaScript",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/js.png"
+  },
+  {
+    label: "TypeScript",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/ts.png"
+  },
+
+  {
+    label: "ReactJs",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/react.png"
+  },
+  {
+    label: "React Native",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/react.png"
+  },
+  {
+    label: "NodeJs",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/node.png"
+  },
+  {
+    label: "NextJs",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/next.png"
+  },
+  {
+    label: "Jest",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/jest.png"
+  },
+  {
+    label: "RTL",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/rtl.png"
+  },
+  {
+    label: "Cypress",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/cypress.png"
+  },
+
+  {
+    label: "HTML",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/html.png"
+  },
+
+  {
+    label: "CSS",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/css.png"
+  },
+  {
+    label: "Git",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/git.png"
+  },
+  {
+    label: "Bash",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/bash.png"
+  },
+  {
+    label: "Docker",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/docker.png"
+  },
+  {
+    label: "RESTful API",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/rest.png"
+  },
+  {
+    label: "Databases",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/db.png"
+  },
+  {
+    label: "Google Analytics",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/analytics.png"
+  },
+  {
+    label: "Open AI",
+    img_src: process.env.PUBLIC_URL + "/images/technologies/openai.png"
+  }
+];
 export {
   experienceTimeline,
   social_media,
@@ -248,5 +346,6 @@ export {
   projects,
   testimonials,
   homepage_gallery,
-  services
+  services,
+  techStack
 };

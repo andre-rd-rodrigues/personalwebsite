@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  containerVariant,
+  fadeInVariant,
+  motion
+} from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import PageContainer from "components/PageContainer/PageContainer";
 import WorkCategory from "components/WorkCategory/WorkCategory";
@@ -7,11 +12,6 @@ import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import styles from "./portfolio.module.scss";
-import {
-  containerVariant,
-  fadeInVariant,
-  motion
-} from "assets/motion/motionVariants";
 
 const Portfolio = () => {
   const { t } = useTranslation();

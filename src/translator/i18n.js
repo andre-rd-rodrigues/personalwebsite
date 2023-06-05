@@ -17,11 +17,7 @@ function initDefaultLanguage() {
 
   if (storageLanguage) return storageLanguage;
 
-  if (navigator.languages.includes("pt")) {
-    localStorage.setItem("andre-lng", "pt");
-  } else {
-    localStorage.setItem("andre-lng", "en");
-  }
+  localStorage.setItem("andre-lng", "en");
 }
 
 initDefaultLanguage();
@@ -43,7 +39,7 @@ i18n
     react: {
       useSuspense: false
     },
-    supportedLngs: ["pt", "en"],
+    supportedLngs: ["en", "pt"],
     detection: options,
     resources
   });

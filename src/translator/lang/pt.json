@@ -119,5 +119,20 @@
     "title": "Página não encontrada",
     "description": "A página que procuras pode ter sido removida ou o link inserido não corresponde a nenhuma página existente.",
     "cta": "VOLTAR"
+  },
+
+  "contacts": {
+    "banner": {
+      "title": "Posso dar vida aos teus projetos. vamos conversar?",
+      "cta": "enviar mensagem"
+    }
+  },
+
+  "experience": {
+    "paytrix": "Tenho o privilégio de trabalhar como frontend na Paytrix, uma empresa fintech inovadora que está na vanguarda na entrega de soluções financeiras. Colaborando em equipes ágeis,  contribuo activamente para novos recursos e ferramentas internas de automação, aumentando a produtividade da equipa como a experiência do usuário. Apoiado por uma equipa excepcional, tenho orgulho de entregar consistentemente soluções de alta qualidade e escaláveis, enquanto me mantenho atualizado com as mais recenetes soluções do setor de IT.",
+    "pipedrive": "Na Pipedrive, participei na manutenção e melhoria na ferramenta de automação em todo o processo de desenvolvimento, desde discussões com design até a implementação, manutenção e suporte. Garantimos a máxima qualidade do produto através de testes unitários e de integração. Tive ainda oportunidade de aprender arquitectura de micro-serviços bem como de micro-frontend",
+    "sky": "Como parte da equipa de frontend da Sky, trabalhei diretamente no serviço de streaming da NBC Universal, o Peacock (Skyshowtime na Europa). COntribuí para uma plataforma global escalável com milhões de visualizações mensais, assumindo a responsabilidade pelo processo de desenvolvimento, participando ativamente de discussões com produto, fazendo improvements na qualidade, segurança e desempenho da plataforma.",
+    "wise": "Na minha primeira experiência enquanto Lead Frontend e UX/UI designer, tive a incrível oportunidade de construir uma plataforma de lotaria online de raiz. Com atenção meticulosa aos detalhes de design e foco na otimização da arquitetura de front-end, conseguimos oferecer uma experiência suave e envolvente ao usuário. Integrando métodos eficientes de teste e adaptando soluções para alinhar com os objetivos de negócio e padrões de marca, garanti uma solução robusta e escalável. Aproveitando a experiência em frameworks modernas, controle de versionamento e ferramentas de infraestrutura, foi uma oportunidade fantástica para evoluir.",
+    "freelance": "Equanto freelancer, tive a oportunidade de criar websites personalizados, mobile apps e design gráfico. Com ênfase na qualidade, adotei responsive design patters e outras soluções para garantir a melhor experiência ao usuário, adequado a vários dispositivos. Transformando ideias em produtos visualmente apleativos e totalmente funcionais, procurei superar as expectativas dos clientes e deixar uma impressão positiva duradoura."
   }
 }

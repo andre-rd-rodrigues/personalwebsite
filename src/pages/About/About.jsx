@@ -3,6 +3,7 @@ import profile from "assets/images/profile.png";
 import { motion, fadeInVariant } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import ContactBanner from "components/ContactBanner/ContactBanner";
+import DownloadCVButton from "components/DownloadCVButton/DownloadCVButton";
 import ExperienceTimeline from "components/ExperienceTimeline/ExperienceTimeline";
 import PageContainer from "components/PageContainer/PageContainer";
 
@@ -26,7 +27,7 @@ const About = () => {
           variants={fadeInVariant}
           initial="hidden"
           whileInView="visible"
-          className={`${styles.about} ${styles.section}`}
+          className={styles.section}
         >
           <Row>
             <Col lg={6} md={6} sm={12} className={styles.aboutTextContainer}>
@@ -55,7 +56,10 @@ const About = () => {
               <TechStack />
             </div>
           </Suspense>
+
+          <DownloadCVButton className={styles.downloadCVContainer} />
         </motion.div>
+
         <ContactBanner />
       </div>
     </PageContainer>

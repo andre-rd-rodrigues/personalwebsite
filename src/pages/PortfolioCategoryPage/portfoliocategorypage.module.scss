@@ -1,31 +1,11 @@
 @import "assets/styles/mixins";
 
 .container {
-  overflow: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  background-color: $dark;
-  color: $white;
-  padding-top: 50px;
-  min-height: 10vh !important;
-}
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  padding: 0 var(--padding-y);
-  min-height: 90vh;
-}
-.header {
-  position: relative;
-  overflow: hidden;
-  min-width: 500px;
   min-height: 100vh;
-  margin-right: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: $white;
+}
+
+.header {
+  margin-bottom: 80px;
   & h1 {
     font-size: var(--fs-xl);
     margin-bottom: 24px;
@@ -40,52 +20,20 @@
 
 //Gallery
 .showCaseContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  // Add new projects -> increase min-width
-  min-width: 1600px;
-}
-
-.showCaseWrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-//Scroll
-.scrollContainer {
-  width: 100%;
-  display: flex;
-  justify-content: end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 70px;
 }
 
 //Next
 .nextCategoryContainer {
-  padding-right: 50px;
   display: flex;
   justify-content: center;
+  align-items: end;
   flex-direction: column;
-
-  div[class="nextCategoryWrapper"] {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    cursor: pointer;
-    width: 300px;
-    text-transform: uppercase;
-    &:hover {
-      p {
-        &:last-of-type {
-          letter-spacing: 5px;
-        }
-      }
-    }
-  }
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 50px;
   p {
     transition: 0.4s ease-out;
     &:first-child {
@@ -100,6 +48,12 @@
       margin-bottom: 0;
     }
   }
+
+  &:hover {
+    p:last-of-type {
+      letter-spacing: 5px;
+    }
+  }
 }
 
 .arrow {
@@ -107,46 +61,9 @@
 }
 
 //Responsive
-
-//576px
-@media only screen and (max-width: $breaking-point-sm) {
-  .header {
-    min-width: 350px;
-    min-height: 80vh;
-    margin-right: 40px;
-    justify-content: flex-start;
-    margin-top: 90px;
-    & p {
-      text-align: start;
-    }
-  }
-  .nextCategoryContainer {
-    padding-left: 0px;
-  }
+@media only screen and (max-width: $breaking-point-md) {
   .showCaseContainer {
-    justify-content: normal;
-  }
-}
-
-//iPhone 8
-@media only screen and (max-width: $breaking-point-xs) {
-  .header {
-    min-width: 350px;
-    margin-right: 40px;
-    justify-content: flex-start;
-    margin-top: 90px;
-  }
-  .nextCategoryContainer {
-    padding-left: 0px;
-  }
-}
-
-@media only screen and (max-width: $breaking-point-xxs) {
-  .header {
-    min-width: 280px;
-    min-height: 110vh;
-    & p {
-      text-align: start;
-    }
+    justify-items: center;
+    align-items: center;
   }
 }

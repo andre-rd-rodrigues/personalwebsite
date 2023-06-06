@@ -1,12 +1,9 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import { useRef } from "react";
+import { useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import { motion, workPageHeaderContent } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import PageContainer from "components/PageContainer/PageContainer";
 import ProjectDisplay from "components/ProjectDisplay/ProjectDisplay";
-import Scroll from "components/Scroll/Scroll";
 import { categories as categories_data } from "data";
 import { useTranslation } from "react-i18next";
 import { Link, useSearchParams } from "react-router-dom";
@@ -16,7 +13,6 @@ const PortfolioCategoryPage = () => {
   const [data, setData] = useState(undefined);
   const [nextCategory, setNextCategory] = useState(undefined);
   const [searchParams] = useSearchParams();
-  const containerRef = useRef();
 
   const { t } = useTranslation();
 
@@ -37,9 +33,6 @@ const PortfolioCategoryPage = () => {
   useEffect(() => {
     if (categoryType) {
       setData(categories_data[categoryType]);
-
-      //Scroll left
-      containerRef.current.scrollLeft = -200;
     }
   }, [categoryType, searchParams]);
 
@@ -49,53 +42,49 @@ const PortfolioCategoryPage = () => {
     }
   }, [categoryList]);
 
+  if (!data) return <p>Loading...</p>;
+
   return (
-    <div ref={containerRef} className={styles.container}>
-      <div className={styles.wrapper}>
-        <header className={styles.header}>
-          <AnimatedHeading>
-            <h1>{data?.title}</h1>
-          </AnimatedHeading>
-          <motion.p
-            variants={workPageHeaderContent}
-            initial="hidden"
-            animate="visible"
-          >
-            {t(data?.description)}
-          </motion.p>
-          <motion.div
-            variants={workPageHeaderContent}
-            initial="hidden"
-            animate="visible"
-            className={styles.scrollContainer}
-          >
-            <Scroll />
-          </motion.div>
-        </header>
-        <motion.div
+    <PageContainer className={styles.container}>
+      <header className={styles.header}>
+        <AnimatedHeading>
+          <h1>{data?.title}</h1>
+        </AnimatedHeading>
+        <motion.p
           variants={workPageHeaderContent}
           initial="hidden"
           animate="visible"
-          className={styles.showCaseContainer}
         >
-          <div className={styles.showCaseWrapper}>
-            {data?.projects.map(({ src, label, id, ref }) => (
-              <ProjectDisplay href={ref} src={src} label={label} key={id} />
-            ))}
-          </div>
-        </motion.div>
-        <div className={styles.nextCategoryContainer}>
-          <Link to={`/portfolio/category?type=${nextCategory}`}>
-            <div className="nextCategoryWrapper">
-              <p>NEXT</p>
-              <p>{nextCategory}</p>
-              <Icon icon="bi:arrow-right-short" className={styles.arrow} />
-            </div>
-          </Link>
-        </div>
-      </div>
-    </div>
+          {t(data?.description)}
+        </motion.p>
+      </header>
+
+      <motion.div
+        variants={workPageHeaderContent}
+        initial="hidden"
+        animate="visible"
+        className={styles.showCaseContainer}
+      >
+        {data.projects.map(({ src, label, id, ref }) => (
+          <ProjectDisplay href={ref} src={src} label={label} key={id} />
+        ))}
+      </motion.div>
+
+      {/* Next section button */}
+      <NextPageArrowButton nextCategory={nextCategory} />
+    </PageContainer>
   );
 };
 
 export default PortfolioCategoryPage;
+
+const NextPageArrowButton = ({ nextCategory }) => (
+  <Link
+    to={`/portfolio/category?type=${nextCategory}`}
+    className={styles.nextCategoryContainer}
+  >
+    <p>NEXT</p>
+    <p>{nextCategory}</p>
+    <Icon icon="bi:arrow-right-short" className={styles.arrow} />
+  </Link>
+);

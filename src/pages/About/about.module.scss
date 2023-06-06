@@ -49,11 +49,6 @@
 }
 
 //About
-
-.about {
-  margin-bottom: 100px;
-}
-
 .aboutTextContainer {
   display: flex;
   flex-direction: column;
@@ -111,6 +106,9 @@
   }
 }
 
+.downloadCVContainer {
+  text-align: end;
+}
 //Responsive
 
 @media only screen and (max-width: $breaking-point-md) {

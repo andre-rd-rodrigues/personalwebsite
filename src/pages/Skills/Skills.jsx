@@ -1,5 +1,6 @@
 import { fadeInVariant, motion } from "assets/motion/motionVariants";
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
+import DownloadCVButton from "components/DownloadCVButton/DownloadCVButton";
 import PageContainer from "components/PageContainer/PageContainer";
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
@@ -103,6 +104,8 @@ const Skills = () => {
           />
         </Col>
       </Row>
+
+      <DownloadCVButton className={styles.downloadCVContainer} />
     </PageContainer>
   );
 };

@@ -48,7 +48,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b prod -d build",
-    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix",
     "prepare": "husky install"
   },

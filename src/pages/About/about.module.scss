@@ -109,8 +109,8 @@
 .downloadCVContainer {
   text-align: end;
 }
-//Responsive
 
+//Responsive
 @media only screen and (max-width: $breaking-point-md) {
   .about {
     text-align: start;
@@ -118,6 +118,7 @@
   .aboutTextContainer {
     align-items: flex-start;
     order: 2;
+    margin-top: 50px !important;
   }
   .educationContainer {
     //Dot
@@ -141,5 +142,9 @@
   .serviceCol {
     display: flex;
     justify-content: center;
+  }
+
+  .downloadCVContainer {
+    text-align: center;
   }
 }

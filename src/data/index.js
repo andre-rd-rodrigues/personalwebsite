@@ -70,7 +70,7 @@ const projects = {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
       label: "RIMA",
-      ref: "https://www.rimarrabida.pt"
+      ref: "https://kaleidoscopic-cheesecake-db7480.netlify.app/"
     },
     {
       id: uuid(),

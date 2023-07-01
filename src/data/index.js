@@ -68,22 +68,21 @@ const projects = {
     },
     {
       id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/carolina.png",
+      label: "Carolina Jardim",
+      ref: "https://acarolinajardim.com"
+    },
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/barber.png",
+      label: "Barber Studio",
+      ref: "https://strong-cheesecake-3a87ea.netlify.app/"
+    },
+    {
+      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/rima.jpg",
       label: "RIMA",
       ref: "https://kaleidoscopic-cheesecake-db7480.netlify.app/"
-    },
-    {
-      id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/portfolio.jpg",
-      label: "Portfolio",
-      ref: "https://andre-rd-rodrigues.github.io/portfolio"
-    },
-
-    {
-      id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
-      label: "Woode",
-      ref: "https://andre-rd-rodrigues.github.io/woodework"
     },
 
     {
@@ -94,10 +93,11 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/chocolate.jpg",
-      label: "Chocolate riviere",
-      ref: "https://andre-rd-rodrigues.github.io/chocolatriviere/"
+      src: process.env.PUBLIC_URL + "/images/websites/woode.jpg",
+      label: "Woode",
+      ref: "https://andre-rd-rodrigues.github.io/woodework"
     },
+
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/novawalks.jpg",

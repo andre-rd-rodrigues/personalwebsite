@@ -64,7 +64,7 @@ const projects = {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/curiosity.png",
       label: "Curiosity Gem",
-      ref: "https://curiositygem.com"
+      ref: "https://curiositygem-90guvx8v2-andre-rd-rodrigues.vercel.app/"
     },
     {
       id: uuid(),
@@ -225,7 +225,7 @@ const experienceTimeline = [
   {
     company: "Paytrix",
     duration: "2023 - Now",
-    role: "Frontend Developer",
+    role: "Web Developer",
     experience: "experience.paytrix",
     img_url: process.env.PUBLIC_URL + "/images/companies/paytrix.jpeg"
   },

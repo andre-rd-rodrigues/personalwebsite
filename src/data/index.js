@@ -62,15 +62,21 @@ const projects = {
     },
     {
       id: uuid(),
-      src: process.env.PUBLIC_URL + "/images/websites/curiosity.png",
-      label: "Curiosity Gem",
-      ref: "https://curiositygem-90guvx8v2-andre-rd-rodrigues.vercel.app/"
+      src: process.env.PUBLIC_URL + "/images/websites/cdeff.png",
+      label: "CDEFF",
+      ref: "https://www.cdeff.com/"
     },
     {
       id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/carolina.png",
       label: "Carolina Jardim",
       ref: "https://acarolinajardim.com"
+    },
+    {
+      id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/curiosity.png",
+      label: "Curiosity Gem",
+      ref: "https://curiositygem-90guvx8v2-andre-rd-rodrigues.vercel.app/"
     },
     {
       id: uuid(),

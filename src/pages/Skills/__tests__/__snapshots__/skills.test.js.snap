@@ -98,7 +98,7 @@ exports[`Skills page renders page correctly 1`] = `
                 <b>
                   Master the Basics:
                 </b>
-                 HTML5, CSS3, Javascript, LESS, SASS, jQuery
+                 HTML5, CSS3, Javascript, SASS, jQuery
               </li>
               <li>
                 <b>
@@ -122,7 +122,7 @@ exports[`Skills page renders page correctly 1`] = `
                 <b>
                   Back-end:
                 </b>
-                 Node.js, RESTful APIs, GraphQL, MongoDB, Mongoose
+                 Node.js, RESTful APIs, GraphQL, MongoDB, Mongoose, PostgreSQL
               </li>
               <li>
                 <b>
@@ -134,7 +134,7 @@ exports[`Skills page renders page correctly 1`] = `
                 <b>
                   Testing:
                 </b>
-                 Jest, Enzyme, React Testing Library
+                 Jest, Enzyme, Cypress, React Testing Library
               </li>
               <li>
                 <b>
@@ -201,6 +201,17 @@ exports[`Skills page renders page correctly 1`] = `
             style="opacity: 0;"
           />
         </div>
+      </div>
+      <div
+        class="downloadCVContainer"
+      >
+        <a
+          class="container"
+          download=""
+          href="cv.pdf"
+        >
+          DOWNLOAD CV
+        </a>
       </div>
     </div>
   </div>

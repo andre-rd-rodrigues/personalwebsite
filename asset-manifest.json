@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.f85bacfe.css",
-    "main.js": "/static/js/main.e753ac3f.js",
+    "main.css": "/static/css/main.64216b8d.css",
+    "main.js": "/static/js/main.889713e5.js",
     "static/css/21.b7e04b28.chunk.css": "/static/css/21.b7e04b28.chunk.css",
     "static/js/21.d8ad1c79.chunk.js": "/static/js/21.d8ad1c79.chunk.js",
     "static/media/profile.png": "/static/media/profile.6a93d5f676b23d9da2e9.png",
-    "static/media/cv.pdf": "/static/media/cv.c247fdc7f430215794cb.pdf",
+    "static/media/cv.pdf": "/static/media/cv.df21c59db870a1bae535.pdf",
     "static/media/rozha-one-regular.woff2": "/static/media/rozha-one-regular.48932e08df015e3899ec.woff2",
     "static/media/blacker-sans.light.woff2": "/static/media/blacker-sans.light.b6698ff8d48826ba8b3b.woff2",
     "static/media/moniqa-italic.woff2": "/static/media/moniqa-italic.abcff3844afe9e8fb412.woff2",
@@ -17,13 +17,13 @@
     "index.html": "/index.html",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.f85bacfe.css.map": "/static/css/main.f85bacfe.css.map",
-    "main.e753ac3f.js.map": "/static/js/main.e753ac3f.js.map",
+    "main.64216b8d.css.map": "/static/css/main.64216b8d.css.map",
+    "main.889713e5.js.map": "/static/js/main.889713e5.js.map",
     "21.b7e04b28.chunk.css.map": "/static/css/21.b7e04b28.chunk.css.map",
     "21.d8ad1c79.chunk.js.map": "/static/js/21.d8ad1c79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f85bacfe.css",
-    "static/js/main.e753ac3f.js"
+    "static/css/main.64216b8d.css",
+    "static/js/main.889713e5.js"
   ]
 }

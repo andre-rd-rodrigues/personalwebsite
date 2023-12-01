@@ -96,13 +96,31 @@
     },
 
     "sofia": {
-      "details": "Médica",
+      "details": "Coordenação - Unidade de Saúde",
       "review": "O trabalho desenvolvido pelo André superou as nossas expectativas! A sua empatia e criatividade conquistaram-nos na primeira reunião e desde esse dia que fomos continuamente surpreendidos pela positiva. Agora contamos com ele nas próximas edições do RIMA!"
+    },
+
+    "ana": {
+      "details": "Product Designer",
+      "review": "Tive o prazer de trabalhar com o André testemunhando a sua experiência como progamador. No ambiente dinâmico de uma startup em fase inicial, trabalhando com uma equipa de design e produto, o André não só prosperou como foi um apoio inabalável para a nossa equipa. As suas qualidades humanas e a sua atenção aos detalhes são uma benção na nossa indústria e estou confiante de que ele será bem sucedido em qualquer desafio que se lhe apresente!"
+    },
+
+    "anaJardim": {
+      "details": "Psicóloga",
+      "review": "O André desenhou e criou o meu website profissional. Aumentei o número de clientes graças ao seu trabalho, a sua linha estética minimalista reflete o que eu pretendia na perfeição. A sua empatia e profissionalismo foram constantes durante todo o processo. Recomendo vivamente o seu trabalho. Muito obrigada André!"
+    },
+    "vlad": {
+      "details": "Web Developer",
+      "review": "Tive o prazer de colaborar com o André e fiquei impressionado com as suas excepcionais capacidades de comunicação e com a sua notável capacidade de compreender temas complexos com facilidade. A natureza proactiva do André para exceder as expectativas não é apenas um testemunho da sua ética de trabalho, mas também uma vantagem significativa para toda a nossa equipa."
     },
 
     "rafa": {
       "details": "Developer",
-      "review": "Os projetos do André apresentam um design moderno e minimalista, com especial atenção à experiência do utilizador. Não podia estar mais satisfeito com a nossa parceria."
+      "review": "O André desenvolveu o meu website IT Studios. O seu design moderno e minimalista, com especial atenção à experiência do utilizador tornou o website bem intuitivo. Não podia estar mais satisfeito com o resultado final. Se quer criar um website apelativo e funcional, o André é a pessoa certa."
+    },
+    "ahmad": {
+      "details": "Software Developer",
+      "review": "O André é o tipo de programador que qualquer equipa teria sorte em ter. A sua combinação de conhecimentos técnicos, trabalho de equipa e capacidade de simplificar ideias complexas é rara. Recomendo-o para qualquer função de design e programação."
     },
 
     "doart": {

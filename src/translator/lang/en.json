@@ -98,20 +98,36 @@
       "details": "Entrepreneur",
       "review": "André developed excellent branding work for my business, both the process and the result were outstanding! I highly recommend his work."
     },
-
     "sofia": {
       "details": "Doctor",
       "review": "The work developed by André exceeded our expectations! His empathy and creativity won us over in the first meeting and since then we've been continuously positively surprised. Now we count on him for future RIMA editions!"
     },
 
+    "ana": {
+      "details": "Product Designer",
+      "review": "I had the pleasure of working with André, witnessing his expertise as a Frontend Engineer. In the dynamic setting of an early-stage startup, working with a compact design team, André not only thrived but was an unwavering support to our team. His human qualities and attention to detail is a gem in our industry, and I'm confident he'll succeed in any challenge ahead!"
+    },
+
+    "anaJardim": {
+      "details": "Psychologist",
+      "review": "I'm so grateful for André Rodrigues' exceptional work on my psychology website. His care for my vision and professional expertise shine through the minimalist design. A true collaborator who brought my perspectives to life seamlessly. Thank you, André!"
+    },
+    "vlad": {
+      "details": "Web Developer",
+      "review": "I’ve had the pleasure of collaborating with Andre Rodrigues and I am continually impressed by his exceptional communication skills and remarkable ability to grasp complex topics with ease. Andre’s proactive nature to exceed expectations is not just a testament to his work ethic, but also a significant advantage for our entire team."
+    },
     "rafa": {
-      "details": "Developer",
-      "review": "André's projects have a modern and minimalist design, with special attention to the user experience. I couldn't be more satisfied with our partnership."
+      "details": "Web Developer",
+      "review": "André developed my website, IT Studios. His modern and minimalist design, with special attention to the user experience, made the website highly intuitive. I couldn't be more pleased with the final result. If you want to create an appealing and functional website, I highly recommend his work!"
+    },
+    "ahmad": {
+      "details": "Web Developer",
+      "review": "Andre is the kind of programmer any team would be lucky to have. His combination of technical know-how, teamwork, and a knack for simplifying complex ideas is rare. I would recommend him for any frontend development role."
     },
 
     "doart": {
       "details": "Artist",
-      "review": "I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it 💪"
+      "review": "I want to give a special thank you to André for the work he has done! If you have the opportunity, visit his page and see his amazing work, it's definitely worth it."
     },
     "patricia": {
       "details": "Artist",

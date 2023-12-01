@@ -20,7 +20,7 @@ const Blog = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.curiositygem.com"
+            href="https://curiositygem-90guvx8v2-andre-rd-rodrigues.vercel.app/"
           >
             go to blog
           </a>

@@ -22,7 +22,7 @@ const Homepage = () => {
       <GalleryBackgroundSlider images={homepage_gallery}>
         <div className={styles.title}>
           <AnimatedHeading centerOnSmallScreens>
-            <h1>André Rodrigo</h1>
+            <h1>Andre Rodrigo</h1>
           </AnimatedHeading>
           <motion.div
             variants={homepageDelayVariant}

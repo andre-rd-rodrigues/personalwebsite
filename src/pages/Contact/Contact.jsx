@@ -61,7 +61,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                andreptrodrigo@gmail.com
+                andrerodrigo.web@gmail.com
               </a>
             </motion.div>
           </Col>
@@ -93,38 +93,23 @@ const Contact = () => {
                 <ul>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/andr%C3%A9-rodrigues-4b4a9b188/"
+                      href="https://linktr.ee/andre.webstudio"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <Icon
-                        icon="akar-icons:linkedin-box-fill"
+                        icon="simple-icons:linktree"
                         className={styles.social_icon}
                       />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/andre.creativedesign/"
+                      href="https://github.com/andre-rd-rodrigues"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <Icon
-                        icon="akar-icons:instagram-fill"
-                        className={styles.social_icon}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/profile.php?id=100009559637125"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Icon
-                        icon="akar-icons:facebook-fill"
-                        className={styles.social_icon}
-                      />
+                      <Icon icon="mdi:github" className={styles.social_icon} />
                     </a>
                   </li>
                 </ul>

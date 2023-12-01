@@ -138,6 +138,22 @@ const categories = {
 const testimonials = [
   {
     id: uuid(),
+    review: "testimonials.sofia.review",
+    picture_path: "/images/testimonials/sofia.jpg",
+    client_name: "Sofia Pimenta",
+    client_details: "testimonials.sofia.details",
+    project_link: "https://kaleidoscopic-cheesecake-db7480.netlify.app/"
+  },
+  {
+    id: uuid(),
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/anaJardim.jpg",
+    client_name: "Ana Jardim",
+    review: "testimonials.anaJardim.review",
+    client_details: "testimonials.anaJardim.details",
+    project_link: "https://www.acarolinajardim.com"
+  },
+  {
+    id: uuid(),
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/ferreira.jpg",
     client_name: "Pedro Ferreira",
     review: "testimonials.pedro.review",
@@ -146,37 +162,39 @@ const testimonials = [
   },
   {
     id: uuid(),
-    review: "testimonials.sofia.review",
-    picture_path: "https://www.rimarrabida.pt/images/sofia.jpeg",
-    client_name: "Sofia Pimenta",
-    client_details: "testimonials.sofia.details",
-    project_link: "https://www.rimarrabida.pt/"
-  },
-  {
-    id: uuid(),
     review: "testimonials.rafa.review",
     client_details: "testimonials.rafa.details",
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/rafa.jpg",
     client_name: "Rafael Pereira",
-
     project_link: "https://www.itstudios.eu"
+  },
+  {
+    id: uuid(),
+    review: "testimonials.ana.review",
+    picture_path: "/images/testimonials/ana.jpg",
+    client_name: "Ana Rodrigues",
+    client_details: "testimonials.ana.details"
+  },
+  {
+    id: uuid(),
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/vlad.jpeg",
+    client_name: "Vladislav Sorokin",
+    review: "testimonials.vlad.review",
+    client_details: "testimonials.vlad.details"
+  },
+  {
+    id: uuid(),
+    picture_path: process.env.PUBLIC_URL + "/images/testimonials/ahmad.jpeg",
+    client_name: "Ahmad Rami",
+    review: "testimonials.ahmad.review",
+    client_details: "testimonials.ahmad.details"
   },
   {
     id: uuid(),
     review: "testimonials.doart.review",
     client_details: "testimonials.doart.details",
-    client_name: "Doart",
-
+    client_name: "Duarte Mata",
     picture_path: process.env.PUBLIC_URL + "/images/testimonials/doart.jpg",
-    project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
-  },
-  {
-    id: uuid(),
-    review: "testimonials.patricia.review",
-    client_details: "testimonials.patricia.details",
-    client_name: "Patrícia",
-
-    picture_path: process.env.PUBLIC_URL + "/images/testimonials/patricia.jpg",
     project_link: "https://www.instagram.com/p/CDE5gqVAii8/"
   }
 ];

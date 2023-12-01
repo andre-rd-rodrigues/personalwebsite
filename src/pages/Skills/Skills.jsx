@@ -37,15 +37,7 @@ const Skills = () => {
                 <b>Master the Basics:</b> HTML5, CSS3, Javascript, SASS, jQuery
               </li>
               <li>
-                <b>Deep knowledge in Responsive Layouts:</b> Bootstrap,
-                React-Bootstrap, Tailwind-CSS, Media queries
-              </li>
-              <li>
                 <b>Front-End Frameworks:</b> React.js, React Native, Next.js
-              </li>
-              <li>
-                <b>SEO & Analytics:</b> SEO optimization, Google Analytics,
-                Insights
               </li>
               <li>
                 <b>Back-end:</b> Node.js, RESTful APIs, GraphQL, MongoDB,
@@ -56,6 +48,14 @@ const Skills = () => {
               </li>
               <li>
                 <b>Testing:</b> Jest, Enzyme, Cypress, React Testing Library
+              </li>
+              <li>
+                <b>Deep knowledge in Responsive Layouts:</b> Bootstrap,
+                React-Bootstrap, Tailwind-CSS, Media queries
+              </li>
+              <li>
+                <b>SEO & Analytics:</b> SEO optimization, Google Analytics,
+                Insights
               </li>
               <li>
                 <b>Others:</b> Version control (Git/Github), Python, Webpack and
@@ -71,11 +71,10 @@ const Skills = () => {
           >
             <h2>Web design</h2>
             <ul>
-              <li>Sketch</li>
               <li>Figma</li>
+              <li>Sketch</li>
               <li>Affinity Designer</li>
               <li>Affinity Publisher</li>
-              <li>Adobe Illustrator</li>
               <li>UX, UI, Web, Mobile, Apps, Logos</li>
             </ul>
           </motion.div>

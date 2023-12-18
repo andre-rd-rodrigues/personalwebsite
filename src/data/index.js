@@ -62,6 +62,12 @@ const projects = {
     },
     {
       id: uuid(),
+      src: process.env.PUBLIC_URL + "/images/websites/primetravel.png",
+      label: "PrimeTravel",
+      ref: "https://primetravel-162f2.web.app/"
+    },
+    {
+      id: uuid(),
       src: process.env.PUBLIC_URL + "/images/websites/cdeff.png",
       label: "CDEFF",
       ref: "https://www.cdeff.com/"

@@ -54,7 +54,10 @@ const AppNavbar = () => {
               {t("navbar.contacts")}
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/blog" href="/blog">
+            <Nav.Link
+              to="https://www.blog.andrerodrigo.com"
+              href="https://www.blog.andrerodrigo.com"
+            >
               {t("navbar.blog")}
             </Nav.Link>
 
